@@ -1,0 +1,128 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const projects = await getCollection('projects');
+projects.sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout title="Raz Cohen — Product Design Leader" activePage="home">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1 class="hero-heading">
+        I'm a product design leader. Previously director of product design at{' '}
+        <a href="https://www.fiverr.com" target="_blank" rel="noopener">Fiverr</a>,
+        product designer at{' '}
+        <a href="https://hola.org" target="_blank" rel="noopener">Hola</a>
+        {' '}&amp; motion designer at{' '}
+        <a href="https://www.promots.tv" target="_blank" rel="noopener">Promotheus</a>.
+      </h1>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  {projects.map((project) => {
+    const { title, tagline, type, role, bgColor, accentColor, darkTheme, images, youtubeId, externalLink, externalLinkLabel, description } = project.data;
+    const metaClass = darkTheme ? 'dark' : '';
+    return (
+      <section class="project-section" style={`background-color: ${bgColor}`}>
+        <div class="project-container">
+          <h2 class={`project-heading${darkTheme ? ' dark' : ''}`}>
+            <a
+              href={`/projects/${project.slug}`}
+              class="project-title-link"
+              style={`color: ${accentColor}`}
+            >
+              {title}
+            </a>
+            {' — '}{tagline}
+          </h2>
+
+          {youtubeId ? (
+            <div class="youtube-embed">
+              <iframe
+                src={`https://www.youtube.com/embed/${youtubeId}?rel=0&controls=1&autoplay=1&mute=1&start=0`}
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+                title={title}
+              />
+            </div>
+          ) : images.length === 1 ? (
+            <img src={`/images/${images[0]}`} alt={title} class="single-image" loading="lazy" />
+          ) : (
+            <div class="slider" data-slider>
+              <div class="slider-slides">
+                {images.map((img) => (
+                  <div class="slider-slide">
+                    <img src={`/images/${img}`} alt="" loading="lazy" />
+                  </div>
+                ))}
+              </div>
+              <button class="slider-arrow slider-arrow-left" aria-label="Previous slide">‹</button>
+              <button class="slider-arrow slider-arrow-right" aria-label="Next slide">›</button>
+              <div class="slider-dots">
+                {images.map((_, i) => (
+                  <button
+                    class={`slider-dot${i === 0 ? ' active' : ''}`}
+                    aria-label={`Go to slide ${i + 1}`}
+                  />
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        <div class="project-info">
+          <div class="project-info-grid">
+            <div class="project-meta">
+              <p class={metaClass}>Project type: {type}</p>
+              <p class={metaClass}>Role: {role}</p>
+              {externalLink && (
+                <p class={metaClass}>
+                  <a href={externalLink} target="_blank" rel="noopener">
+                    {externalLinkLabel ?? 'View'}
+                  </a>
+                </p>
+              )}
+              <p class={`project-case-link ${metaClass}`}>
+                <a href={`/projects/${project.slug}`} style={`color: ${accentColor}`}>
+                  Read case study →
+                </a>
+              </p>
+            </div>
+            <div class="project-desc">
+              <p class={metaClass}>{description}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  })}
+</BaseLayout>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-slider]').forEach((slider) => {
+    const track = slider.querySelector<HTMLElement>('.slider-slides')!;
+    const dots = slider.querySelectorAll<HTMLElement>('.slider-dot');
+    const total = slider.querySelectorAll('.slider-slide').length;
+    let current = 0;
+
+    const goTo = (n: number) => {
+      dots[current]?.classList.remove('active');
+      current = ((n % total) + total) % total;
+      dots[current]?.classList.add('active');
+      track.style.transform = `translateX(-${current * slider.offsetWidth}px)`;
+    };
+
+    slider.querySelector('.slider-arrow-left')?.addEventListener('click', () => goTo(current - 1));
+    slider.querySelector('.slider-arrow-right')?.addEventListener('click', () => goTo(current + 1));
+    dots.forEach((dot, i) => dot.addEventListener('click', () => goTo(i)));
+
+    window.addEventListener('resize', () => {
+      track.style.transition = 'none';
+      track.style.transform = `translateX(-${current * slider.offsetWidth}px)`;
+      requestAnimationFrame(() => { track.style.transition = ''; });
+    }, { passive: true });
+  });
+</script>

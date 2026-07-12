@@ -1,0 +1,68 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  activePage?: 'home' | 'about';
+}
+
+const {
+  title = 'Raz Cohen',
+  description = 'Product Design Leader — previously Director of Product Design at Fiverr',
+  activePage = 'home',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav" id="main-nav">
+      <div class="nav-inner">
+        <a href="/" class="nav-brand">Raz Cohen</a>
+        <a href="/about" class={`nav-about${activePage === 'about' ? ' active' : ''}`}>About</a>
+      </div>
+    </nav>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <span class="footer-copyright">© 2025 Raz Cohen. All rights reserved</span>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/raz-cohen-381b9230/" target="_blank" rel="noopener">Linkedin</a>
+          <a href="https://dribbble.com/razco7" target="_blank" rel="noopener">Dribbble</a>
+          <a href="https://medium.com/@razco7" target="_blank" rel="noopener">Medium</a>
+          <a href="https://www.behance.net/razco7" target="_blank" rel="noopener">Behance</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const nav = document.getElementById('main-nav');
+      const onScroll = () => {
+        if (window.scrollY > 60) {
+          nav?.classList.add('scrolled');
+        } else {
+          nav?.classList.remove('scrolled');
+        }
+      };
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    </script>
+  </body>
+</html>

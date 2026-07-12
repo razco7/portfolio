@@ -1,0 +1,76 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  return projects.map((project) => ({
+    params: { slug: project.slug },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+const { Content } = await project.render();
+const {
+  title, tagline, type, role, bgColor, accentColor, darkTheme,
+  images, youtubeId, externalLink, externalLinkLabel,
+} = project.data;
+---
+
+<BaseLayout title={`${title} — Raz Cohen`} description={tagline}>
+  <!-- Hero -->
+  <section class="detail-hero" style={`background-color: ${bgColor}`}>
+    <div class="detail-hero-inner">
+      <a href="/" class={`back-link${darkTheme ? ' dark' : ''}`}>← All projects</a>
+      <h1 class={`detail-title${darkTheme ? ' dark' : ''}`} style={`color: ${accentColor}`}>
+        {title}
+      </h1>
+      <p class={`detail-tagline${darkTheme ? ' dark' : ''}`}>{tagline}</p>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <div class="detail-content">
+    <!-- Images / video -->
+    {(images.length > 0 || youtubeId) && (
+      <div class="detail-images">
+        {images.map((img) => (
+          <img src={`/images/${img}`} alt="" loading="lazy" />
+        ))}
+        {youtubeId && (
+          <div class="youtube-embed">
+            <iframe
+              src={`https://www.youtube.com/embed/${youtubeId}?rel=0&controls=1`}
+              allow="encrypted-media"
+              allowfullscreen
+              title={title}
+            />
+          </div>
+        )}
+      </div>
+    )}
+
+    <!-- Meta + external link -->
+    <div class="detail-meta">
+      <div class="detail-meta-items">
+        <p>Project type: {type}</p>
+        <p>Role: {role}</p>
+        {externalLink && (
+          <p style="margin-top: 16px;">
+            <a href={externalLink} target="_blank" rel="noopener" class="detail-external-link">
+              {externalLinkLabel ?? 'View project'} ↗
+            </a>
+          </p>
+        )}
+      </div>
+      <!-- empty second column keeps the grid aligned -->
+      <div></div>
+    </div>
+
+    <!-- Case study body (from markdown) -->
+    <div class="detail-body">
+      <Content />
+    </div>
+  </div>
+</BaseLayout>
