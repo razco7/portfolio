@@ -19,6 +19,7 @@ const {
 
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const hasBody = project.body.trim().length > 0;
+const { coverImage } = project.data;
 ---
 
 <BaseLayout title={`${title} — Raz Cohen`} description={tagline}>
@@ -32,6 +33,13 @@ const hasBody = project.body.trim().length > 0;
       <p class={`detail-tagline${darkTheme ? ' dark' : ''}`}>{tagline}</p>
     </div>
   </section>
+
+  <!-- Cover image -->
+  {coverImage && (
+    <div class="detail-cover">
+      <img src={`${base}images/${coverImage}`} alt={title} />
+    </div>
+  )}
 
   <!-- Content -->
   <div class="detail-content">

@@ -11,6 +11,7 @@ const projects = defineCollection({
     bgColor: z.string(),
     accentColor: z.string(),
     darkTheme: z.boolean().default(false),
+    coverImage: z.string().optional(),
     images: z.array(z.string()).default([]),
     youtubeId: z.string().optional(),
     externalLink: z.string().optional(),

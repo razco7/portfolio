@@ -7,8 +7,8 @@ order: 1
 bgColor: "#ffd6c7"
 accentColor: "#ff5d0c"
 darkTheme: false
+coverImage: "01.jpg"
 images:
-  - "01.jpg"
   - "06.jpg"
   - "03.jpg"
   - "09.jpg"
