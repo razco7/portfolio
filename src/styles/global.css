@@ -297,7 +297,7 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 .detail-cover {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 48px 40px 0;
 }
 .detail-cover img {
   width: 100%;
