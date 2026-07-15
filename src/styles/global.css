@@ -364,7 +364,7 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 }
 .detail-meta-items a { color: #222; }
 .detail-meta-items a:hover { opacity: 0.7; }
-.detail-external-link {
+a.detail-external-link {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -379,7 +379,7 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
   border-radius: 8px;
   transition: opacity 0.15s;
 }
-.detail-external-link:hover { opacity: 0.8; }
+a.detail-external-link:hover { opacity: 0.8; }
 .detail-body {
   font-size: 18px;
   line-height: 30px;
