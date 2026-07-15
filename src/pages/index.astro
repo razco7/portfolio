@@ -20,7 +20,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 
   <!-- Projects -->
   {projects.map((project) => {
-    const { title, tagline, type, role, bgColor, accentColor, darkTheme, coverImage, images, youtubeId, externalLink, externalLinkLabel, description } = project.data;
+    const { title, tagline, type, role, bgColor, accentColor, darkTheme, coverImage, teaserImage, images, youtubeId, externalLink, externalLinkLabel, description } = project.data;
     const metaClass = darkTheme ? 'dark' : '';
     return (
       <section class="project-section" style={`background-color: ${bgColor}`}>
@@ -45,9 +45,9 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
                 title={title}
               />
             </div>
-          ) : coverImage ? (
+          ) : (teaserImage ?? coverImage) ? (
             <a href={`${base}projects/${project.slug}`} class="single-image-link">
-              <img src={`${base}images/${coverImage}`} alt={title} class="single-image" loading="lazy" />
+              <img src={`${base}images/${teaserImage ?? coverImage}`} alt={title} class="single-image" loading="lazy" />
             </a>
           ) : images.length === 1 ? (
             <a href={`${base}projects/${project.slug}`} class="single-image-link">

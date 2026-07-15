@@ -8,6 +8,7 @@ bgColor: "#ffd6c7"
 accentColor: "#ff5d0c"
 darkTheme: false
 coverImage: "01.jpg"
+teaserImage: "sweetsalty_cover.jpg"
 images:
   - "06.jpg"
   - "03.jpg"
