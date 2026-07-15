@@ -46,18 +46,22 @@ const { coverImage } = project.data;
 
     <!-- Meta: type, role, external link -->
     <div class="detail-meta">
-      <div class="detail-meta-items">
-        <p>Project type: {type}</p>
-        <p>Role: {role}</p>
-        {externalLink && (
-          <p style="margin-top: 16px;">
-            <a href={externalLink} target="_blank" rel="noopener" class="detail-external-link">
-              {externalLinkLabel ?? 'View project'} ↗
-            </a>
-          </p>
-        )}
+      <div class="detail-meta-item">
+        <p class="detail-meta-label">Project type</p>
+        <p class="detail-meta-value">{type}</p>
       </div>
-      <div></div>
+      <div class="detail-meta-item">
+        <p class="detail-meta-label">Role</p>
+        <p class="detail-meta-value">{role}</p>
+      </div>
+      {externalLink && (
+        <div class="detail-meta-item">
+          <p class="detail-meta-label">Link</p>
+          <a href={externalLink} target="_blank" rel="noopener" class="detail-external-link">
+            {externalLinkLabel ?? 'View project'} ↗
+          </a>
+        </div>
+      )}
     </div>
 
     <!-- Case study body (from markdown) -->
