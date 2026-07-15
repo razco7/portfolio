@@ -358,11 +358,17 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 }
 .detail-meta {
   display: flex;
-  flex-direction: row;
-  gap: 64px;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
   margin-bottom: 64px;
   padding-bottom: 48px;
   border-bottom: 1px solid #e4ebf3;
+}
+.detail-meta-row {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
   align-items: start;
 }
 .detail-meta-item {
@@ -459,7 +465,7 @@ a.detail-external-link:hover { opacity: 0.8; }
   .about-section { flex-direction: column; align-items: flex-start; }
   .about-photo { width: 100%; max-width: 480px; }
   .detail-title { font-size: 52px; line-height: 64px; }
-  .detail-meta { flex-direction: column; gap: 32px; }
+  .detail-meta-row { flex-direction: column; gap: 32px; }
 }
 
 @media (max-width: 767px) {

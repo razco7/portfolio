@@ -20,6 +20,8 @@ images:
   - "04.jpg"
   - "08.jpg"
   - "05.jpg"
+client: "Self initiated"
+year: "2024 – Present"
 externalLink: "https://www.sweetsalty.info/"
 externalLinkLabel: "See live project"
 description: "Sweet / Salty is a website for all cookies, pastry and desserts lovers out there. You can find different recipes in an easy and straightforward UI + some fun facts on each recipe. New recipes are added weekly."

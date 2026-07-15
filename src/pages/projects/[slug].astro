@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 const { project } = Astro.props;
 const { Content } = await project.render();
 const {
-  title, tagline, type, role, bgColor, accentColor, darkTheme,
+  title, tagline, type, role, client, year, bgColor, accentColor, darkTheme,
   images, youtubeId, externalLink, externalLinkLabel,
 } = project.data;
 
@@ -44,23 +44,34 @@ const { coverImage } = project.data;
   <!-- Content -->
   <div class="detail-content">
 
-    <!-- Meta: type, role, external link -->
+    <!-- Meta: type, role, client, year + link button below -->
     <div class="detail-meta">
-      <div class="detail-meta-item">
-        <p class="detail-meta-label">Project type</p>
-        <p class="detail-meta-value">{type}</p>
-      </div>
-      <div class="detail-meta-item">
-        <p class="detail-meta-label">Role</p>
-        <p class="detail-meta-value">{role}</p>
+      <div class="detail-meta-row">
+        <div class="detail-meta-item">
+          <p class="detail-meta-label">Project type</p>
+          <p class="detail-meta-value">{type}</p>
+        </div>
+        <div class="detail-meta-item">
+          <p class="detail-meta-label">Role</p>
+          <p class="detail-meta-value">{role}</p>
+        </div>
+        {client && (
+          <div class="detail-meta-item">
+            <p class="detail-meta-label">Client</p>
+            <p class="detail-meta-value">{client}</p>
+          </div>
+        )}
+        {year && (
+          <div class="detail-meta-item">
+            <p class="detail-meta-label">Year</p>
+            <p class="detail-meta-value">{year}</p>
+          </div>
+        )}
       </div>
       {externalLink && (
-        <div class="detail-meta-item">
-          <p class="detail-meta-label">Link</p>
-          <a href={externalLink} target="_blank" rel="noopener" class="detail-external-link">
-            {externalLinkLabel ?? 'View project'} ↗
-          </a>
-        </div>
+        <a href={externalLink} target="_blank" rel="noopener" class="detail-external-link">
+          {externalLinkLabel ?? 'View project'} ↗
+        </a>
       )}
     </div>
 
