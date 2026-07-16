@@ -407,6 +407,7 @@ a.detail-external-link {
   transition: opacity 0.15s;
 }
 a.detail-external-link:hover { opacity: 0.8; }
+a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height: 1; }
 .detail-body {
   font-size: 18px;
   line-height: 30px;
