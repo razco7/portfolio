@@ -20,6 +20,7 @@ images:
   - "04.jpg"
   - "08.jpg"
   - "05.jpg"
+  - "404.jpg"
 client: "Self initiated"
 year: "2024 – Present"
 externalLink: "https://www.sweetsalty.info/"
