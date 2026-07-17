@@ -33,6 +33,8 @@ Recipe sites are one of the most visited categories on the web — and also one 
 
 Sweet/Salty started as a Webflow project. I later rebuilt it with AI assistance into a live site running off GitHub — which also became a practical exercise in how much faster the whole process gets when AI is part of the workflow.
 
+<img src="/portfolio/images/10.jpg" alt="Sweet/Salty recipe page" style="width: 100%; border-radius: 16px; margin: 32px 0 0;" />
+
 ## My Role & Constraints
 
 Sole designer and developer — concept, visual design, and front-end build. Recipes and images are generated with AI as a starting point; I cook, write, and adjust each one before it goes live. No team, no external deadline. The main constraint was time: it had to be simple enough to maintain alone, but polished enough to feel like a finished product.
