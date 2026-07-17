@@ -34,7 +34,7 @@ Recipe sites are one of the most visited categories on the web — and also one 
 Sweet/Salty started as a Webflow project. I later rebuilt it with AI assistance into a live site running off GitHub — which also became a practical exercise in how much faster the whole process gets when AI is part of the workflow.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/10.jpg" alt="Sweet/Salty recipe page" />
+  <img src="/portfolio/images/13.jpg" alt="Sweet/Salty recipe page" />
 </div>
 
 ## My Role & Constraints
