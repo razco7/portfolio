@@ -31,11 +31,11 @@ description: "Sweet / Salty is a website for all cookies, pastry and desserts lo
 
 Recipe sites are one of the most visited categories on the web — and also one of the most frustrating to use. Most of them are buried under ads, auto-play videos, and endless backstory padding designed to satisfy SEO crawlers, not the person standing at the counter with flour on their hands.
 
-Sweet/Salty started as a personal project: a clean, opinionated site for dessert and pastry lovers that puts the recipe first, everything else second.
+Sweet/Salty started as a Webflow project. I later rebuilt it with AI assistance into a live site running off GitHub — which also became a practical exercise in how much faster the whole process gets when AI is part of the workflow.
 
 ## My Role & Constraints
 
-Sole designer and developer — concept, visual design, and front-end build. No team, no budget, no external deadline. The main constraint was time: it had to be simple enough to build alone, but polished enough to feel like a finished product rather than a side project.
+Sole designer and developer — concept, visual design, and front-end build. Recipes and images are generated with AI as a starting point; I cook, write, and adjust each one before it goes live. No team, no external deadline. The main constraint was time: it had to be simple enough to maintain alone, but polished enough to feel like a finished product.
 
 ## The Problem
 
@@ -45,9 +45,11 @@ The real question was: what does a recipe site look like when it treats the user
 
 ## Key Decisions
 
-**Single-feed layout over search and filters.** The standard approach would be a search bar, category filters, and pagination. I chose a single scrollable feed instead — every recipe visible at once, no hierarchy. The tradeoff: harder to scale to hundreds of recipes, but far cleaner for a curated collection and much faster to build well. For the scope of this project, the right call.
+**Structure drawn from e-commerce.** Having spent years on digital commerce products, my instinct was to bring that thinking here: clear categories, sorting, and browsable recipe groups so users can find what they want without friction. The same logic that makes a good product catalogue makes a good recipe site.
 
-**Fun facts as a content differentiator.** Each recipe includes a short fun fact — not because it improves usability, but because it makes the site memorable and gives people a reason to linger. I considered cutting this feature to ship faster. Keeping it was the right call: it's the detail people mention when they talk about the site.
+**Clean recipe pages.** Each page is stripped to the essentials — ingredients and steps. No backstory, no SEO filler. The recipe is the product.
+
+**Fun facts as a light touch.** Each recipe includes one short fun fact — enough personality to make the site memorable, never enough to get in the way of the recipe itself.
 
 **Mobile-first typography.** Most people cook from their phone with the screen propped up somewhere. Legibility at a glance, from arm's length, became the primary typographic constraint — large font sizes, high contrast, generous line spacing.
 
