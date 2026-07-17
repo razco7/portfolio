@@ -10,7 +10,6 @@ darkTheme: false
 coverImage: "01.jpg"
 teaserImage: "sweetsalty_cover.jpg"
 images:
-  - "06.jpg"
   - "03.jpg"
   - "09.jpg"
   - "11.jpg"
@@ -41,6 +40,10 @@ Sweet/Salty started as a Webflow project. I later redesigned it in Figma and reb
 ## My Role & Constraints
 
 Sole designer and developer — concept, visual design, and front-end build. Recipes and images are generated with AI as a starting point; I cook, write, and adjust each one before it goes live. No team, no external deadline. The main constraint was time: it had to be simple enough to maintain alone, but polished enough to feel like a finished product.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/06.jpg" alt="Sweet/Salty branding and design system" />
+</div>
 
 ## The Problem
 
