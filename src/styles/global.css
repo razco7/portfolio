@@ -415,6 +415,8 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
   max-width: 700px;
 }
 .detail-body p { margin: 0 0 24px; }
+.body-image-full { width: min(1280px, 100vw); margin: 32px 0 0; }
+.body-image-full img { width: 100%; border-radius: 16px; display: block; }
 .detail-body h2 {
   font-size: 28px;
   font-weight: 600;
