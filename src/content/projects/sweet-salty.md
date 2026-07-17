@@ -32,7 +32,7 @@ description: "Sweet / Salty is a website for all cookies, pastry and desserts lo
 
 Recipe sites are one of the most visited categories on the web — and also one of the most frustrating to use. Most of them are buried under ads, auto-play videos, and endless backstory padding designed to satisfy SEO crawlers, not the person standing at the counter with flour on their hands.
 
-Sweet/Salty started as a Webflow project. I later rebuilt it with AI assistance into a live site running off GitHub — which also became a practical exercise in how much faster the whole process gets when AI is part of the workflow.
+Sweet/Salty started as a Webflow project. I later redesigned it in Figma and rebuilt it with AI assistance into a live site running off GitHub — which also became a practical exercise in how much faster the whole process gets when AI is part of the workflow.
 
 <div class="body-image-full">
   <img src="/portfolio/images/13.jpg" alt="Sweet/Salty recipe page" />
