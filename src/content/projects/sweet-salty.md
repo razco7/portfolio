@@ -11,7 +11,6 @@ coverImage: "01.jpg"
 teaserImage: "sweetsalty_cover.jpg"
 images:
   - "03.jpg"
-  - "09.jpg"
   - "11.jpg"
   - "10.jpg"
   - "07A.jpg"
@@ -60,6 +59,10 @@ The real question was: what does a recipe site look like when it treats the user
 **Fun facts as a light touch.** Each recipe includes one short fun fact — enough personality to make the site memorable, never enough to get in the way of the recipe itself.
 
 **Mobile-first typography.** Most people cook from their phone with the screen propped up somewhere. Legibility at a glance, from arm's length, became the primary typographic constraint — large font sizes, high contrast, generous line spacing.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/09.jpg" alt="Sweet/Salty all recipes page" />
+</div>
 
 ## Outcome
 
