@@ -297,7 +297,7 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 .detail-cover {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 48px 0 0;
+  padding: 48px 48px 0;
 }
 .detail-cover img {
   width: 100%;
@@ -343,7 +343,7 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 .detail-content {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 32px 0 64px;
+  padding: 32px 48px 64px;
 }
 .detail-images {
   display: flex;
