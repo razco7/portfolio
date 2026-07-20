@@ -11,6 +11,10 @@ images:
   - "NFT_01.jpg"
   - "NFT_02.jpg"
   - "NFT_03.jpg"
+imageAlts:
+  - "Fiverare homepage — NFT marketplace concept"
+  - "Fiverare browse page — NFT collections"
+  - "Fiverare NFT item detail page"
 externalLink: "https://www.figma.com/proto/c3OmRkfijcJAlNCU1bLQcc/Prototypes?page-id=0%3A1&node-id=1-17&p=f&viewport=880%2C512%2C0.26&t=fzLThCd8HWQKtJrQ-8&scaling=scale-down-width&content-scaling=fixed&hide-ui=1"
 externalLinkLabel: "View Prototype"
 description: "During 2021–2022 when NFT was at its peak, one of the best trending search terms on Fiverr was NFT. As part of an initiative we created a concept for a dedicated website where people can mint, buy and sell NFT."

@@ -10,6 +10,9 @@ darkTheme: false
 images:
   - "freelance_1.jpg"
   - "freelance_2.jpg"
+imageAlts:
+  - "The Freelancer — redesigned seller profile page concept"
+  - "The Freelancer — service offering layout concept"
 externalLink: "https://www.figma.com/proto/c3OmRkfijcJAlNCU1bLQcc/Prototypes?page-id=1%3A9145&node-id=1-16315&p=f&viewport=1039%2C623%2C0.09&t=AWq7syBLsST0vd3B-8&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1%3A16315&hide-ui=1"
 externalLinkLabel: "View Prototype"
 description: "A conceptual exploration of an alternative way for freelancers to present and offer their services on Fiverr — moving beyond the standard gig format to give sellers more creative control over their profile and offerings."

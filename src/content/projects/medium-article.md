@@ -9,6 +9,8 @@ accentColor: "#222"
 darkTheme: false
 images:
   - "medium_article.png"
+imageAlts:
+  - "6Qs alignment framework article published on Medium"
 externalLink: "https://medium.com/fiverr-design/how-to-create-better-alignment-between-product-managers-product-designers-5cb28370fd56"
 externalLinkLabel: "Read on Medium"
 description: "Together with the rest of the design team at Fiverr we configured and defined what we call the 6qs — six questions that help define any project while aligning everyone on the goal. I wrote this article to explain the method and the value it brings to the design process."

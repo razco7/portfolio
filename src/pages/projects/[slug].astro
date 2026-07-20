@@ -14,27 +14,34 @@ const { project } = Astro.props;
 const { Content } = await project.render();
 const {
   title, tagline, type, role, client, year, bgColor, accentColor, darkTheme,
-  images, youtubeId, externalLink, externalLinkLabel,
+  images, imageAlts, youtubeId, externalLink, externalLinkLabel,
 } = project.data;
 
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const hasBody = project.body.trim().length > 0;
 const { coverImage } = project.data;
+
+const allProjects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order);
+const currentIndex = allProjects.findIndex((p) => p.slug === project.slug);
+const prevProject = currentIndex > 0 ? allProjects[currentIndex - 1] : allProjects[allProjects.length - 1];
+const nextProject = currentIndex < allProjects.length - 1 ? allProjects[currentIndex + 1] : allProjects[0];
 ---
 
 <BaseLayout title={`${title} — Raz Cohen`} description={tagline}>
   <!-- Hero -->
-  <section class="detail-hero" style={`background-color: ${bgColor}`}>
+  <section class="detail-hero">
     <div class="detail-hero-inner">
-      <a href={base} class={`back-link${darkTheme ? ' dark' : ''}`}>← All projects</a>
-      <h1 class={`detail-title${darkTheme ? ' dark' : ''}`} style={`color: ${accentColor}`}>
+      <a href={base} class="back-link">← All projects</a>
+      <h1 class="detail-title">
         {title}
       </h1>
-      <p class={`detail-tagline${darkTheme ? ' dark' : ''}`}>{tagline}</p>
+      <p class="detail-tagline">{tagline}</p>
     </div>
   </section>
 
-  <!-- Cover image -->
+  <!-- Cover + Content -->
+  <div class="detail-outer">
+
   {coverImage && (
     <div class="detail-cover">
       <img src={`${base}images/${coverImage}`} alt={title} />
@@ -92,8 +99,8 @@ const { coverImage } = project.data;
       <div class="detail-gallery">
         <p class="detail-gallery-label">Gallery</p>
         <div class="detail-images">
-          {images.map((img) => (
-            <img src={`${base}images/${img}`} alt="" loading="lazy" />
+          {images.map((img, i) => (
+            <img src={`${base}images/${img}`} alt={imageAlts[i] ?? title} loading="lazy" />
           ))}
           {youtubeId && (
             <div class="youtube-embed">
@@ -110,4 +117,25 @@ const { coverImage } = project.data;
     )}
 
   </div>
+
+  </div>{/* detail-outer */}
+
+  <!-- Project navigation -->
+  <nav class="project-nav">
+    <div class="project-nav-inner">
+      {prevProject ? (
+        <a href={`${base}projects/${prevProject.slug}`} class="project-nav-link project-nav-prev">
+          <span class="project-nav-arrow material-symbols-outlined">arrow_back</span>
+          <span class="project-nav-title">{prevProject.data.title}</span>
+        </a>
+      ) : <div class="project-nav-placeholder" />}
+      <a href={base} class="project-nav-all">All projects</a>
+      {nextProject ? (
+        <a href={`${base}projects/${nextProject.slug}`} class="project-nav-link project-nav-next">
+          <span class="project-nav-title">{nextProject.data.title}</span>
+          <span class="project-nav-arrow material-symbols-outlined">arrow_forward</span>
+        </a>
+      ) : <div class="project-nav-placeholder" />}
+    </div>
+  </nav>
 </BaseLayout>

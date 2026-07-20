@@ -14,6 +14,7 @@ const projects = defineCollection({
     coverImage: z.string().optional(),
     teaserImage: z.string().optional(),
     images: z.array(z.string()).default([]),
+    imageAlts: z.array(z.string()).default([]),
     youtubeId: z.string().optional(),
     client: z.string().optional(),
     year: z.string().optional(),
