@@ -1,6 +1,6 @@
 ---
 title: "Sweet/Salty"
-tagline: "The best recipes for everything delicious"
+tagline: "A recipe site built for the cook, not the search engine."
 type: "Live & Running"
 role: "Concept, Design, Development"
 order: 1
@@ -23,7 +23,7 @@ imageAlts:
   - "Sweet/Salty mobile recipe view"
   - "Sweet/Salty category and filter page"
   - "Sweet/Salty 404 page featuring a French toast recipe"
-client: "Self initiated"
+client: "Self-initiated"
 year: "2024 – Present"
 externalLink: "https://www.sweetsalty.info/"
 externalLinkLabel: "See live project"
@@ -37,7 +37,7 @@ Recipe sites are one of the most visited categories on the web — and also one 
 Sweet/Salty started as a Webflow project. I later redesigned it in Figma and rebuilt it with AI assistance into a live site running off GitHub — which also became a practical exercise in how much faster the whole process gets when AI is part of the workflow.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/04.jpg" alt="Sweet/Salty all recipes page" />
+  <img src="/portfolio/images/04.jpg" alt="Sweet/Salty all recipes page on a laptop in a kitchen setting" />
 </div>
 
 ## My Role & Constraints
@@ -69,12 +69,12 @@ The real question was: what does a recipe site look like when it treats the user
 **Mobile-first typography.** Most people cook from their phone with the screen propped up somewhere. Legibility at a glance, from arm's length, became the primary typographic constraint — large font sizes, high contrast, generous line spacing.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/7896.jpg" alt="Sweet/Salty all recipes page" />
+  <img src="/portfolio/images/7896.jpg" alt="Sweet/Salty recipe card grid showing titles, food photos, and category tags" />
 </div>
 
 ## Outcome
 
-The site is live, updated weekly, and the personal project I actually use myself — which is the only metric that matters for a side project. It's also become a useful case study in what it feels like to own a full product cycle: from the first blank page to a live, maintained product.
+The site is live and growing a small, real audience — readers arrive mostly through the site's Facebook community, where new recipes get shared and cooked, and traffic has been climbing since the site came back online after the AI rebuild. It remains the personal project I actually use myself — which is the only metric that matters for a side project.
 
 <div class="body-image-full">
   <img src="/portfolio/images/05.jpg" alt="Sweet/Salty brand visuals" />

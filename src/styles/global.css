@@ -292,6 +292,22 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 }
 .about-para a { color: #222; }
 .about-para a:hover { opacity: 0.7; }
+.about-cv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background-color: #222;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 8px;
+  transition: opacity 0.15s;
+}
+.about-cv-btn:hover { opacity: 0.8; }
 
 /* ── Project Detail Page ── */
 .detail-outer {
