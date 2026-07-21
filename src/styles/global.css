@@ -53,11 +53,12 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 .hero {
   background-color: #fafafa;
   width: 100%;
+  padding: 0 40px;
 }
 .hero-inner {
-  max-width: 1290px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 160px 40px 120px;
+  padding: 160px 0 120px;
 }
 .hero-heading {
   margin: 0;
@@ -75,13 +76,11 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 /* ── Project Sections ── */
 .project-section {
   width: 100%;
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding: 96px 40px;
 }
 .project-container {
   max-width: 1280px;
   margin: 0 auto 48px;
-  padding: 0 40px;
 }
 .project-heading {
   margin: 0 0 40px;
@@ -190,7 +189,6 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 .project-info {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 40px;
 }
 .project-info-grid {
   display: grid;
@@ -542,7 +540,7 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
 @media (max-width: 991px) {
   .hero-heading { font-size: 48px; line-height: 62px; }
   .hero-inner { padding-top: 100px; padding-bottom: 64px; }
-  .project-section { padding-top: 64px; padding-bottom: 64px; }
+  .project-section { padding-top: 64px; padding-bottom: 64px; padding-left: 40px; padding-right: 40px; }
   .project-heading { font-size: 52px; line-height: 64px; }
   .project-container { margin-bottom: 32px; }
   .project-info-grid { grid-template-columns: 1fr; gap: 24px; }
@@ -556,10 +554,11 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
 
 @media (max-width: 767px) {
   .nav { padding: 16px 20px; }
-  .hero-inner { padding: 100px 20px 60px; }
+  .hero { padding: 0 20px; }
+  .hero-inner { padding: 100px 0 60px; }
   .hero-heading { font-size: 36px; line-height: 48px; }
   .project-heading { font-size: 36px; line-height: 48px; }
-  .project-container, .project-info { padding: 0 20px; }
+  .project-section { padding-left: 20px; padding-right: 20px; }
   .about-section { margin-top: 80px; padding: 0 20px; }
   .about-heading { font-size: 24px; line-height: 34px; }
   .about-para { font-size: 18px; line-height: 28px; }
