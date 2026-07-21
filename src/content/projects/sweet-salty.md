@@ -30,7 +30,7 @@ externalLinkLabel: "See live project"
 description: "Sweet / Salty is a website for all cookies, pastry and desserts lovers out there. You can find different recipes in an easy and straightforward UI + some fun facts on each recipe. New recipes are added weekly."
 ---
 
-## Context
+## Overview & Context
 
 Recipe sites are one of the most visited categories on the web — and also one of the most frustrating to use. Most of them are buried under ads, auto-play videos, and endless backstory padding designed to satisfy SEO crawlers, not the person standing at the counter with flour on their hands.
 

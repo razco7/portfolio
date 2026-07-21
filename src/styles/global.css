@@ -209,15 +209,24 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 .project-meta a { color: inherit; }
 .project-meta a:hover { opacity: 0.7; }
 .project-case-link {
-  margin-top: 8px;
+  margin-top: 24px;
 }
 .project-case-link a {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #222;
+  color: #fff;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
   text-decoration: none;
+  transition: opacity 0.15s;
 }
 .project-case-link a:hover { opacity: 0.7; }
+.project-case-link.dark a { background: #fff; color: #222; }
 .project-desc p {
   font-size: 18px;
   font-weight: 400;
