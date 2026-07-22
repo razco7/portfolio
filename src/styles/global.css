@@ -1,6 +1,6 @@
 /* ── Reset ── */
 *, *::before, *::after { box-sizing: border-box; }
-html { height: 100%; }
+html { height: 100%; overflow-x: hidden; }
 body {
   margin: 0;
   min-height: 100%;
@@ -193,7 +193,7 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 .project-info-grid {
   display: grid;
   grid-template-columns: 280px 1fr;
-  gap: 40px;
+  gap: 120px;
   align-items: start;
 }
 .project-meta p {
@@ -208,7 +208,7 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 .project-meta p.dark { color: #fff; }
 .project-meta a { color: inherit; }
 .project-meta a:hover { opacity: 0.7; }
-.project-case-link {
+.project-meta p.project-case-link {
   margin-top: 24px;
 }
 .project-case-link a {
@@ -360,7 +360,8 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 }
 .detail-title.dark { color: #fff; }
 .detail-tagline {
-  font-size: 24px;
+  font-size: 20px;
+  line-height: 28px;
   font-weight: 400;
   color: #444;
   margin: 0;
@@ -459,7 +460,7 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
 .detail-body strong { font-weight: 600; }
 .single-image-link { display: block; }
 .single-image-link:hover img,
-.slider-image-link:hover img { opacity: 0.92; transition: opacity 0.2s; }
+.slider-image-link:hover img { opacity: 0.9; transition: opacity 0.2s; }
 .slider-image-link { display: block; }
 .detail-gallery {
   margin-top: 80px;
@@ -555,7 +556,7 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
   .project-info-grid { grid-template-columns: 1fr; gap: 24px; }
   .about-section { flex-direction: column; align-items: flex-start; }
   .about-photo { width: 100%; max-width: 480px; }
-  .detail-title { font-size: 52px; line-height: 64px; }
+  .detail-title { font-size: 56px; line-height: 68px; }
   .detail-meta-row { flex-direction: column; gap: 32px; }
   .detail-cover { padding: 32px 0 0; }
   .detail-content { padding: 32px 0 64px; }
@@ -572,11 +573,13 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
   .about-heading { font-size: 24px; line-height: 34px; }
   .about-para { font-size: 18px; line-height: 28px; }
   .footer { padding: 20px; }
-  .detail-hero { padding: 100px 16px 60px; }
+  .project-nav { padding: 24px 20px; }
+  .project-nav-title { font-size: 15px; }
+  .detail-hero { padding: 100px 16px 32px; }
   .detail-outer { padding: 0 16px; }
-  .detail-cover { padding: 24px 0 0; }
+  .detail-cover { padding: 12px 0 0; }
   .detail-content { padding: 24px 0 48px; }
-  .detail-title { font-size: 36px; line-height: 48px; }
+  .detail-title { font-size: 48px; line-height: 60px; }
   .detail-body { font-size: 16px; }
   .body-image-full { width: min(1280px, 100vw - 32px); }
   .detail-body h2 { width: min(1280px, 100vw - 32px); }
