@@ -90,15 +90,15 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
                   </a>
                 </p>
               )}
-              <p class={`project-case-link ${metaClass}`}>
-                <a href={`${base}projects/${project.slug}`}>
-                  Read case study
-                </a>
-              </p>
             </div>
             <div class="project-desc">
               <p class={metaClass}>{description}</p>
             </div>
+            <p class={`project-case-link ${metaClass}`}>
+              <a href={`${base}projects/${project.slug}`}>
+                Read case study
+              </a>
+            </p>
           </div>
         </div>
       </section>
