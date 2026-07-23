@@ -36,6 +36,8 @@ The core tension: a lot of information needs to be presented, but too much compl
 
 ## Key Decisions
 
+<p class="section-label">The recommendation interface</p>
+
 **Grouping products to create hierarchy.** Users typically arrive with multiple financial products — pension funds, insurance policies, savings — each with its own recommendation. Presenting them as a flat list would have been overwhelming. Grouping them by product type created a clear hierarchy, letting users tackle one category at a time and reducing the cognitive load of the full picture.
 
 <div class="body-image-inline">
@@ -62,11 +64,15 @@ The core tension: a lot of information needs to be presented, but too much compl
   <img src="/portfolio/images/FINQ_Mobile_Improve.jpg" alt="FINQ recommendation page on mobile" />
 </div>
 
+<p class="section-label">Onboarding</p>
+
 **Onboarding that sets expectations.** The process of connecting your financial history is long. The onboarding was designed to frame the journey clearly — what you're about to do, why it matters, and what comes next — so users don't drop off before they've even started.
 
 <div class="body-image-inline">
   <img src="/portfolio/images/FINQ_Onboarding_Mobile.jpg" alt="FINQ onboarding flow on mobile" />
 </div>
+
+<p class="section-label">The homepage</p>
 
 **A progress-aware homepage.** The homepage is built to pull returning users back into an incomplete flow. A persistent component surfaces where they left off — "You're 57% through" — making it easy to continue rather than feel like they're starting over.
 
