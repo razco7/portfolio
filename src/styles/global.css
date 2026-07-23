@@ -459,7 +459,7 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
 }
 .detail-body h2:first-child { margin-top: 0; padding-top: 0; border-top: none; }
 .detail-body .section-label {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
