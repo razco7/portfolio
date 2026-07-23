@@ -2,7 +2,7 @@
 title: "FINQ"
 tagline: "AI-driven pension advice, designed to be understood without an advisor."
 type: "Fintech Product"
-role: "Product Design (Freelance)"
+role: "Product Design"
 order: 1
 bgColor: "#ede8f5"
 accentColor: "#410DA0"
@@ -39,6 +39,8 @@ Pension and insurance decisions are among the most complex financial choices peo
 The core tension: a lot of information needs to be presented, but too much complexity kills trust. In a category where confusion leads to inaction, clarity isn't a nice-to-have — it's the product.
 
 ## Key Decisions
+
+**Grouping products to create hierarchy.** Users typically arrive with multiple financial products — pension funds, insurance policies, savings — each with its own recommendation. Presenting them as a flat list would have been overwhelming. Grouping them by product type created a clear hierarchy, letting users tackle one category at a time and reducing the cognitive load of the full picture.
 
 **Current vs. recommended, side by side.** The recommendation page puts what you have now and what FINQ suggests in direct comparison. Users can see the delta — not just the recommendation, but what they'd be leaving behind and what they'd gain. Understanding what you're moving away from matters as much as understanding where you're going.
 
