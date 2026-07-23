@@ -1,6 +1,6 @@
 ---
 title: "FINQ"
-tagline: "AI-driven pension advice, designed to be understood without an advisor."
+tagline: "Making high-stakes financial decisions legible without an advisor."
 type: "Fintech Product"
 role: "Product Design"
 order: 1
