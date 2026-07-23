@@ -488,6 +488,30 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
 }
 .detail-placeholder strong { color: #222; display: block; font-size: 18px; margin-bottom: 8px; }
 
+/* ── Back to Top ── */
+.back-to-top {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #222;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+  z-index: 200;
+}
+.back-to-top.visible { opacity: 0.9; pointer-events: auto; }
+.back-to-top:hover { opacity: 0.8; }
+.back-to-top .material-symbols-outlined { font-size: 22px; }
+
 /* ── Project Navigation ── */
 .project-nav {
   padding: 40px;
@@ -585,10 +609,12 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
   .detail-cover { padding: 12px 0 0; }
   .detail-content { padding: 24px 0 48px; }
   .detail-title { font-size: 48px; line-height: 60px; }
+  .detail-meta { margin-bottom: 32px; padding-bottom: 32px; }
   .detail-body { font-size: 16px; }
   .detail-body p, .detail-body h2 { padding-left: 0; }
   .body-image-full { width: min(1280px, 100vw - 32px); }
   .detail-body h2 { width: min(1280px, 100vw - 32px); }
+  .back-to-top { right: 20px; bottom: 24px; }
 }
 
 @media (max-width: 479px) {
