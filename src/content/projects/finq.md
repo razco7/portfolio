@@ -42,9 +42,21 @@ The core tension: a lot of information needs to be presented, but too much compl
 
 **Grouping products to create hierarchy.** Users typically arrive with multiple financial products — pension funds, insurance policies, savings — each with its own recommendation. Presenting them as a flat list would have been overwhelming. Grouping them by product type created a clear hierarchy, letting users tackle one category at a time and reducing the cognitive load of the full picture.
 
+<div class="body-image-full">
+  <img src="/portfolio/images/FINQ_specific-grouping.jpg" alt="FINQ recommendation page showing products grouped by type" />
+</div>
+
 **Current vs. recommended, side by side.** The recommendation page puts what you have now and what FINQ suggests in direct comparison. Users can see the delta — not just the recommendation, but what they'd be leaving behind and what they'd gain. Understanding what you're moving away from matters as much as understanding where you're going.
 
+<div class="body-image-full">
+  <img src="/portfolio/images/FINQ_specific-replace.jpg" alt="FINQ current vs. recommended comparison view" />
+</div>
+
 **A concrete projection as the hook — but not a misleading one.** Showing a real number gives users something tangible, but a single total sum would have been dishonest: "how much you'll save overall" depends on life expectancy, which no one can predict. The solution was to show the impact per product individually rather than rolling everything up into one impressive headline figure. Each recommendation carries its own projection — what this specific fund or policy change means for your monthly income at retirement — keeping it honest and actionable without oversimplifying.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/FINQ_specific-promise.jpg" alt="FINQ per-product projection showing monthly retirement income impact" />
+</div>
 
 **"Why it's right for you."** Each recommendation surfaces a personalised rationale. Without an advisor to ask, users needed a reason to trust the suggestion. This signal was the trust layer — not generic marketing copy, but a specific explanation tied to the user's own situation.
 
