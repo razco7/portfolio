@@ -14,7 +14,7 @@ imageAlts: []
 client: "FINQ"
 year: "2024 – 2025"
 externalLink: "https://finqai.co.il/"
-externalLinkLabel: "See live product"
+externalLinkLabel: "Visit website"
 description: "FINQ is an AI-powered platform that analyses your pension, insurance, and savings products and recommends where to move your money to get more at retirement — no human advisor required."
 ---
 

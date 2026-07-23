@@ -1,6 +1,6 @@
 ---
 title: "Noun Project Icons"
-tagline: "Various icons"
+tagline: "Various icons."
 type: "Icons"
 role: "Design"
 order: 8

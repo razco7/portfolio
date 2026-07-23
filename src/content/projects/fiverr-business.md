@@ -1,6 +1,6 @@
 ---
 title: "Fiverr Business"
-tagline: "Fiverr desktop app for businesses"
+tagline: "Fiverr desktop app for businesses."
 type: "Conceptual"
 role: "Concept & Design"
 order: 5

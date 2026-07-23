@@ -1,6 +1,6 @@
 ---
 title: "Fiverr Showreel"
-tagline: "Different projects & initiatives"
+tagline: "Different projects & initiatives."
 type: "Showreel"
 role: "Art Direction"
 order: 7

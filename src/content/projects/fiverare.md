@@ -1,6 +1,6 @@
 ---
 title: "Fiverare"
-tagline: "The art marketplace for creating & trading NFT"
+tagline: "The art marketplace for creating & trading NFT."
 type: "Conceptual"
 role: "Concept & Design"
 order: 3

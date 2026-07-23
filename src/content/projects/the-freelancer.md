@@ -1,6 +1,6 @@
 ---
 title: "The Freelancer"
-tagline: "Alternative way for freelancers to offer services on Fiverr"
+tagline: "Alternative way for freelancers to offer services on Fiverr."
 type: "Conceptual"
 role: "Concept & Design"
 order: 6

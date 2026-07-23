@@ -1,6 +1,6 @@
 ---
 title: "Medium Article"
-tagline: "How to create better alignment between product managers & product designers"
+tagline: "How to create better alignment between product managers & product designers."
 type: "Article"
 role: "Research & Writing"
 order: 4
