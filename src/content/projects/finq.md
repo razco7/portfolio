@@ -10,14 +10,10 @@ darkTheme: false
 coverImage: "FINQ_HP1_open.jpg"
 teaserImage: "FINQ_HP_close.jpg"
 images:
-  - "FINQ_Desktop_Improve.jpg"
   - "FINQ_Mobile_Improve.jpg"
-  - "FINQ_Onboarding_Desktop.jpg"
   - "FINQ_Onboarding_Mobile.jpg"
 imageAlts:
-  - "FINQ recommendation page showing current vs. improved portfolio on desktop"
   - "FINQ recommendation page on mobile"
-  - "FINQ onboarding flow on desktop"
   - "FINQ onboarding flow on mobile"
 client: "FINQ"
 year: "2024 – 2025"
@@ -32,6 +28,10 @@ FINQ is an AI-powered platform for managing retirement finances — pension fund
 
 I came in as a freelance designer alongside the in-house team, brought in to own specific, high-stakes areas of the product: the recommendation interface, the onboarding flow, and the homepage.
 
+<div class="body-image-full">
+  <img src="/portfolio/images/FINQ_Onboarding_Desktop.jpg" alt="FINQ onboarding flow on desktop" />
+</div>
+
 ## The Problem
 
 Pension and insurance decisions are among the most complex financial choices people make — and FINQ was asking users to make them without a human advisor available to explain anything. The challenge was designing a recommendation interface clear enough that someone could read it, understand it, and act on it confidently, even if they'd never thought seriously about their pension before.
@@ -44,9 +44,11 @@ The core tension: a lot of information needs to be presented, but too much compl
 
 **Current vs. recommended, side by side.** The recommendation page puts what you have now and what FINQ suggests in direct comparison. Users can see the delta — not just the recommendation, but what they'd be leaving behind and what they'd gain. Understanding what you're moving away from matters as much as understanding where you're going.
 
-**A concrete projection as the hook.** Showing a real number — how much more you could have at retirement if you act — gives users something tangible. The projection makes the abstract cost of inaction concrete and personal.
+**A concrete projection as the hook — but not a misleading one.** Showing a real number gives users something tangible, but a single total sum would have been dishonest: "how much you'll save overall" depends on life expectancy, which no one can predict. The solution was to show the impact per product individually rather than rolling everything up into one impressive headline figure. Each recommendation carries its own projection — what this specific fund or policy change means for your monthly income at retirement — keeping it honest and actionable without oversimplifying.
 
 **"Why it's right for you."** Each recommendation surfaces a personalised rationale. Without an advisor to ask, users needed a reason to trust the suggestion. This signal was the trust layer — not generic marketing copy, but a specific explanation tied to the user's own situation.
+
+**Splitting products into separate screens on mobile.** On desktop, all product recommendations can live on one scrollable page with enough room to breathe. On mobile, that same layout becomes an exhausting scroll — too much to process before you've even acted on anything. The solution was to break the recommendations into individual screens on mobile, one product at a time, keeping focus tight and the decision manageable.
 
 **Onboarding that sets expectations.** The process of connecting your financial history is long. The onboarding was designed to frame the journey clearly — what you're about to do, why it matters, and what comes next — so users don't drop off before they've even started.
 
@@ -55,3 +57,7 @@ The core tension: a lot of information needs to be presented, but too much compl
 ## Outcome
 
 The designs were completed and handed off within the project scope. As a freelance contributor, I didn't have visibility into post-launch metrics — the natural limitation of coming in for a defined piece of a larger product. What I can say is that the recommendation interface went from a complex, information-heavy spec to something legible enough to walk through without explanation — which was the brief.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/FINQ_Desktop_Improve.jpg" alt="FINQ recommendation page showing current vs. improved portfolio on desktop" />
+</div>

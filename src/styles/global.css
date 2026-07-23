@@ -331,6 +331,7 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
   width: 100%;
   display: block;
   border-radius: 16px;
+  border: 1px solid #f0f0f0;
 }
 .detail-hero {
   padding: 88px 40px 36px;
@@ -445,7 +446,7 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
 }
 .detail-body p { margin: 0 0 24px; padding-left: 40px; }
 .body-image-full { width: min(1280px, 100vw - 80px); margin: 56px 0 0; }
-.body-image-full img { width: 100%; border-radius: 16px; display: block; }
+.body-image-full img { width: 100%; border-radius: 16px; display: block; border: 1px solid #f0f0f0; }
 .detail-body h2 {
   font-size: 32px;
   font-weight: 600;
