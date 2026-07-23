@@ -3,7 +3,7 @@ title: "Sweet/Salty"
 tagline: "A recipe site built for the cook, not the search engine."
 type: "Live & Running"
 role: "Concept, Design, Development"
-order: 1
+order: 2
 bgColor: "#ffd6c7"
 accentColor: "#ff5d0c"
 darkTheme: false
