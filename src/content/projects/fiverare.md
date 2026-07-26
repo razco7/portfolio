@@ -3,7 +3,7 @@ title: "Fiverare"
 tagline: "The art marketplace for creating & trading NFT."
 type: "Conceptual"
 role: "Concept & Design"
-order: 3
+order: 4
 bgColor: "#d1d7e9"
 accentColor: "#0038ff"
 darkTheme: false

@@ -3,7 +3,7 @@ title: "Fiverr Business"
 tagline: "Fiverr desktop app for businesses."
 type: "Conceptual"
 role: "Concept & Design"
-order: 5
+order: 6
 bgColor: "#e3d2e9"
 accentColor: "#190e81"
 darkTheme: false

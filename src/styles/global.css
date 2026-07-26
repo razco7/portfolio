@@ -40,13 +40,13 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
   color: #353535;
   text-decoration: none;
 }
-.nav-brand:hover { color: #ff3434; }
+.nav-brand:hover { color: #FF8B6A; }
 .nav-about {
   font-size: 18px;
   color: #353535;
   text-decoration: none;
 }
-.nav-about:hover { color: #ff3434; }
+.nav-about:hover { color: #FF8B6A; }
 .nav-about.active { color: #353535; }
 
 /* ── Hero ── */
@@ -378,7 +378,7 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 .detail-images {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 64px;
   margin-bottom: 64px;
 }
 .detail-images img {
@@ -445,10 +445,11 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
   max-width: 760px;
 }
 .detail-body p { margin: 0 0 24px; }
+.detail-body p:has(> strong:only-child) { margin-bottom: 6px; }
 .body-image-full { width: min(1280px, 100vw - 80px); margin: 40px 0; }
 .body-image-full img { width: 100%; border-radius: 16px; display: block; border: 1px solid #f0f0f0; }
 .body-image-inline { width: min(960px, 100vw - 80px); margin: 16px 0 80px; }
-.body-image-inline img { width: 100%; border-radius: 16px; display: block; border: 1px solid #f0f0f0; }
+.body-image-inline img { width: 100%; border-radius: 16px; display: block; }
 .detail-body h2 {
   font-size: 32px;
   font-weight: 600;

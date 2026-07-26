@@ -3,7 +3,7 @@ title: "The Freelancer"
 tagline: "Alternative way for freelancers to offer services on Fiverr."
 type: "Conceptual"
 role: "Concept & Design"
-order: 6
+order: 7
 bgColor: "#ffe1c3"
 accentColor: "#ff5d0c"
 darkTheme: false
