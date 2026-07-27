@@ -1,13 +1,13 @@
 ---
 title: "Axel"
-tagline: "Selling your car without the noise."
-type: "Automotive Marketplace"
-role: "Product Design"
+tagline: "Seller listing flow for a full-service car marketplace."
+type: "Automotive Sales Platform"
+role: "Product Design, Design System"
 order: 1
 bgColor: "#FFE0EF"
-accentColor: "#222"
+accentColor: "#D22371"
 darkTheme: false
-coverImage: "Axel_cover.jpg"
+coverImage: "Axel_LP.jpg"
 teaserImage: "Axel_cover.jpg"
 images:
   - "Axel_01-General.jpg"
@@ -25,8 +25,8 @@ imageAlts:
   - "Axel listing flow — sign up step"
 client: "Axel"
 year: "2026"
-externalLink: ""
-externalLinkLabel: ""
+externalLink: "https://withaxel.com/sell/b/intro"
+externalLinkLabel: "Visit website"
 description: "Axel is a platform that takes the friction out of selling a used car — handling listings, buyer outreach, and the handover process so sellers only deal with the part that matters: meeting a serious buyer."
 ---
 
@@ -43,6 +43,12 @@ My scope was the seller listing flow and contributing to the design system being
 The listing flow was the entry point — the moment a seller commits to the platform. It had to do two things at once: collect a significant amount of information (photos at specific angles, pricing, registration, vehicle history) while keeping the seller motivated through a process that was inherently long.
 
 The core tension: if sellers don't complete the flow, Axel has nothing to work with. But if the flow feels like a burden, they abandon it. Every step needed to justify itself.
+
+## Research
+
+Before any design work started, a UX researcher led a round of discovery interviews with potential sellers — exploring their frustrations with existing platforms, what they wished the experience would handle for them, and what concerns they'd have about trusting a new service with the sale. The PM and I were part of those conversations. The interviews shaped the core assumptions behind the listing flow: that sellers' biggest fears were wasted time and untrustworthy buyers, and that the platform's value needed to be earned progressively rather than promised upfront.
+
+Once a working version of the flow existed, we ran usability testing. No significant issues surfaced — the structure held up, and sellers were able to move through the steps without notable confusion or drop-off points.
 
 ## Key Decisions
 
