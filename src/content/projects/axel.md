@@ -64,6 +64,14 @@ A persistent FAQ entry point in the top-right gives sellers a way to answer thei
 
 <p class="section-label">Getting through the hard part</p>
 
+**A progress stepper for the whole flow.**
+
+The flow is divided into three named phases — Info & Price, Photos & Docs, Publish — visible as a persistent stepper at the top of every screen. Sellers always know where they are and how much is left. In a flow this long, macro orientation matters as much as step-level clarity.
+
+**Save & Exit on every screen.**
+
+Every screen has a Save & Exit option. Given that the core tension was abandonment risk, the direct answer was to make leaving non-destructive: sellers can drop out at any point and return exactly where they left off. This also reduces the pressure of committing to a long session upfront.
+
 **Structured photo guidance.**
 
 Photos are one of the biggest drop-off points in any listing flow. Axel requires shots from specific angles — enough to give buyers confidence, but only what's actually necessary. The flow guides sellers through each angle one at a time rather than presenting a blank upload screen.
@@ -74,13 +82,13 @@ Rather than front-loading instructions, contextual tips appear at the relevant s
 
 <p class="section-label">Giving something back</p>
 
-**A price estimate as a milestone.**
+**Three-tier price presentation.**
 
-After the first section of the flow is complete, sellers receive a market-based price range for their car — a concrete output that makes the effort feel worthwhile before they've finished. It shifts the experience from "filling out a form" to "getting something useful."
+After completing the first section, sellers receive a market-based price recommendation — but not just a single number. The screen shows three anchored options: trade-in value, the price most sellers choose (highlighted as recommended), and the top of the market. Presenting the range gives sellers agency while the recommendation reduces decision paralysis. It also makes the output feel like advice rather than just data.
 
-**Communicating Axel's value along the way.**
+**Closing the loop after submission.**
 
-The benefits of the platform — no lowball offers, no agent spam, a clean handover — are surfaced progressively through the flow rather than only on the landing page. Sellers who are mid-process are the most receptive audience for why this is worth their time.
+The final screen isn't just a confirmation — it's a "What's next?" handoff that tells sellers exactly what Axel will do: evaluate the car's condition, syndicate the listing, and notify them when a buyer is ready to meet. This matters because a long form that ends abruptly feels like submitting into a void. The handoff screen closes the loop and earns the seller's patience for what comes after.
 
 ## Outcome
 
