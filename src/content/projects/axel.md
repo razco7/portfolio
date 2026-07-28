@@ -48,8 +48,6 @@ The core tension: if sellers don't complete the flow, Axel has nothing to work w
 
 Before any design work started, a UX researcher led a round of discovery interviews with potential sellers — exploring their frustrations with existing platforms, what they wished the experience would handle for them, and what concerns they'd have about trusting a new service with the sale. The PM and I were part of those conversations. The interviews shaped the core assumptions behind the listing flow: that sellers' biggest fears were wasted time and untrustworthy buyers, and that the platform's value needed to be earned progressively rather than promised upfront.
 
-Once a working version of the flow existed, we ran usability testing. No significant issues surfaced — the structure held up, and sellers were able to move through the steps without notable confusion or drop-off points.
-
 ## Key Decisions
 
 <p class="section-label">Setting expectations upfront</p>
@@ -104,4 +102,6 @@ The final screen isn't just a confirmation — it's a "What's next?" handoff tha
 
 ## Outcome
 
-The listing flow was designed and handed off as part of a broader engagement that also included establishing the design system used across the product. As a freelance contributor, I wasn't involved in post-launch measurement — but the work addressed a real structural challenge: making a high-friction onboarding feel purposeful rather than exhausting.
+The listing flow was designed and handed off as part of a broader engagement that also included establishing the design system used across the product. Before handoff, we ran usability testing on a working version of the flow — no significant issues surfaced, and sellers were able to move through the steps without notable confusion or drop-off points.
+
+As a freelance contributor, I wasn't involved in post-launch measurement — but the work addressed a real structural challenge: making a high-friction onboarding feel purposeful rather than exhausting.
