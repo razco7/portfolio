@@ -109,3 +109,7 @@ The designs were completed and handed off within the project scope. As a freelan
 <div class="body-image-full">
   <img src="/portfolio/images/FINQ_Desktop_Improve.jpg" alt="FINQ recommendation page showing current vs. improved portfolio on desktop" />
 </div>
+
+## What I'd Do Differently
+
+This flow is long and complex, and I was working on specific parts of it while the in-house designers were working on others. More than once I found out that something had changed elsewhere in the flow in a way that affected my design decisions — and I imagine the same was true in the other direction. It wasn't a breakdown, but it created friction that better alignment could have prevented. More frequent check-ins or a shared decision log would have kept everyone's work more in sync and reduced the back-and-forth.
