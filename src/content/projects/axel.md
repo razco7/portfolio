@@ -121,3 +121,7 @@ The final screen isn't just a confirmation — it's a "What's next?" handoff tha
 The listing flow was designed and handed off as part of a broader engagement that also included establishing the design system used across the product. Before handoff, we ran usability testing on a working version of the flow — no significant issues surfaced, and sellers were able to move through the steps without notable confusion or drop-off points.
 
 As a freelance contributor, I wasn't involved in post-launch measurement — but the work addressed a real structural challenge: making a high-friction onboarding feel purposeful rather than exhausting.
+
+## What I'd Do Differently
+
+The biggest open question early on was whether to build the design system from scratch or adopt an existing one and customize it. We went with shadcn/ui as the foundation — and in hindsight, it was probably overkill. We used only a small fraction of its components, and the ones we did use required significant customization to fit the product's visual language. The overhead of working around someone else's architecture ended up being comparable to what building our own would have cost. If I were starting over, I'd lean toward a purpose-built system — smaller, more opinionated, and easier to evolve alongside the product.
