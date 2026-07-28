@@ -38,6 +38,10 @@ Axel's answer is to take the whole process off the seller's plate. You upload yo
 
 My scope was the seller listing flow and contributing to the design system being built alongside it.
 
+<div class="body-image-full">
+  <img src="/portfolio/images/Axel-banner.jpg" alt="Axel platform overview" style="border: none;" />
+</div>
+
 ## The Problem
 
 The listing flow was the entry point — the moment a seller commits to the platform. It had to do two things at once: collect a significant amount of information (photos at specific angles, pricing, registration, vehicle history) while keeping the seller motivated through a process that was inherently long.
