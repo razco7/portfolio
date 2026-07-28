@@ -325,7 +325,7 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 .detail-cover {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0;
+  padding: 48px 0 0;
 }
 .detail-cover img {
   width: 100%;
@@ -359,7 +359,7 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
   font-size: 64px;
   font-weight: 700;
   line-height: 76px;
-  margin: 0 0 12px;
+  margin: 0 0 4px;
 }
 .detail-title.dark { color: #fff; }
 .detail-tagline {
