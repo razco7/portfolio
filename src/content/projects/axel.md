@@ -100,9 +100,17 @@ Rather than front-loading instructions, contextual tips appear at the relevant s
 
 After completing the first section, sellers receive a market-based price recommendation — but not just a single number. The screen shows three anchored options: trade-in value, the price most sellers choose (highlighted as recommended), and the top of the market. Presenting the range gives sellers agency while the recommendation reduces decision paralysis. It also makes the output feel like advice rather than just data.
 
+<div class="body-image-full">
+  <img src="/portfolio/images/Axel_03-Price.jpg" alt="Axel three-tier price presentation screens" style="border: none;" />
+</div>
+
 **Closing the loop after submission.**
 
 The final screen isn't just a confirmation — it's a "What's next?" handoff that tells sellers exactly what Axel will do: evaluate the car's condition, syndicate the listing, and notify them when a buyer is ready to meet. This matters because a long form that ends abruptly feels like submitting into a void. The handoff screen closes the loop and earns the seller's patience for what comes after.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Axel_06-Sign-up.jpg" alt="Axel sign-up and confirmation screens" style="border: none;" />
+</div>
 
 ## Outcome
 
