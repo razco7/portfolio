@@ -62,6 +62,10 @@ Not every car — or every seller — is the right fit for Axel. Rather than let
 
 A persistent FAQ entry point in the top-right gives sellers a way to answer their own questions without derailing the flow. In a process with this many steps, ambient reassurance matters.
 
+<div class="body-image-full">
+  <img src="/portfolio/images/Axel_01-General.jpg" alt="Axel qualification and FAQ screens" style="border: none;" />
+</div>
+
 <p class="section-label">Getting through the hard part</p>
 
 **A progress stepper for the whole flow.**
@@ -72,9 +76,17 @@ The flow is divided into three named phases — Info & Price, Photos & Docs, Pub
 
 Every screen has a Save & Exit option. Given that the core tension was abandonment risk, the direct answer was to make leaving non-destructive: sellers can drop out at any point and return exactly where they left off. This also reduces the pressure of committing to a long session upfront.
 
+<div class="body-image-full">
+  <img src="/portfolio/images/Axel_02-Info-Condition.jpg" alt="Axel info and condition screens" style="border: none;" />
+</div>
+
 **Structured photo guidance.**
 
 Photos are one of the biggest drop-off points in any listing flow. Axel requires shots from specific angles — enough to give buyers confidence, but only what's actually necessary. The flow guides sellers through each angle one at a time rather than presenting a blank upload screen.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Axel_04-Photos.jpg" alt="Axel photo guidance screens" style="border: none;" />
+</div>
 
 **Inline tips along the way.**
 
