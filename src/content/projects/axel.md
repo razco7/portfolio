@@ -88,7 +88,7 @@ Because the flow doesn't require sign-up at the start, there's no account to sav
 
 **Structured photo guidance.**
 
-Photos are one of the biggest drop-off points in any listing flow. Axel requires shots from specific angles — enough to give buyers confidence, but only what's actually necessary. The flow guides sellers through each angle one at a time rather than presenting a blank upload screen.
+Photos are one of the biggest drop-off points in any listing flow. Axel requires a defined set of shots — VIN, dashboard, exterior angles, engine bay — enough to verify condition and build buyer trust, but nothing beyond what's actually necessary. Rather than presenting a blank upload screen, the flow walks sellers through each shot one at a time, with contextual instructions (where to find the VIN plate, how to frame the engine bay) and an approval step after each photo before moving on.
 
 <div class="body-image-full">
   <img src="/portfolio/images/Axel_04-Photos.jpg" alt="Axel photo guidance screens" style="border: none;" />
