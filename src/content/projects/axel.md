@@ -76,6 +76,8 @@ The flow is divided into three named phases — Info & Price, Photos & Docs, Pub
 
 Every screen has a Save & Exit option. Given that the core tension was abandonment risk, the direct answer was to make leaving non-destructive: sellers can drop out at any point and return exactly where they left off. This also reduces the pressure of committing to a long session upfront.
 
+Because the flow doesn't require sign-up at the start, there's no account to save progress to — so Save & Exit prompts for an email address, giving sellers a way to resume on any device. Progress is also written to local storage as a fallback: return to the flow on the same device without clearing your cache, and it picks up where it left off.
+
 <div class="body-image-full">
   <img src="/portfolio/images/Axel_02-Info-Condition.jpg" alt="Axel info and condition screens" style="border: none;" />
 </div>
