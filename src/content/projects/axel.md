@@ -44,6 +44,8 @@ The listing flow was the entry point — the moment a seller commits to the plat
 
 The core tension: if sellers don't complete the flow, Axel has nothing to work with. But if the flow feels like a burden, they abandon it. Every step needed to justify itself.
 
+The flow was also designed mobile-first — most sellers would be on their phones, and they'd need one for the photos anyway.
+
 ## Research
 
 Before any design work started, a UX researcher led a round of discovery interviews with potential sellers — exploring their frustrations with existing platforms, what they wished the experience would handle for them, and what concerns they'd have about trusting a new service with the sale. The PM and I were part of those conversations. The interviews shaped the core assumptions behind the listing flow: that sellers' biggest fears were wasted time and untrustworthy buyers, and that the platform's value needed to be earned progressively rather than promised upfront.
