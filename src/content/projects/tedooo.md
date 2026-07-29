@@ -28,3 +28,33 @@ One of the first decisions I made was to pull back on the UI's visual intensity.
 
 I also built the design system alongside the product work — translating patterns from the app to web, adapting them for larger screens, and making decisions about what to keep, what to change, and what to create from scratch.
 
+## The Feed
+
+<p class="section-label">Explore</p>
+
+The feed was the starting point — the core of the experience where the social and marketplace sides of Tedooo come together. The Explore tab surfaces content from across the platform: posts from people you follow, new work from the crafting community, items being sold.
+
+The create post composer is where the hybrid nature of the platform shows up most clearly. Sellers can post the way they would on any social platform — text, images, video — but they can also attach items directly from their shop, publishing a product to the feed in the same gesture as sharing a thought or a photo. Selling isn't a separate mode you switch into, it's something that happens naturally alongside everything else.
+
+Supporting all these content types in one composer created real complexity. Each attachment type (photo, video, item, background) has its own mini-flow with its own decisions and states. The challenge was making all of that feel like one coherent thing rather than a branching maze of options.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Tedooo_01_feed_Desktop.jpg" alt="Tedooo feed on desktop with create post modal" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Tedooo_01_feed_Mobile.jpg" alt="Tedooo feed and create post flow on mobile" />
+</div>
+
+<p class="section-label">Communities</p>
+
+Communities are the more focused side of the feed — groups organised around a specific craft or interest, like Knitting, Crochet, or Woodworking. Users can join communities that match their expertise, browse a feed scoped to that group, participate in group chats (both official community chats and related topic chats), and see a leaderboard of the most active contributors. It's closer to a forum or Facebook Group than a general feed — a place for more deliberate, expertise-driven interaction.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Tedooo_01_community_Desktop.jpg" alt="Tedooo communities on desktop showing community discovery modal" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Tedooo_01_comunity_Mobile.jpg" alt="Tedooo communities on mobile showing feed, group chats and leaderboard" />
+</div>
+
