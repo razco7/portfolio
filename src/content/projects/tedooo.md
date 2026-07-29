@@ -58,3 +58,36 @@ Communities are the more focused side of the feed — groups organised around a 
   <img src="/portfolio/images/Tedooo_01_comunity_Mobile.jpg" alt="Tedooo communities on mobile showing feed, group chats and leaderboard" />
 </div>
 
+## AI Vision
+
+Vision is one of Tedooo's more distinctive features. The idea is simple: imagine something, describe it, and get a physical handmade item delivered to your door. You pick a category — plushie, pillow, jewellery, crochet doll — then describe what you want (or upload a reference image, or browse the library). The AI generates two options side by side. You pick one, customise the size and quantity, and order. Tedooo routes the design to a partner manufacturer who makes and ships the actual item.
+
+The flow is a three-step wizard, but it spans a lot of ground: idea input, AI generation with a loading state, a comparison screen, customisation, and checkout. Each step had its own design considerations, and the whole thing needed to feel light and playful given how novel the concept is.
+
+<div class="body-gallery" id="ai-vision-gallery">
+  <div class="body-gallery-track">
+    <img src="/portfolio/images/02A-Tedooo-AI-vision.jpg" alt="AI Vision step 1 — choose a category" />
+    <img src="/portfolio/images/02B-Tedooo-AI-vision.jpg" alt="AI Vision step 2 — write an idea or upload image" />
+    <img src="/portfolio/images/02C-Tedooo-AI-vision.jpg" alt="AI Vision — add credits modal" />
+    <img src="/portfolio/images/02D-Tedooo-AI-vision.jpg" alt="AI Vision — generating your design" />
+    <img src="/portfolio/images/02E-Tedooo-AI-vision.jpg" alt="AI Vision step 3 — choose between two generated designs" />
+    <img src="/portfolio/images/02F-Tedooo-AI-vision.jpg" alt="AI Vision — customize your item" />
+    <img src="/portfolio/images/02G-Tedooo-AI-vision.jpg" alt="AI Vision — checkout" />
+    <img src="/portfolio/images/02H-Tedooo-AI-vision.jpg" alt="AI Vision hub — your creations and orders" />
+  </div>
+  <button class="body-gallery-btn body-gallery-prev" aria-label="Previous"><span class="material-symbols-outlined">arrow_back</span></button>
+  <button class="body-gallery-btn body-gallery-next" aria-label="Next"><span class="material-symbols-outlined">arrow_forward</span></button>
+</div>
+<script>
+  (function() {
+    var gallery = document.getElementById('ai-vision-gallery');
+    var track = gallery.querySelector('.body-gallery-track');
+    gallery.querySelector('.body-gallery-prev').addEventListener('click', function() {
+      track.scrollBy({ left: -track.offsetWidth, behavior: 'smooth' });
+    });
+    gallery.querySelector('.body-gallery-next').addEventListener('click', function() {
+      track.scrollBy({ left: track.offsetWidth, behavior: 'smooth' });
+    });
+  })();
+</script>
+

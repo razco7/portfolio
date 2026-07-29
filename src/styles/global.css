@@ -449,6 +449,14 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
 .body-image-full img { width: 100%; border-radius: 16px; display: block; }
 .body-image-inline { width: min(960px, 100vw - 80px); margin: 16px 0 80px; }
 .body-image-inline img { width: 100%; border-radius: 16px; display: block; }
+.body-gallery { position: relative; width: min(1280px, 100vw - 80px); margin: 40px 0; }
+.body-gallery-track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; -ms-overflow-style: none; gap: 0; border-radius: 16px; }
+.body-gallery-track::-webkit-scrollbar { display: none; }
+.body-gallery-track img { flex-shrink: 0; width: 100%; scroll-snap-align: start; border-radius: 16px; display: block; border: 1px solid #f0f0f0; }
+.body-gallery-btn { position: absolute; top: 50%; transform: translateY(-50%); background: white; border: none; border-radius: 50%; width: 44px; height: 44px; cursor: pointer; box-shadow: 0 2px 12px rgba(0,0,0,0.15); font-size: 20px; display: flex; align-items: center; justify-content: center; z-index: 2; transition: box-shadow 0.15s; }
+.body-gallery-btn:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.2); }
+.body-gallery-prev { left: 16px; }
+.body-gallery-next { right: 16px; }
 .detail-body h2 {
   font-size: 32px;
   font-weight: 600;
