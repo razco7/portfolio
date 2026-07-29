@@ -7,7 +7,7 @@ order: 2
 bgColor: "#B8E2E0"
 accentColor: "#007A7A"
 darkTheme: false
-coverImage: "Tedooo_cover.jpg"
+coverImage: "Tedooo_top.jpg"
 teaserImage: "Tedooo_cover.jpg"
 images: []
 imageAlts: []
