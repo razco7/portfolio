@@ -58,6 +58,26 @@ Communities are the more focused side of the feed — groups organised around a 
   <img src="/portfolio/images/Tedooo_01_comunity_Mobile.jpg" alt="Tedooo communities on mobile showing feed, group chats and leaderboard" />
 </div>
 
+## Patterns & Projects
+
+Patterns is the more professional side of Tedooo — a dedicated tab where crafters can share their patterns and project files with the community. Anyone can upload and contribute for free, but accessing the full library requires a Pro subscription. Free users get a preview of the content before hitting a soft paywall that prompts them to upgrade.
+
+The main listing has search, filters (by type, price, and skill level), and sort — enough to navigate a large library meaningfully. Each pattern card links to a discussion thread, making it a place for knowledge-sharing, not just file distribution. The upload flow itself is minimal: drop a file, add a title, pick a category and level, confirm you have rights to share, and publish.
+
+The same design principle that guided the rest of the platform applies here: keep the UI as quiet as possible and let the content do the work. The cards are driven by craft photography — colourful, detailed, visually rich — so the surrounding interface stays clean and out of the way.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Tedooo-Patterns-1.jpg" alt="Tedooo Patterns listing page with pro upsell" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Tedooo-Patterns-2.jpg" alt="Tedooo Patterns filter panel" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Tedooo-Patterns-3.jpg" alt="Tedooo Patterns upload modal" />
+</div>
+
 ## AI Vision
 
 Vision is one of Tedooo's more distinctive features. The idea is simple: imagine something, describe it, and get a physical handmade item delivered to your door. You pick a category — plushie, pillow, jewellery, crochet doll — then describe what you want (or upload a reference image, or browse the library). The AI generates two options side by side. You pick one, customise the size and quantity, and order. Tedooo routes the design to a partner manufacturer who makes and ships the actual item.
