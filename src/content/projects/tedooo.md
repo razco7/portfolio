@@ -67,15 +67,19 @@ For guests, the page opens with a full-width hero and a prominent search bar wit
 For logged-in users, the page becomes personalised: recently viewed items, products waiting in the cart, saved items, and recommendations based on browsing history sit at the top before the broader curated content. The category nav also exposes subcategories on hover, so users can drill into exactly what they're looking for without a dedicated search.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-Search.jpg" alt="Tedooo shopping tab — guest homepage with search suggestions open" />
+  <img src="/portfolio/images/Tedooo-Search.jpg" alt="Tedooo shopping tab — guest homepage with search suggestions open" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-Logged-in.jpg" alt="Tedooo shopping tab — logged in, personalised homepage with category dropdown" />
+  <img src="/portfolio/images/Tedooo-Logged-in.jpg" alt="Tedooo shopping tab — logged in, personalised homepage with category dropdown" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-Guest-HP-scroll.jpg" alt="Tedooo shopping tab — full guest homepage scroll" />
+  <img src="/portfolio/images/Tedooo-shopping.jpg" alt="Tedooo shopping on mobile — guest home, logged-in home, category page, filters and sort" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Tedooo-Guest-HP-scroll.jpg" alt="Tedooo shopping tab — full guest homepage scroll" style="border: 1px solid #f0f0f0;" />
 </div>
 
 ## Patterns & Projects
