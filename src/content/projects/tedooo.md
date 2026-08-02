@@ -58,6 +58,26 @@ Communities are the more focused side of the feed — groups organised around a 
   <img src="/portfolio/images/Tedooo_01_comunity_Mobile.jpg" alt="Tedooo communities on mobile showing feed, group chats and leaderboard" />
 </div>
 
+## Shopping
+
+The shopping tab was one of the most significant pieces of the project. Before this work, the marketplace had no real curation — just an endless list of the latest products. The goal was to replace that with a layered, editorially-structured homepage that could surface the right content to the right person at the right moment.
+
+For guests, the page opens with a full-width hero and a prominent search bar with live suggestions — matching both users and products as you type. Below the fold, curated sections unfold progressively: trending categories, seasonal picks (editors' picks, Halloween collections), fresh items from local makers, top sellers of the week, gift ideas, and daily deals. Each section approaches the catalogue from a different angle, giving visitors multiple entry points into the marketplace rather than one generic scroll.
+
+For logged-in users, the page becomes personalised: recently viewed items, products waiting in the cart, saved items, and recommendations based on browsing history sit at the top before the broader curated content. The category nav also exposes subcategories on hover, so users can drill into exactly what they're looking for without a dedicated search.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Tedooo-Search.jpg" alt="Tedooo shopping tab — guest homepage with search suggestions open" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Tedooo-Logged-in.jpg" alt="Tedooo shopping tab — logged in, personalised homepage with category dropdown" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Tedooo-Guest-HP-scroll.jpg" alt="Tedooo shopping tab — full guest homepage scroll" />
+</div>
+
 ## Patterns & Projects
 
 Patterns is the more professional side of Tedooo — a dedicated tab where crafters can share their patterns and project files with the community. Anyone can upload and contribute for free, but accessing the full library requires a Pro subscription. Free users get a preview of the content before hitting a soft paywall that prompts them to upgrade.
