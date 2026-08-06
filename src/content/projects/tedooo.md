@@ -162,3 +162,29 @@ The longer-term vision was to go further — pulling in shop profile details and
 <div class="body-image-full">
   <img src="/portfolio/images/Seller-hub-mobile.jpg" alt="Seller Hub on mobile — items, nav, bulk actions and section management" />
 </div>
+
+## Shop Creation
+
+Getting a new seller set up on Tedooo meant asking for a lot: account type, location, currency, contact details, and at least one item listed before they could start selling. That's a lot of commitment upfront. The challenge was making it feel manageable and even enjoyable — not like a form to get through, but like a setup that's actually worth completing.
+
+The flow is structured as a step-by-step onboarding with a persistent progress bar at the top. Each step has one job: the goals screen asks what you're here for (shop, buy, browse patterns, socialize) so the experience can be personalised from the start; the details steps gather location, currency, and contact info needed for shipping and payments.
+
+Every step uses a split layout. The left side has the form — focused, minimal, one thing at a time. The right side carries social proof and benefits: seller testimonials, live stats ("Connect with 1,572,344 customers worldwide"), animated illustrations. The effect is that filling in the form never feels like filling in a form. There's always something worth looking at on the right, and always a reason to keep going.
+
+The final step requires adding at least one item before the shop goes live. This was a deliberate product decision — a shop with no items is a dead end for any buyer who finds it, and getting that first listing done during setup means sellers launch in a real state. Import via CSV or add manually; either way, you're done when you have something to show.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Shop-creation-1.jpg" alt="Shop creation — goals selection screen" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Shop-creation-2.jpg" alt="Shop creation — location, currency and contact details with social proof" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Shop-creation-3.jpg" alt="Shop creation — add your first item, import CSV or add manually" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Shop-creation-4.jpg" alt="Shop creation — item listing form with photos, pricing and variations" style="border: 1px solid #f0f0f0;" />
+</div>
