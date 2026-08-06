@@ -135,3 +135,30 @@ The flow is a three-step wizard, but it spans a lot of ground: idea input, AI ge
   })();
 </script>
 
+## Seller Hub
+
+Before this work, seller tools were scattered across the platform — no single place where a seller could manage their listings, check their orders, run a promotion, and update their shop details in one sitting. The Seller Hub was the answer to that: a dedicated area that brings everything together under one roof.
+
+The hub is built around a persistent left nav — Dashboard, Items, Inbox, Analytics, Orders, Coupons & Sales, Image Enhancement, Your Shop, Settings — with a collapsible sidebar so sellers can reclaim screen space when they need it. The Items section is where most of the day-to-day work happens: sellers can switch between list and grid view, bulk-select items to edit prices, move them to sections, merge duplicates, and manage the section structure of their shop. Actions that used to require navigating multiple separate pages are available directly from the item management view.
+
+The longer-term vision was to go further — pulling in shop profile details and shipping configurations that had been living in separate corners of the platform, so that setting up and maintaining a shop would eventually be a single, coherent flow rather than a scavenger hunt.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Seller-hub-Panel-Open.jpg" alt="Seller Hub with sidebar expanded showing items grid view" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Seller-hub-Panel-closed.jpg" alt="Seller Hub with sidebar collapsed to icons" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Seller-hub-Items.jpg" alt="Seller Hub items in list view" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Seller-hub-Shop-profile.jpg" alt="Seller Hub with move to section modal open" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Seller-hub-mobile.jpg" alt="Seller Hub on mobile — items, nav, bulk actions and section management" />
+</div>
