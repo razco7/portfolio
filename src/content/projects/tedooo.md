@@ -188,3 +188,17 @@ The final step requires adding at least one item before the shop goes live. This
 <div class="body-image-full">
   <img src="/portfolio/images/Shop-creation-4.jpg" alt="Shop creation — item listing form with photos, pricing and variations" style="border: 1px solid #f0f0f0;" />
 </div>
+
+## Product Page
+
+A product page on a handmade marketplace carries a lot of weight — item photos, a full description, shipping policies, seller info, reviews, and discovery sections for related items. The challenge was giving each of those things enough room to breathe while keeping the most important action (buying) always within reach.
+
+The page is anchored by a sticky right panel that stays fixed as you scroll. It holds everything needed to make a purchase decision: item name, price (with any active sale or discount surfaced prominently), quantity, color and size selectors, and the Buy Now / Add to cart buttons. No matter how far down a buyer scrolls to read reviews or check shipping details, the purchase action is never out of reach.
+
+The left side of the page unfolds progressively. Item details are shown in preview with a "Show more" to expand — enough context to understand what you're looking at without forcing every buyer through the full text. Shipping and policies are broken into a scannable grid. The seller card sits below, with quick access to follow or message. Reviews lead with the aggregate rating and a breakdown by star, then show individual reviews with a load-more pattern.
+
+Below the fold, two horizontal sections close out the page: more items from this shop (keeping buyers in the seller's catalogue) and similar items from other shops (keeping them on Tedooo if the first item isn't quite right).
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Product-page.jpg" alt="Tedooo product page — sticky buy panel, item details, reviews, and related items" style="border: 1px solid #f0f0f0;" />
+</div>
