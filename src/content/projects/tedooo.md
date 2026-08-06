@@ -58,26 +58,6 @@ Communities are the more focused side of the feed — groups organised around a 
   <img src="/portfolio/images/Tedooo_01_comunity_Mobile.jpg" alt="Tedooo communities on mobile showing feed, group chats and leaderboard" />
 </div>
 
-## Patterns & Projects
-
-Patterns is the more professional side of Tedooo — a dedicated tab where crafters can share their patterns and project files with the community. Anyone can upload and contribute for free, but accessing the full library requires a Pro subscription. Free users get a preview of the content before hitting a soft paywall that prompts them to upgrade.
-
-The main listing has search, filters (by type, price, and skill level), and sort — enough to navigate a large library meaningfully. Each pattern card links to a discussion thread, making it a place for knowledge-sharing, not just file distribution. The upload flow itself is minimal: drop a file, add a title, pick a category and level, confirm you have rights to share, and publish.
-
-The same design principle that guided the rest of the platform applies here: keep the UI as quiet as possible and let the content do the work. The cards are driven by craft photography — colourful, detailed, visually rich — so the surrounding interface stays clean and out of the way.
-
-<div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-Patterns-1.jpg" alt="Tedooo Patterns listing page with pro upsell" />
-</div>
-
-<div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-Patterns-2.jpg" alt="Tedooo Patterns filter panel" />
-</div>
-
-<div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-Patterns-3.jpg" alt="Tedooo Patterns upload modal" />
-</div>
-
 ## Shopping
 
 The shopping tab was one of the most significant pieces of the project. Before this work, the marketplace had no real curation — just an endless list of the latest products. The goal was to replace that with a layered, editorially-structured homepage that could surface the right content to the right person at the right moment.
@@ -100,6 +80,20 @@ For logged-in users, the page becomes personalised: recently viewed items, produ
 
 <div class="body-image-full">
   <img src="/portfolio/images/Tedooo-Guest-HP-scroll.jpg" alt="Tedooo shopping tab — full guest homepage scroll" style="border: 1px solid #f0f0f0;" />
+</div>
+
+## Product Page
+
+A product page on a handmade marketplace carries a lot of weight — item photos, a full description, shipping policies, seller info, reviews, and discovery sections for related items. The challenge was giving each of those things enough room to breathe while keeping the most important action (buying) always within reach.
+
+The page is anchored by a sticky right panel that stays fixed as you scroll. It holds everything needed to make a purchase decision: item name, price (with any active sale or discount surfaced prominently), quantity, color and size selectors, and the Buy Now / Add to cart buttons. No matter how far down a buyer scrolls to read reviews or check shipping details, the purchase action is never out of reach.
+
+The left side of the page unfolds progressively. Item details are shown in preview with a "Show more" to expand — enough context to understand what you're looking at without forcing every buyer through the full text. Shipping and policies are broken into a scannable grid. The seller card sits below, with quick access to follow or message. Reviews lead with the aggregate rating and a breakdown by star, then show individual reviews with a load-more pattern.
+
+Below the fold, two horizontal sections close out the page: more items from this shop (keeping buyers in the seller's catalogue) and similar items from other shops (keeping them on Tedooo if the first item isn't quite right).
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Product-page.jpg" alt="Tedooo product page — sticky buy panel, item details, reviews, and related items" style="border: 1px solid #f0f0f0;" />
 </div>
 
 ## AI Vision
@@ -135,32 +129,24 @@ The flow is a three-step wizard, but it spans a lot of ground: idea input, AI ge
   })();
 </script>
 
-## Seller Hub
+## Patterns & Projects
 
-Before this work, seller tools were scattered across the platform — no single place where a seller could manage their listings, check their orders, run a promotion, and update their shop details in one sitting. The Seller Hub was the answer to that: a dedicated area that brings everything together under one roof.
+Patterns is the more professional side of Tedooo — a dedicated tab where crafters can share their patterns and project files with the community. Anyone can upload and contribute for free, but accessing the full library requires a Pro subscription. Free users get a preview of the content before hitting a soft paywall that prompts them to upgrade.
 
-The hub is built around a persistent left nav — Dashboard, Items, Inbox, Analytics, Orders, Coupons & Sales, Image Enhancement, Your Shop, Settings — with a collapsible sidebar so sellers can reclaim screen space when they need it. The Items section is where most of the day-to-day work happens: sellers can switch between list and grid view, bulk-select items to edit prices, move them to sections, merge duplicates, and manage the section structure of their shop. Actions that used to require navigating multiple separate pages are available directly from the item management view.
+The main listing has search, filters (by type, price, and skill level), and sort — enough to navigate a large library meaningfully. Each pattern card links to a discussion thread, making it a place for knowledge-sharing, not just file distribution. The upload flow itself is minimal: drop a file, add a title, pick a category and level, confirm you have rights to share, and publish.
 
-The longer-term vision was to go further — pulling in shop profile details and shipping configurations that had been living in separate corners of the platform, so that setting up and maintaining a shop would eventually be a single, coherent flow rather than a scavenger hunt.
+The same design principle that guided the rest of the platform applies here: keep the UI as quiet as possible and let the content do the work. The cards are driven by craft photography — colourful, detailed, visually rich — so the surrounding interface stays clean and out of the way.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Seller-hub-Panel-Open.jpg" alt="Seller Hub with sidebar expanded showing items grid view" style="border: 1px solid #f0f0f0;" />
+  <img src="/portfolio/images/Tedooo-Patterns-1.jpg" alt="Tedooo Patterns listing page with pro upsell" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Seller-hub-Panel-closed.jpg" alt="Seller Hub with sidebar collapsed to icons" style="border: 1px solid #f0f0f0;" />
+  <img src="/portfolio/images/Tedooo-Patterns-2.jpg" alt="Tedooo Patterns filter panel" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Seller-hub-Items.jpg" alt="Seller Hub items in list view" style="border: 1px solid #f0f0f0;" />
-</div>
-
-<div class="body-image-full">
-  <img src="/portfolio/images/Seller-hub-Shop-profile.jpg" alt="Seller Hub with move to section modal open" style="border: 1px solid #f0f0f0;" />
-</div>
-
-<div class="body-image-full">
-  <img src="/portfolio/images/Seller-hub-mobile.jpg" alt="Seller Hub on mobile — items, nav, bulk actions and section management" />
+  <img src="/portfolio/images/Tedooo-Patterns-3.jpg" alt="Tedooo Patterns upload modal" />
 </div>
 
 ## Shop Creation
@@ -189,16 +175,30 @@ The final step requires adding at least one item before the shop goes live. This
   <img src="/portfolio/images/Shop-creation-4.jpg" alt="Shop creation — item listing form with photos, pricing and variations" style="border: 1px solid #f0f0f0;" />
 </div>
 
-## Product Page
+## Seller Hub
 
-A product page on a handmade marketplace carries a lot of weight — item photos, a full description, shipping policies, seller info, reviews, and discovery sections for related items. The challenge was giving each of those things enough room to breathe while keeping the most important action (buying) always within reach.
+Before this work, seller tools were scattered across the platform — no single place where a seller could manage their listings, check their orders, run a promotion, and update their shop details in one sitting. The Seller Hub was the answer to that: a dedicated area that brings everything together under one roof.
 
-The page is anchored by a sticky right panel that stays fixed as you scroll. It holds everything needed to make a purchase decision: item name, price (with any active sale or discount surfaced prominently), quantity, color and size selectors, and the Buy Now / Add to cart buttons. No matter how far down a buyer scrolls to read reviews or check shipping details, the purchase action is never out of reach.
+The hub is built around a persistent left nav — Dashboard, Items, Inbox, Analytics, Orders, Coupons & Sales, Image Enhancement, Your Shop, Settings — with a collapsible sidebar so sellers can reclaim screen space when they need it. The Items section is where most of the day-to-day work happens: sellers can switch between list and grid view, bulk-select items to edit prices, move them to sections, merge duplicates, and manage the section structure of their shop. Actions that used to require navigating multiple separate pages are available directly from the item management view.
 
-The left side of the page unfolds progressively. Item details are shown in preview with a "Show more" to expand — enough context to understand what you're looking at without forcing every buyer through the full text. Shipping and policies are broken into a scannable grid. The seller card sits below, with quick access to follow or message. Reviews lead with the aggregate rating and a breakdown by star, then show individual reviews with a load-more pattern.
-
-Below the fold, two horizontal sections close out the page: more items from this shop (keeping buyers in the seller's catalogue) and similar items from other shops (keeping them on Tedooo if the first item isn't quite right).
+The longer-term vision was to go further — pulling in shop profile details and shipping configurations that had been living in separate corners of the platform, so that setting up and maintaining a shop would eventually be a single, coherent flow rather than a scavenger hunt.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Product-page.jpg" alt="Tedooo product page — sticky buy panel, item details, reviews, and related items" style="border: 1px solid #f0f0f0;" />
+  <img src="/portfolio/images/Seller-hub-Panel-Open.jpg" alt="Seller Hub with sidebar expanded showing items grid view" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Seller-hub-Panel-closed.jpg" alt="Seller Hub with sidebar collapsed to icons" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Seller-hub-Items.jpg" alt="Seller Hub items in list view" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Seller-hub-Shop-profile.jpg" alt="Seller Hub with move to section modal open" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Seller-hub-mobile.jpg" alt="Seller Hub on mobile — items, nav, bulk actions and section management" />
 </div>
