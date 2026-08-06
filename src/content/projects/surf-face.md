@@ -7,8 +7,8 @@ order: 10
 bgColor: "#DCEEFF"
 accentColor: "#0077B6"
 darkTheme: false
-coverImage: ""
-teaserImage: ""
+coverImage: "Garmin-cover.jpg"
+teaserImage: "Garmin-cover.jpg"
 images: []
 imageAlts: []
 client: "Self-initiated"
