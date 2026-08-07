@@ -118,9 +118,7 @@ The final screen isn't just a confirmation — it's a "What's next?" handoff tha
 
 ## Outcome
 
-The listing flow was designed and handed off as part of a broader engagement that also included establishing the design system used across the product. Before handoff, we ran usability testing on a working version of the flow — no significant issues surfaced, and sellers were able to move through the steps without notable confusion or drop-off points.
-
-As a freelance contributor, I wasn't involved in post-launch measurement — but the work addressed a real structural challenge: making a high-friction onboarding feel purposeful rather than exhausting.
+The listing flow was designed and handed off as part of a broader engagement that also included establishing the design system used across the product. Before handoff, we ran usability testing on a working version of the flow — no significant issues surfaced, and sellers moved through the steps without notable confusion or drop-off. The product was still at proof-of-concept stage, so the work was about getting the structure right for launch: making a high-friction onboarding feel purposeful rather than exhausting.
 
 ## What I'd Do Differently
 
