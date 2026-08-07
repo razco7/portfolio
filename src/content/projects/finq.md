@@ -1,7 +1,7 @@
 ---
 title: "FINQ"
 tagline: "Making high-stakes financial decisions legible without an advisor."
-type: "Fintech Product"
+type: "Fintech"
 role: "Product Design"
 order: 4
 bgColor: "#ede8f5"
