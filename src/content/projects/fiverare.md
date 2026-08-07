@@ -1,7 +1,7 @@
 ---
 title: "Fiverare"
 tagline: "The art marketplace for creating & trading NFT."
-type: "Conceptual"
+type: "Freelance Marketplace"
 role: "Concept & Design"
 company: "Fiverr"
 order: 4
