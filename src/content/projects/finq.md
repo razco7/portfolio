@@ -104,7 +104,7 @@ The homepage is built to pull returning users back into an incomplete flow. A pe
 
 ## Outcome
 
-The designs were completed and handed off within the project scope. As a freelance contributor, I didn't have visibility into post-launch metrics — the natural limitation of coming in for a defined piece of a larger product. What I can say is that the recommendation interface went from a complex, information-heavy spec to something legible enough to walk through without explanation — which was the brief.
+The designs were completed and handed off within the project scope. The recommendation interface went from a complex, information-heavy spec to something legible enough to walk through without explanation — which was the brief.
 
 <div class="body-image-full">
   <img src="/portfolio/images/FINQ_Desktop_Improve.jpg" alt="FINQ recommendation page showing current vs. improved portfolio on desktop" />
