@@ -133,11 +133,11 @@ The second challenge was length. The flow covers a lot of ground — category se
 
 ## Patterns & Projects
 
-Patterns is the more professional side of Tedooo — a dedicated tab where crafters can share their patterns and project files with the community. Anyone can upload and contribute for free, but accessing the full library requires a Pro subscription. Free users get a preview of the content before hitting a soft paywall that prompts them to upgrade.
+Patterns is a dedicated space for crafters to share and discover pattern files and project guides. The library grows fast — there are a lot of them — which made the core design challenge less about what to show and more about how to keep it from feeling overwhelming.
 
-The main listing has search, filters (by type, price, and skill level), and sort — enough to navigate a large library meaningfully. Each pattern card links to a discussion thread, making it a place for knowledge-sharing, not just file distribution. The upload flow itself is minimal: drop a file, add a title, pick a category and level, confirm you have rights to share, and publish.
+The primary action we wanted to drive was uploading. Contributing to a shared library is what makes it valuable, so the upload button sits at the top of the page, always visible, never buried. Everything else is in service of helping people find what they're looking for once they arrive: search for a specific pattern, filter by subject or type, sort by what matters to you. The tools are there when you need them and out of the way when you don't.
 
-The same design principle that guided the rest of the platform applies here: keep the UI as quiet as possible and let the content do the work. The cards are driven by craft photography — colourful, detailed, visually rich — so the surrounding interface stays clean and out of the way.
+The bigger decision was at the card level. With this many patterns on screen at once, individual cards needed to carry only the essentials — the name, who shared it, and a thread opener to invite conversation. Anything beyond that risked turning a browsable grid into a wall of information. Less obvious actions (save, download, report) are tucked behind a three-dot menu. The result is a page that reads as content first: the craft photography on each card does the visual work, and the interface stays quiet enough to let it.
 
 <div class="body-image-full">
   <img src="/portfolio/images/Tedooo-Patterns-1.jpg" alt="Tedooo Patterns listing page with pro upsell" />
