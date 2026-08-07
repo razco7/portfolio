@@ -151,6 +151,10 @@ The bigger decision was at the card level. With this many patterns on screen at 
   <img src="/portfolio/images/Tedooo-Patterns-3.jpg" alt="Tedooo Patterns upload modal" />
 </div>
 
+<div class="body-image-full">
+  <img src="/portfolio/images/Tedooo-Patterns-4.jpg" alt="Tedooo Patterns — pattern discussion thread and three-dot action menu" />
+</div>
+
 ## Shop Creation
 
 Getting a new seller set up on Tedooo meant asking for a lot: account type, location, currency, contact details, and at least one item listed before they could start selling. That's a lot of commitment upfront. The challenge was making it feel manageable and even enjoyable — not like a form to get through, but like a setup that's actually worth completing.
