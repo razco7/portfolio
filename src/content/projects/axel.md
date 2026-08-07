@@ -1,7 +1,7 @@
 ---
 title: "Axel"
 tagline: "Seller listing flow for a full-service car marketplace."
-type: "Automotive Sales Platform"
+type: "Automotive"
 role: "Product Design, Design System"
 order: 1
 bgColor: "#E0ECFF"
