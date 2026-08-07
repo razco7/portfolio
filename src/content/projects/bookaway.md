@@ -5,7 +5,7 @@ type: "Transportation"
 role: "Design Leadership, Mentoring & Hiring"
 order: 3
 bgColor: "#FFF0E6"
-accentColor: "#F04E00"
+accentColor: "#FE5E00"
 darkTheme: false
 coverImage: "Bookaway-cover.jpg"
 teaserImage: "Bookaway-cover.jpg"
