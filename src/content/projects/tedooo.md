@@ -133,7 +133,7 @@ The second challenge was length. The flow covers a lot of ground — category se
 
 ## Patterns & Projects
 
-Patterns is a dedicated space for crafters to share and discover pattern files and project guides. The library grows fast — there are a lot of them — which made the core design challenge less about what to show and more about how to keep it from feeling overwhelming.
+Patterns is a dedicated space for crafters to share and discover pattern files and project guides. The library grows fast, so the core design challenge was less about what to show than how to keep it from overwhelming.
 
 The primary action we wanted to drive was uploading. Contributing to a shared library is what makes it valuable, so the upload button sits at the top of the page, always visible, never buried. Everything else is in service of helping people find what they're looking for once they arrive: search for a specific pattern, filter by subject or type, sort by what matters to you. The tools are there when you need them and out of the way when you don't.
 
@@ -211,7 +211,7 @@ The longer-term vision was to go further — pulling in shop profile details and
 
 ## Outcome
 
-Over roughly eight months, this work took Tedooo from almost no web presence to a full platform — feed, communities, marketplace, Patterns, and AI Vision — across desktop and mobile web, along with the design system underneath it all.
+Over roughly eight months, I designed Tedooo's entire web platform from scratch — feed, communities, marketplace, Patterns, and AI Vision, across desktop and mobile web — along with the design system underneath it all.
 
 Building the design system was a major part of the project in its own right. It was built from scratch, in parallel with the product work — each new surface informed the system, and the system shaped each new surface. The philosophy running through it matches the platform's core challenge: when there's this much user-generated content on screen, the UI needs to earn its quiet. The system leans on dark buttons, a restrained palette, and components that recede by default. The teal brand colour is still there — and used deliberately for moments that need a boost — but the baseline is a UI that doesn't compete with the community's work for attention.
 
@@ -221,8 +221,6 @@ The throughline across all of it was the same principle I started with: with thi
 
 ## What I'd Do Differently
 
-The design system was built alongside the product work rather than before it — which is the natural consequence of the project growing incrementally from a specific brief into a full platform. In hindsight, a better approach would have been to map the full scope first: look at every surface that would eventually need to exist, understand the range of UI contexts, and make design system decisions with that breadth in mind before the first component was built.
+The design system was built alongside the product work rather than before it — the natural consequence of a project that grew incrementally from a specific brief into a full platform. In hindsight I'd have mapped the full scope first: the range here was unusually wide — a social platform, an ecommerce marketplace, and a seller dashboard under one roof, each with genuinely different component needs — and making system decisions with that breadth in mind from the start would have saved real retrofitting later.
 
-That's harder in practice than in theory. You can't always know upfront how a project will expand, and this one grew considerably from where it started. But the range here was unusually wide — a social platform, an ecommerce marketplace, and a seller dashboard all living under one roof, each with genuinely different component needs and interaction patterns. Starting with a broader audit and building with that scale in mind from the beginning would have saved real retrofitting work later.
-
-The practical lesson: even when you can't predict the full scope, treating the design system as a strategic foundation rather than something that accumulates behind the product work makes a meaningful difference over the course of a long engagement.
+The lesson: even when you can't predict the full scope, treating the design system as a strategic foundation rather than something that accumulates behind the product work makes a meaningful difference over a long engagement.
