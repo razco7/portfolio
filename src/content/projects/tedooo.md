@@ -202,3 +202,11 @@ The longer-term vision was to go further — pulling in shop profile details and
 <div class="body-image-full">
   <img src="/portfolio/images/Seller-hub-mobile.jpg" alt="Seller Hub on mobile — items, nav, bulk actions and section management" />
 </div>
+
+## Outcome
+
+Over roughly eight months, this work took Tedooo from almost no web presence to a full platform — feed, communities, marketplace, Patterns, and AI Vision — across desktop and mobile web, along with the design system underneath it all.
+
+The working process was tight: I designed each surface for desktop and mobile, and for some flows I'd design the desktop version and hand it to a developer who built the mobile version with AI assistance, which I'd then review. It kept a small team moving fast across a lot of surface area. Most of this shipped to production toward the end of the engagement, which wound down when the product manager I worked with left the company.
+
+Designing an entire web platform from scratch — social and commerce, guest and logged-in, across screen sizes — the throughline was the principle I started with: with this much user-generated content, the interface's job is to get out of the way and let the community's work carry the experience.
