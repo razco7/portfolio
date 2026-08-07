@@ -213,6 +213,16 @@ The longer-term vision was to go further — pulling in shop profile details and
 
 Over roughly eight months, this work took Tedooo from almost no web presence to a full platform — feed, communities, marketplace, Patterns, and AI Vision — across desktop and mobile web, along with the design system underneath it all.
 
+Building the design system was a major part of the project in its own right. It was built from scratch, in parallel with the product work — each new surface informed the system, and the system shaped each new surface. The philosophy running through it matches the platform's core challenge: when there's this much user-generated content on screen, the UI needs to earn its quiet. The system leans on dark buttons, a restrained palette, and components that recede by default. The teal brand colour is still there — and used deliberately for moments that need a boost — but the baseline is a UI that doesn't compete with the community's work for attention.
+
 The working process was tight: I designed each surface for desktop and mobile, and for some flows I'd design the desktop version and hand it to a developer who built the mobile version with AI assistance, which I'd then review. It kept a small team moving fast across a lot of surface area. Most of this shipped to production toward the end of the engagement, which wound down when the product manager I worked with left the company.
 
-Designing an entire web platform from scratch — social and commerce, guest and logged-in, across screen sizes — the throughline was the principle I started with: with this much user-generated content, the interface's job is to get out of the way and let the community's work carry the experience.
+The throughline across all of it was the same principle I started with: with this much user-generated content, the interface's job is to get out of the way and let the community's work carry the experience.
+
+## What I'd Do Differently
+
+The design system was built alongside the product work rather than before it — which is the natural consequence of the project growing incrementally from a specific brief into a full platform. In hindsight, a better approach would have been to map the full scope first: look at every surface that would eventually need to exist, understand the range of UI contexts, and make design system decisions with that breadth in mind before the first component was built.
+
+That's harder in practice than in theory. You can't always know upfront how a project will expand, and this one grew considerably from where it started. But the range here was unusually wide — a social platform, an ecommerce marketplace, and a seller dashboard all living under one roof, each with genuinely different component needs and interaction patterns. Starting with a broader audit and building with that scale in mind from the beginning would have saved real retrofitting work later.
+
+The practical lesson: even when you can't predict the full scope, treating the design system as a strategic foundation rather than something that accumulates behind the product work makes a meaningful difference over the course of a long engagement.
