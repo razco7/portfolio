@@ -2,7 +2,7 @@
 title: "Bookaway"
 tagline: "Mentoring, hiring, and building design culture across a multi-brand travel group."
 type: "Transportation"
-role: "Design Leadership, Mentoring & Hiring"
+role: "Hands-on Product Design, Design Leadership, Mentoring & Hiring"
 order: 3
 bgColor: "#FFF0E6"
 accentColor: "#FE5E00"
