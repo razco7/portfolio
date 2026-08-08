@@ -41,6 +41,14 @@ Bookaway's search is where the hardest product thinking lives, because a travele
 
 I created a vision for how the search results should work — a direction for surfacing those variables as simply as possible — which was then handed to a designer on the team to develop into a full-scope redesign. Setting the direction and handing it off for execution was itself part of the role: not designing every screen, but establishing the thinking the team builds on.
 
+<div class="body-image-full">
+  <img src="/portfolio/images/Bookaway-search-vision-A.jpg" alt="Bookaway search vision — option A" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Bookaway-search-vision-B.jpg" alt="Bookaway search vision — option B" style="border: 1px solid #f0f0f0;" />
+</div>
+
 ## Mentoring
 
 Mentoring was where the engagement began, and it stayed a constant throughout. Over the period I mentored two designers on the team, meeting weekly with each.
