@@ -20,7 +20,7 @@ description: "Mentoring, hiring, and building design culture across a multi-bran
 
 ## Overview & Context
 
-Bookaway is a ground-transportation booking platform — buses, ferries, trains, and transfers across destinations where getting from A to B is often the hardest part of a trip. It sits inside Travelier, a larger travel group with several brands under one roof, including OneToGo and Citos.
+Bookaway is a transportation booking platform — buses, ferries, trains, transfers, and flights across destinations where getting from A to B is often the hardest part of a trip. It sits inside Travelier, a larger travel group with several brands under one roof, including OneToGo and Citos.
 
 My engagement here was different from a typical project. It started in 2024 as a mentoring relationship with the designer already on the team, and grew from there — into hands-on product work, running the company's design guild, leading hiring for the design team, and shaping how the team adopts AI. Over time it became something closer to fractional design leadership: working across the full spectrum, from individual-contributor design through team-lead and director-level responsibilities.
 
