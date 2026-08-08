@@ -12,6 +12,7 @@ const projects = defineCollection({
     accentColor: z.string(),
     darkTheme: z.boolean().default(false),
     coverImage: z.string().optional(),
+    coverBorder: z.boolean().optional(),
     teaserImage: z.string().optional(),
     images: z.array(z.string()).default([]),
     imageAlts: z.array(z.string()).default([]),

@@ -8,6 +8,7 @@ bgColor: "#FFF0E6"
 accentColor: "#FE5E00"
 darkTheme: false
 coverImage: "Bookaway-RLP.jpg"
+coverBorder: true
 teaserImage: "Bookaway-cover.jpg"
 images: []
 imageAlts: []

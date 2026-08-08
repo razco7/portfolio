@@ -19,7 +19,7 @@ const {
 
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const hasBody = project.body.trim().length > 0;
-const { coverImage } = project.data;
+const { coverImage, coverBorder } = project.data;
 
 const allProjects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order);
 const currentIndex = allProjects.findIndex((p) => p.slug === project.slug);
@@ -44,7 +44,7 @@ const nextProject = currentIndex < allProjects.length - 1 ? allProjects[currentI
 
   {coverImage && (
     <div class="detail-cover">
-      <img src={`${base}images/${coverImage}`} alt={title} />
+      <img src={`${base}images/${coverImage}`} alt={title} style={coverBorder ? 'border: 1px solid #f0f0f0;' : ''} />
     </div>
   )}
 
