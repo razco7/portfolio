@@ -35,6 +35,14 @@ A few of the projects:
 
 **Where to Next.** A post-booking feature: after payment, instead of a dead-end confirmation, travelers see a "thank you" that surfaces other destinations people have traveled to from there — turning the end of one booking into the start of the next.
 
+<div class="body-image-full">
+  <img src="/portfolio/images/Bookaway-thank-you.jpg" alt="Bookaway Where to Next — thank you page" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Bookaway-thank-you-pop.jpg" alt="Bookaway Where to Next — destination detail pop-up" />
+</div>
+
 ## Setting Direction — the Search Vision
 
 Bookaway's search is where the hardest product thinking lives, because a traveler comparing transportation options is weighing several things at once: price, type of transport, total journey time, and departure frequency — a bus might run every half hour, while a route with flights may only have one or two departures a day. All of that has to be legible enough to make a confident choice quickly.
