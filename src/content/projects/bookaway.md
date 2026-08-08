@@ -7,7 +7,7 @@ order: 3
 bgColor: "#FFF0E6"
 accentColor: "#FE5E00"
 darkTheme: false
-coverImage: "Bookaway-cover.jpg"
+coverImage: "Bookaway-RLP.jpg"
 teaserImage: "Bookaway-cover.jpg"
 images: []
 imageAlts: []
