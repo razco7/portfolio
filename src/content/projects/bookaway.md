@@ -7,7 +7,7 @@ order: 3
 bgColor: "#FFF0E6"
 accentColor: "#FE5E00"
 darkTheme: false
-coverImage: "Bookaway-RLP.jpg"
+coverImage: "Bookaway_Banner.jpg"
 coverBorder: true
 teaserImage: "Bookaway-cover.jpg"
 images: []
@@ -32,6 +32,10 @@ Alongside the leadership work, I designed hands-on across the product, working w
 A few of the projects:
 
 **Search landing pages.** Much of Bookaway's traffic arrives from Google — someone searching "how to get from X to Y" lands directly on a route page. I redesigned these pages to make the decision easier at a glance: the available transportation types, what each costs, and how long each takes, presented so a traveler can weigh their options without hunting for the information.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Bookaway-RLP.jpg" alt="Bookaway route landing page redesign" style="border: 1px solid #f0f0f0;" />
+</div>
 
 **Where to Next.** A post-booking feature: after payment, instead of a dead-end confirmation, travelers see a "thank you" that surfaces other destinations people have traveled to from there — turning the end of one booking into the start of the next.
 
