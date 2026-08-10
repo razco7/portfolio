@@ -49,6 +49,8 @@ A few of the projects:
   <img src="/portfolio/images/Bookaway-thank-you-pop.jpg" alt="Bookaway Where to Next — destination detail pop-up" />
 </div>
 
+<br><br>
+
 ## Setting Direction — the Search Vision
 
 Bookaway's search is where the hardest product thinking lives, because a traveler comparing transportation options is weighing several things at once: price, type of transport, total journey time, and departure frequency — a bus might run every half hour, while a route with flights may only have one or two departures a day. All of that has to be legible enough to make a confident choice quickly.
