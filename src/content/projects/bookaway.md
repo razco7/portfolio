@@ -79,7 +79,7 @@ The home assignment itself was written by the VP Product; I reviewed and refined
 
 ## The Design Guild
 
-The guild was an initiative of the VP Product (now CEO), who wanted a way to bring the group's designers together — to share knowledge, learn from each other, and raise the level of the craft across the brands. I built and ran it.
+The guild was an initiative of the VP Product (now CPO), who wanted a way to bring the group's designers together — to share knowledge, learn from each other, and raise the level of the craft across the brands. I built and ran it.
 
 It brought together the seven or eight designers across Travelier's brands, meeting monthly for over a year. Each session was a chance to showcase work, exchange approaches, and occasionally host outside guests presenting ideas from beyond the company. For a design team spread across multiple brands and products, the guild became the connective tissue — a regular place for a group that would otherwise rarely be in the same room to actually function as one design community.
 
