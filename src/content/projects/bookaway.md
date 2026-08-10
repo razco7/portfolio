@@ -83,10 +83,6 @@ The guild was an initiative of the VP Product (now CPO), who wanted a way to bri
 
 It brought together the ten designers and UX researchers across Travelier's brands, meeting monthly for over a year. Each session was a chance to showcase work, exchange approaches, and occasionally bring in guest lecturers from outside the company. For a design team spread across multiple brands and products, the guild became the connective tissue — a regular place for a group that would otherwise rarely be in the same room to actually function as one design community.
 
-<div class="body-image-full">
-  <img src="/portfolio/images/Bookaway-guild-topics.jpg" alt="Bookaway Design Guild — topic interest survey results" style="border: 1px solid #f0f0f0;" />
-</div>
-
 ## Rethinking the Workflow with AI
 
 The most strategic piece of the engagement was helping define how the design team should work with AI.
