@@ -37,7 +37,7 @@ A few of the projects:
   <img src="/portfolio/images/Bookaway-RLP.jpg" alt="Bookaway route landing page redesign" style="border: 1px solid #f0f0f0;" />
 </div>
 
-<div style="margin-top: 2.5rem;"></div>
+<br><br>
 
 **Where to Next.** A post-booking feature: after payment, instead of a dead-end confirmation, travelers see a "thank you" that surfaces other destinations people have traveled to from there — turning the end of one booking into the start of the next.
 
