@@ -77,7 +77,7 @@ When the design team needed to grow, I led the hiring on the design side. I revi
 
 The home assignment itself was written by the VP Product; I reviewed and refined it, suggesting changes that were incorporated before it went out. Across the search, roughly half a dozen candidates were interviewed for the role.
 
-<div class="body-image-inline">
+<div class="body-image-inline" style="max-width: 720px;">
   <img src="/portfolio/images/Hiring-funnel.jpg" alt="Bookaway hiring funnel — stages from portfolio review to HR interview" />
 </div>
 
