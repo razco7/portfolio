@@ -204,7 +204,6 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
   line-height: 28px;
   margin: 0;
   color: #222;
-  white-space: nowrap;
 }
 .project-meta p.dark { color: #fff; }
 .project-meta a { color: inherit; }
