@@ -77,6 +77,10 @@ When the design team needed to grow, I led the hiring on the design side. I revi
 
 The home assignment itself was written by the VP Product; I reviewed and refined it, suggesting changes that were incorporated before it went out. Across the search, roughly half a dozen candidates were interviewed for the role.
 
+<div class="body-image-inline">
+  <img src="/portfolio/images/Hiring-funnel.jpg" alt="Bookaway hiring funnel — stages from portfolio review to HR interview" />
+</div>
+
 ## The Design Guild
 
 The guild was an initiative of the VP Product (now CPO), who wanted a way to bring the group's designers together — to share knowledge, learn from each other, and raise the level of the craft across the brands. I built and ran it.
