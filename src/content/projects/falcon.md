@@ -14,7 +14,7 @@ client: "Falcon"
 year: "2024 – 2025"
 externalLink: "https://www.falconlabs.com/"
 externalLinkLabel: "Visit website"
-description: "From logo to product — turning the post-purchase confirmation page into a branded gift moment."
+description: "From logo to product — designing the gift moment that lives on the post-purchase confirmation page, connecting e-commerce brands to premium partners like Paramount+, Netflix, and Disney+."
 ---
 
 ## Overview & Context
