@@ -48,6 +48,18 @@ The other challenge was earlier in the flow: how do you tell someone they've jus
   <img src="/portfolio/images/Falcon-Lightricks-mobile.jpg" alt="Lightricks mobile — post-subscription perk moment approaches" />
 </div>
 
+## Zoog — Bundle Subscription Approaches
+
+Zoog is a children's streaming platform. The integration challenge here was different: rather than surfacing a third-party gift at checkout, the goal was to get subscribers to choose the annual plan (Zoog+ with Disney+ included) over the monthly one — and to use the bundled perk as the conversion lever.
+
+The core strategy was the power of default: in every variant, the 12-month bundle was pre-selected. The question was which UI pattern would make that feel most natural and drive the highest annual conversion. We explored four approaches:
+
+A **tab switch** (Zoog+ vs Bundle) that leads straight into a preselected 12-month bundle with Disney+ shown as free. A **radio sub-selection** within the annual tier, letting users choose which free add-on they want — Disney+, Netflix, Paramount+, Amazon Prime, or no thanks — before committing. A **two-option radio** between 12-month and 1-month bundles, making the annual option visually dominant. And a **toggle** labelled "Show Disney+ bundle" — on by default — that reveals the bundle pricing beneath.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Falcon-Zoog.jpg" alt="Zoog — four approaches to bundle subscription with annual plan preselected" />
+</div>
+
 ## Outcome
 
 The engagement ran across 2024 and 2025, covering multiple partner integrations and a range of brand and placement configurations. The core challenge throughout was consistent: making a gift feel genuinely valuable at the moment a user is most open to receiving it.
