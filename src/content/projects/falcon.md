@@ -1,8 +1,8 @@
 ---
 title: "Falcon"
-tagline: "Designing how brands deliver post-purchase gifts — and the moment that makes them feel worth unlocking."
+tagline: "From logo to product — designing how brands deliver post-purchase gifts and the moments that make them feel worth unlocking."
 type: "AdTech"
-role: "Product Design"
+role: "Logo Design, Product Design"
 order: 5
 bgColor: "#FFF0ED"
 accentColor: "#F55A38"
@@ -12,7 +12,7 @@ images: []
 imageAlts: []
 client: "Falcon"
 year: "2024 – 2025"
-description: "Designing how brands deliver post-purchase gifts — and the moment that makes them feel worth unlocking."
+description: "From logo to product — designing how brands deliver post-purchase gifts and the moments that make them feel worth unlocking."
 ---
 
 ## Overview & Context
