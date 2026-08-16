@@ -41,7 +41,7 @@ One of the more complete integrations was with Lightricks, the company behind Fa
   <img src="/portfolio/images/Falcon-Lightricks-perks.jpg" alt="Lightricks Member Perks hub — desktop" style="border: 1px solid #f0f0f0;" />
 </div>
 
-On mobile, the challenge was earlier in the flow: how do you tell someone they've just unlocked perks the moment they subscribe, and get them to actually engage? We explored several approaches — from a minimal bottom sheet with a partner logo grid and a "Browse Perks" CTA, to a curated list of top trending offers, to a single highlighted perk (like a 21-day Paramount+ trial) with a direct claim button. Each variant was a different bet on what would drive more users from the subscription confirmation into the perks hub.
+The other challenge was earlier in the flow: how do you tell someone they've just unlocked perks the moment they subscribe, and get them to actually engage? We explored several approaches — from a minimal prompt with a partner logo grid and a "Browse Perks" CTA, to a curated list of top trending offers, to a single highlighted perk (like a 21-day Paramount+ trial) with a direct claim button. Each variant was a different bet on what would drive more users from the subscription confirmation into the perks hub. The screens below show these approaches demonstrated on mobile.
 
 <div class="body-image-full">
   <img src="/portfolio/images/Falcon-Lightricks-mobile.jpg" alt="Lightricks mobile — post-subscription perk moment approaches" />
