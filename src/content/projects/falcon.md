@@ -7,6 +7,7 @@ order: 5
 bgColor: "#FFF0ED"
 accentColor: "#F55A38"
 darkTheme: false
+coverImage: "Falcon-top.jpg"
 teaserImage: "Falcon-cover.jpg"
 images: []
 imageAlts: []
