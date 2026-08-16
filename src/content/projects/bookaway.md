@@ -4,7 +4,7 @@ tagline: "Mentoring, hiring, and building design culture across a multi-brand tr
 type: "Transportation"
 role: "Product Design, Leadership & Mentoring"
 order: 3
-bgColor: "#E8F4FF"
+bgColor: "#E2EDF5"
 accentColor: "#FE5E00"
 darkTheme: false
 coverImage: "Bookaway_Banner.jpg"
