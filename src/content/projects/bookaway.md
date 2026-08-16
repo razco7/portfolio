@@ -87,7 +87,7 @@ The guild was an initiative of the VP Product (now CPO), who wanted a way to bri
 
 It brought together the ten designers and UX researchers across Travelier's brands, meeting monthly for over a year. Each session was a chance to showcase work, exchange approaches, and occasionally bring in guest lecturers from outside the company. For a design team spread across multiple brands and products, the guild became the connective tissue — a regular place for a group that would otherwise rarely be in the same room to actually function as one design community.
 
-<div class="body-image-full">
+<div class="body-image-inline" style="max-width: 720px;">
   <img src="/portfolio/images/bookaway_guild_schedule.jpg" alt="Product Design Guild meeting schedule 2025–2026" />
 </div>
 
