@@ -33,6 +33,20 @@ A user subscribing to a streaming service has a different mindset than someone w
 
 We explored a range of approaches — different visual treatments, different moment framings, different ways to brand the offer so it felt like a reward rather than an ad. We collaborated with partner companies including FlightTricks, Underoutfit, and Zug, testing integrations across their checkout and subscription flows.
 
+## Lightricks — Perks Hub & Mobile Moments
+
+One of the more complete integrations was with Lightricks, the company behind Facetune. Lightricks subscribers get access to a dedicated perks area — a hub where members can browse and claim exclusive offers from partner brands including Disney+, Paramount+, Amazon Prime Video, Adobe Creative Cloud, Netflix, and Nord VPN. The desktop design for this hub had to make a catalogue of disparate offers feel cohesive and worth exploring, not like an affiliate page.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Falcon-Lightricks-perks.jpg" alt="Lightricks Member Perks hub — desktop" style="border: 1px solid #f0f0f0;" />
+</div>
+
+On mobile, the challenge was earlier in the flow: how do you tell someone they've just unlocked perks the moment they subscribe, and get them to actually engage? We explored several approaches — from a minimal bottom sheet with a partner logo grid and a "Browse Perks" CTA, to a curated list of top trending offers, to a single highlighted perk (like a 21-day Paramount+ trial) with a direct claim button. Each variant was a different bet on what would drive more users from the subscription confirmation into the perks hub.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Falcon-Lightricks-mobile.jpg" alt="Lightricks mobile — post-subscription perk moment approaches" />
+</div>
+
 ## Outcome
 
 The engagement ran across 2024 and 2025, covering multiple partner integrations and a range of brand and placement configurations. The core challenge throughout was consistent: making a gift feel genuinely valuable at the moment a user is most open to receiving it.
