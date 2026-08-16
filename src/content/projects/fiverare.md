@@ -4,7 +4,7 @@ tagline: "The art marketplace for creating & trading NFT."
 type: "Freelance Marketplace"
 role: "Concept & Design"
 company: "Fiverr"
-order: 5
+order: 6
 bgColor: "#d1d7e9"
 accentColor: "#0038ff"
 darkTheme: false
