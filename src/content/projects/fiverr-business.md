@@ -4,6 +4,7 @@ tagline: "Fiverr desktop app for businesses."
 type: "Conceptual"
 role: "Concept & Design"
 company: "Fiverr"
+year: "2022"
 order: 6
 bgColor: "#e3d2e9"
 accentColor: "#190e81"
