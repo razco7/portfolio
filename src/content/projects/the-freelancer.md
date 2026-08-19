@@ -9,6 +9,7 @@ bgColor: "#ffe1c3"
 accentColor: "#ff5d0c"
 darkTheme: false
 coverImage: "Freelancer-seller-profile.jpg"
+coverBorder: true
 teaserImage: "Freelancer-seller-profile.jpg"
 images: []
 imageAlts: []
