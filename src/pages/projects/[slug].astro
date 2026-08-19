@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 const { project } = Astro.props;
 const { Content } = await project.render();
 const {
-  title, tagline, type, role, client, year, bgColor, accentColor, darkTheme,
+  title, tagline, type, role, client, company, year, bgColor, accentColor, darkTheme,
   images, imageAlts, youtubeId, externalLink, externalLinkLabel,
 } = project.data;
 
@@ -62,6 +62,12 @@ const nextProject = currentIndex < allProjects.length - 1 ? allProjects[currentI
           <p class="detail-meta-label">Role</p>
           <p class="detail-meta-value">{role}</p>
         </div>
+        {company && (
+          <div class="detail-meta-item">
+            <p class="detail-meta-label">Company</p>
+            <p class="detail-meta-value">{company}</p>
+          </div>
+        )}
         {client && (
           <div class="detail-meta-item">
             <p class="detail-meta-label">Client</p>
