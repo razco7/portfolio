@@ -5,7 +5,7 @@ type: "Freelance Marketplace"
 role: "Director of Product Design"
 company: "Fiverr"
 year: "2021"
-order: 8
+order: 9
 bgColor: "#0f5533"
 accentColor: "#fff"
 darkTheme: true
