@@ -13,7 +13,7 @@ images: []
 imageAlts: []
 client: "Self-initiated"
 year: "2026"
-externalLink: ""
+externalLink: "https://apps.garmin.com/en-US/apps/05422d43-b50f-4324-b21e-3e7d9960db29"
 externalLinkLabel: "See on Connect IQ Store"
 description: "Surf Face is a Garmin Connect IQ watch face for surfers — live wave height, tide, wind, and water temperature for your spot, always visible without pulling out a phone."
 ---
