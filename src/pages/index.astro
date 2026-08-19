@@ -20,7 +20,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 
   <!-- Projects -->
   {projects.map((project) => {
-    const { title, tagline, type, role, client, company, bgColor, accentColor, darkTheme, coverImage, teaserImage, images, imageAlts, youtubeId, externalLink, externalLinkLabel, description } = project.data;
+    const { title, tagline, type, role, client, company, bgColor, accentColor, darkTheme, coverImage, teaserImage, images, imageAlts, youtubeId, externalLink, externalLinkLabel, externalOnly, description } = project.data;
     const metaClass = darkTheme ? 'dark' : '';
     return (
       <section class="project-section" style={`background-color: ${bgColor}`}>
@@ -96,11 +96,13 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
             <div class="project-desc">
               <p class={metaClass}>{description}</p>
             </div>
-            <p class={`project-case-link ${metaClass}`}>
-              <a href={`${base}projects/${project.slug}`}>
-                Read case study
-              </a>
-            </p>
+            {!externalOnly && (
+              <p class={`project-case-link ${metaClass}`}>
+                <a href={`${base}projects/${project.slug}`}>
+                  Read case study
+                </a>
+              </p>
+            )}
           </div>
         </div>
       </section>

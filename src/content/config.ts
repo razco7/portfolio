@@ -22,6 +22,7 @@ const projects = defineCollection({
     year: z.string().optional(),
     externalLink: z.string().optional(),
     externalLinkLabel: z.string().optional(),
+    externalOnly: z.boolean().optional(),
     description: z.string(),
   }),
 });
