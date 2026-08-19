@@ -48,6 +48,18 @@ The other challenge was earlier in the flow: how do you tell someone they've jus
   <img src="/portfolio/images/Falcon-Lightricks-mobile.jpg" alt="Lightricks mobile — post-subscription perk moment approaches" />
 </div>
 
+## Zoog — Bundle Subscription Approaches
+
+Zoog is a children's streaming platform. The integration challenge here was different: rather than surfacing a third-party gift at checkout, the goal was to get subscribers to choose the annual plan (Zoog+ with Disney+ included) over the monthly one — and to use the bundled perk as the conversion lever.
+
+The core strategy was the power of default: in every variant, the 12-month bundle was pre-selected. The question was which UI pattern would make that feel most natural and drive the highest annual conversion. We explored four approaches:
+
+A **tab switch** (Zoog+ vs Bundle) that leads straight into a preselected 12-month bundle with Disney+ shown as free. A **radio sub-selection** within the annual tier, letting users choose which free add-on they want — Disney+, Netflix, Paramount+, Amazon Prime, or no thanks — before committing. A **two-option radio** between 12-month and 1-month bundles, making the annual option visually dominant. And a **toggle** labelled "Show Disney+ bundle" — on by default — that reveals the bundle pricing beneath.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Falcon-Zoog.jpg" alt="Zoog — four approaches to bundle subscription with annual plan preselected" />
+</div>
+
 ## Underoutfit — Reusable Popover Component
 
 Working with Underoutfit, an apparel brand, moved the work toward something more systematic. Rather than designing a one-off integration, we started thinking about a reusable component — a popover structure that any partner brand could configure with their own colours and imagery.
@@ -60,18 +72,6 @@ This was a step toward scalability: a gift moment that felt genuinely on-brand f
   <img src="/portfolio/images/Falcon-Underoutfit-01.jpg" alt="Underoutfit popover — purple variant" style="border: 1px solid #f0f0f0;" />
   <img src="/portfolio/images/Falcon-Underoutfit-02.jpg" alt="Underoutfit popover — yellow variant" style="border: 1px solid #f0f0f0;" />
   <img src="/portfolio/images/Falcon-Underoutfit-03.jpg" alt="Underoutfit popover — green variant" style="border: 1px solid #f0f0f0;" />
-</div>
-
-## Zoog — Bundle Subscription Approaches
-
-Zoog is a children's streaming platform. The integration challenge here was different: rather than surfacing a third-party gift at checkout, the goal was to get subscribers to choose the annual plan (Zoog+ with Disney+ included) over the monthly one — and to use the bundled perk as the conversion lever.
-
-The core strategy was the power of default: in every variant, the 12-month bundle was pre-selected. The question was which UI pattern would make that feel most natural and drive the highest annual conversion. We explored four approaches:
-
-A **tab switch** (Zoog+ vs Bundle) that leads straight into a preselected 12-month bundle with Disney+ shown as free. A **radio sub-selection** within the annual tier, letting users choose which free add-on they want — Disney+, Netflix, Paramount+, Amazon Prime, or no thanks — before committing. A **two-option radio** between 12-month and 1-month bundles, making the annual option visually dominant. And a **toggle** labelled "Show Disney+ bundle" — on by default — that reveals the bundle pricing beneath.
-
-<div class="body-image-full">
-  <img src="/portfolio/images/Falcon-Zoog.jpg" alt="Zoog — four approaches to bundle subscription with annual plan preselected" />
 </div>
 
 ## Outcome
