@@ -7,15 +7,15 @@ order: 4
 bgColor: "#ffd6c7"
 accentColor: "#ff5d0c"
 darkTheme: false
-coverImage: "01.jpg"
-teaserImage: "sweetsalty_cover.jpg"
+coverImage: "SweetSalty-cover.jpg"
+teaserImage: "SweetSalty-teaser.jpg"
 images:
-  - "03.jpg"
-  - "11.jpg"
-  - "07A.jpg"
-  - "07B.jpg"
-  - "08.jpg"
-  - "404.jpg"
+  - "SweetSalty-browse.jpg"
+  - "SweetSalty-recipe-detail.jpg"
+  - "SweetSalty-card-layout.jpg"
+  - "SweetSalty-mobile-view.jpg"
+  - "SweetSalty-category.jpg"
+  - "SweetSalty-4SweetSalty-laptop-browse.jpg"
 imageAlts:
   - "Sweet/Salty all recipes browse page"
   - "Sweet/Salty recipe detail page"
@@ -37,7 +37,7 @@ Recipe sites are one of the most visited categories on the web — and also one 
 Sweet/Salty started as a Webflow project. I later redesigned it in Figma and rebuilt it with AI assistance into a live site running off GitHub — which also became a practical exercise in how much faster the whole process gets when AI is part of the workflow.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/04.jpg" alt="Sweet/Salty all recipes page on a laptop in a kitchen setting" />
+  <img src="/portfolio/images/SweetSalty-laptop-browse.jpg" alt="Sweet/Salty all recipes page on a laptop in a kitchen setting" />
 </div>
 
 ## My Role & Constraints
@@ -45,7 +45,7 @@ Sweet/Salty started as a Webflow project. I later redesigned it in Figma and reb
 Sole designer and developer — concept, visual design, and front-end build. Recipes and images are generated with AI as a starting point; I cook, write, and adjust each one before it goes live. No team, no external deadline. The main constraint was time: it had to be simple enough to maintain alone, but polished enough to feel like a finished product.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/06.jpg" alt="Sweet/Salty branding and design system" />
+  <img src="/portfolio/images/SweetSalty-design-system.jpg" alt="Sweet/Salty branding and design system" />
 </div>
 
 ## The Problem
@@ -55,7 +55,7 @@ The problem wasn't aesthetics — it was information architecture. Recipe sites 
 The real question was: what does a recipe site look like when it treats the user — not the search engine — as the primary audience?
 
 <div class="body-image-full">
-  <img src="/portfolio/images/13.jpg" alt="Sweet/Salty recipe page" />
+  <img src="/portfolio/images/SweetSalty-recipe-page.jpg" alt="Sweet/Salty recipe page" />
 </div>
 
 ## Key Decisions
@@ -69,7 +69,7 @@ The real question was: what does a recipe site look like when it treats the user
 **Mobile-first typography.** Most people cook from their phone with the screen propped up somewhere. Legibility at a glance, from arm's length, became the primary typographic constraint — large font sizes, high contrast, generous line spacing.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/7896.jpg" alt="Sweet/Salty recipe card grid showing titles, food photos, and category tags" />
+  <img src="/portfolio/images/SweetSalty-recipe-cards.jpg" alt="Sweet/Salty recipe card grid showing titles, food photos, and category tags" />
 </div>
 
 ## Outcome
@@ -77,7 +77,7 @@ The real question was: what does a recipe site look like when it treats the user
 The site is live and growing a small, real audience — readers arrive mostly through the site's Facebook community, where new recipes get shared and cooked, and traffic has been climbing since the site came back online after the AI rebuild. It remains the personal project I actually use myself — which is the only metric that matters for a side project.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/05.jpg" alt="Sweet/Salty brand visuals" />
+  <img src="/portfolio/images/SweetSalty-brand-visuals.jpg" alt="Sweet/Salty brand visuals" />
 </div>
 
 ## What I'd Do Differently

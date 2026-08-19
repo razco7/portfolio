@@ -8,11 +8,11 @@ bgColor: "#e3d2e9"
 accentColor: "#190e81"
 darkTheme: false
 images:
-  - "FIBApp_01.jpg"
-  - "FIBApp_02.jpg"
-  - "FIBApp_03.jpg"
-  - "FIBApp_04.jpg"
-  - "FIBApp_05.jpg"
+  - "FiverBiz-dashboard.jpg"
+  - "FiverBiz-project-overview.jpg"
+  - "FiverBiz-freelancer-discovery.jpg"
+  - "FiverBiz-team-management.jpg"
+  - "FiverBiz-order-details.jpg"
 imageAlts:
   - "Fiverr Business app — main dashboard"
   - "Fiverr Business app — project overview"

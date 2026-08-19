@@ -9,9 +9,9 @@ bgColor: "#d1d7e9"
 accentColor: "#0038ff"
 darkTheme: false
 images:
-  - "NFT_01.jpg"
-  - "NFT_02.jpg"
-  - "NFT_03.jpg"
+  - "Fiverare-homepage.jpg"
+  - "Fiverare-browse.jpg"
+  - "Fiverare-item-detail.jpg"
 imageAlts:
   - "Fiverare homepage — NFT marketplace concept"
   - "Fiverare browse page — NFT collections"

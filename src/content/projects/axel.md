@@ -7,15 +7,15 @@ order: 1
 bgColor: "#E0ECFF"
 accentColor: "#2C36ED"
 darkTheme: false
-coverImage: "Axel_LP.jpg"
-teaserImage: "Axel_cover.jpg"
+coverImage: "Axel-landing-page.jpg"
+teaserImage: "Axel-cover.jpg"
 images:
-  - "Axel_01-General.jpg"
-  - "Axel_02-Info-Condition.jpg"
-  - "Axel_03-Price.jpg"
-  - "Axel_04-Photos.jpg"
-  - "Axel_05-Additional-details.jpg"
-  - "Axel_06-Sign-up.jpg"
+  - "Axel-01-listing-general.jpg"
+  - "Axel-02-listing-condition.jpg"
+  - "Axel-03-listing-price.jpg"
+  - "Axel-04-listing-photos.jpg"
+  - "Axel-05-listing-details.jpg"
+  - "Axel-06-listing-signup.jpg"
 imageAlts:
   - "Axel listing flow — general information step"
   - "Axel listing flow — info and condition step"
@@ -67,7 +67,7 @@ Not every car — or every seller — is the right fit for Axel. Rather than let
 A persistent FAQ entry point in the top-right gives sellers a way to answer their own questions without derailing the flow. In a process with this many steps, ambient reassurance matters.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Axel_01-General.jpg" alt="Axel qualification and FAQ screens" />
+  <img src="/portfolio/images/Axel-01-listing-general.jpg" alt="Axel qualification and FAQ screens" />
 </div>
 
 <p class="section-label">Getting through the hard part</p>
@@ -83,7 +83,7 @@ Every screen has a Save & Exit option. Given that the core tension was abandonme
 Because the flow doesn't require sign-up at the start, there's no account to save progress to — so Save & Exit prompts for an email address, giving sellers a way to resume on any device. Progress is also written to local storage as a fallback: return to the flow on the same device without clearing your cache, and it picks up where it left off.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Axel_02-Info-Condition.jpg" alt="Axel info and condition screens" />
+  <img src="/portfolio/images/Axel-02-listing-condition.jpg" alt="Axel info and condition screens" />
 </div>
 
 **Structured photo guidance.**
@@ -91,7 +91,7 @@ Because the flow doesn't require sign-up at the start, there's no account to sav
 Photos are one of the biggest drop-off points in any listing flow. Axel requires a defined set of shots — VIN, dashboard, exterior angles, engine bay — enough to verify condition and build buyer trust, but nothing beyond what's actually necessary. Rather than presenting a blank upload screen, the flow walks sellers through each shot one at a time, with contextual instructions (where to find the VIN plate, how to frame the engine bay) and an approval step after each photo before moving on.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Axel_04-Photos.jpg" alt="Axel photo guidance screens" />
+  <img src="/portfolio/images/Axel-04-listing-photos.jpg" alt="Axel photo guidance screens" />
 </div>
 
 **Inline tips along the way.**
@@ -105,7 +105,7 @@ Rather than front-loading instructions, contextual tips appear at the relevant s
 After completing the first section, sellers receive a market-based price recommendation — but not just a single number. The screen shows three anchored options: trade-in value, the price most sellers choose (highlighted as recommended), and the top of the market. Presenting the range gives sellers agency while the recommendation reduces decision paralysis. It also makes the output feel like advice rather than just data.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Axel_03-Price.jpg" alt="Axel three-tier price presentation screens" />
+  <img src="/portfolio/images/Axel-03-listing-price.jpg" alt="Axel three-tier price presentation screens" />
 </div>
 
 **Closing the loop after submission.**
@@ -113,7 +113,7 @@ After completing the first section, sellers receive a market-based price recomme
 The final screen isn't just a confirmation — it's a "What's next?" handoff that tells sellers exactly what Axel will do: evaluate the car's condition, syndicate the listing, and notify them when a buyer is ready to meet. This matters because a long form that ends abruptly feels like submitting into a void. The handoff screen closes the loop and earns the seller's patience for what comes after.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Axel_06-Sign-up.jpg" alt="Axel sign-up and confirmation screens" />
+  <img src="/portfolio/images/Axel-06-listing-signup.jpg" alt="Axel sign-up and confirmation screens" />
 </div>
 
 ## Outcome

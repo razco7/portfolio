@@ -7,13 +7,13 @@ order: 4
 bgColor: "#ede8f5"
 accentColor: "#410DA0"
 darkTheme: false
-coverImage: "FINQ_HP1_open.jpg"
-teaserImage: "FINQ_HP_close.jpg"
+coverImage: "FINQ-homepage-open.jpg"
+teaserImage: "FINQ-homepage-close.jpg"
 images:
-  - "FINQ_Onboarding_Desktop_1.jpg"
-  - "FINQ_Onboarding_Desktop_2.jpg"
-  - "FINQ_HP_sketch.jpg"
-  - "FINQ_Desktop_Improve_Table.jpg"
+  - "FINQ-onboarding-desktop-1.jpg"
+  - "FINQ-onboarding-desktop-2.jpg"
+  - "FINQ-homepage-sketch.jpg"
+  - "FINQ-desktop-improve-table.jpg"
 imageAlts:
   - "FINQ onboarding flow on desktop, step 1"
   - "FINQ onboarding flow on desktop, step 2"
@@ -33,7 +33,7 @@ FINQ is an AI-powered platform for managing retirement finances — pension fund
 I came in as a freelance designer alongside the in-house team, brought in to own specific, high-stakes areas of the product: the recommendation interface, the onboarding flow, and the homepage.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/FINQ_Onboarding_Desktop.jpg" alt="FINQ onboarding flow on desktop" />
+  <img src="/portfolio/images/FINQ-onboarding-desktop.jpg" alt="FINQ onboarding flow on desktop" />
 </div>
 
 ## The Problem
@@ -51,7 +51,7 @@ The core tension: a lot of information needs to be presented, but too much compl
 Users typically arrive with multiple financial products — pension funds, insurance policies, savings — each with its own recommendation. Presenting them as a flat list would have been overwhelming. Grouping them by product type created a clear hierarchy, letting users tackle one category at a time and reducing the cognitive load of the full picture.
 
 <div class="body-image-inline">
-  <img src="/portfolio/images/FINQ_specific-grouping.jpg" alt="FINQ recommendation page showing products grouped by type" />
+  <img src="/portfolio/images/FINQ-specific-grouping.jpg" alt="FINQ recommendation page showing products grouped by type" />
 </div>
 
 **Current vs. recommended, side by side.**
@@ -59,7 +59,7 @@ Users typically arrive with multiple financial products — pension funds, insur
 The recommendation page puts what you have now and what FINQ suggests in direct comparison. Users can see the delta — not just the recommendation, but what they'd be leaving behind and what they'd gain. Understanding what you're moving away from matters as much as understanding where you're going.
 
 <div class="body-image-inline">
-  <img src="/portfolio/images/FINQ_specific-replace.jpg" alt="FINQ current vs. recommended comparison view" />
+  <img src="/portfolio/images/FINQ-specific-replace.jpg" alt="FINQ current vs. recommended comparison view" />
 </div>
 
 **A concrete projection as the hook — but not a misleading one.**
@@ -71,7 +71,7 @@ Showing a real number gives users something tangible, but a single total sum wou
 Each recommendation surfaces a personalised rationale. Without an advisor to ask, users needed a reason to trust the suggestion. This signal was the trust layer — not generic marketing copy, but a specific explanation tied to the user's own situation.
 
 <div class="body-image-inline">
-  <img src="/portfolio/images/FINQ_specific-promise.jpg" alt="FINQ per-product projection showing monthly retirement income impact" />
+  <img src="/portfolio/images/FINQ-specific-promise.jpg" alt="FINQ per-product projection showing monthly retirement income impact" />
 </div>
 
 **Splitting products into separate screens on mobile.**
@@ -79,7 +79,7 @@ Each recommendation surfaces a personalised rationale. Without an advisor to ask
 On desktop, all product recommendations can live on one scrollable page with enough room to breathe. On mobile, that same layout becomes an exhausting scroll — too much to process before you've even acted on anything. The solution was to break the recommendations into individual screens on mobile, one product at a time, keeping focus tight and the decision manageable.
 
 <div class="body-image-inline">
-  <img src="/portfolio/images/FINQ_Mobile_Improve.jpg" alt="FINQ recommendation page on mobile" />
+  <img src="/portfolio/images/FINQ-mobile-improve.jpg" alt="FINQ recommendation page on mobile" />
 </div>
 
 <p class="section-label">Onboarding</p>
@@ -89,7 +89,7 @@ On desktop, all product recommendations can live on one scrollable page with eno
 The process of connecting your financial history is long. The onboarding was designed to frame the journey clearly — what you're about to do, why it matters, and what comes next — so users don't drop off before they've even started.
 
 <div class="body-image-inline">
-  <img src="/portfolio/images/FINQ_Onboarding_Mobile.jpg" alt="FINQ onboarding flow on mobile" />
+  <img src="/portfolio/images/FINQ-onboarding-mobile.jpg" alt="FINQ onboarding flow on mobile" />
 </div>
 
 <p class="section-label">The homepage</p>
@@ -99,7 +99,7 @@ The process of connecting your financial history is long. The onboarding was des
 The homepage is built to pull returning users back into an incomplete flow. A persistent component surfaces where they left off — "You're 57% through" — making it easy to continue rather than feel like they're starting over.
 
 <div class="body-image-inline">
-  <img src="/portfolio/images/FINQ_specific-progress.jpg" alt="FINQ homepage showing user's progress resuming their flow" />
+  <img src="/portfolio/images/FINQ-specific-progress.jpg" alt="FINQ homepage showing user's progress resuming their flow" />
 </div>
 
 ## Outcome
@@ -107,7 +107,7 @@ The homepage is built to pull returning users back into an incomplete flow. A pe
 The designs were completed and handed off within the project scope. The recommendation interface went from a complex, information-heavy spec to something legible enough to walk through without explanation — which was the brief.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/FINQ_Desktop_Improve.jpg" alt="FINQ recommendation page showing current vs. improved portfolio on desktop" />
+  <img src="/portfolio/images/FINQ-desktop-improve.jpg" alt="FINQ recommendation page showing current vs. improved portfolio on desktop" />
 </div>
 
 ## What I'd Do Differently

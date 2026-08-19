@@ -7,8 +7,8 @@ order: 2
 bgColor: "#B8E2E0"
 accentColor: "#007A7A"
 darkTheme: false
-coverImage: "Tedooo_top.jpg"
-teaserImage: "Tedooo_cover.jpg"
+coverImage: "Tedooo-top.jpg"
+teaserImage: "Tedooo-cover.jpg"
 images: []
 imageAlts: []
 client: "Tedooo"
@@ -39,11 +39,11 @@ The create post composer is where the hybrid nature of the platform shows up mos
 Supporting all these content types in one composer created real complexity. Each attachment type (photo, video, item, background) has its own mini-flow with its own decisions and states. The challenge was making all of that feel like one coherent thing rather than a branching maze of options.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo_01_feed_Desktop.jpg" alt="Tedooo feed on desktop with create post modal" />
+  <img src="/portfolio/images/Tedooo-feed-desktop.jpg" alt="Tedooo feed on desktop with create post modal" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo_01_feed_Mobile.jpg" alt="Tedooo feed and create post flow on mobile" />
+  <img src="/portfolio/images/Tedooo-feed-mobile.jpg" alt="Tedooo feed and create post flow on mobile" />
 </div>
 
 <p class="section-label">Communities</p>
@@ -51,11 +51,11 @@ Supporting all these content types in one composer created real complexity. Each
 Communities are the more focused side of the feed — groups organised around a specific craft or interest, like Knitting, Crochet, or Woodworking. Users can join communities that match their expertise, browse a feed scoped to that group, participate in group chats (both official community chats and related topic chats), and see a leaderboard of the most active contributors. It's closer to a forum or Facebook Group than a general feed — a place for more deliberate, expertise-driven interaction.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo_01_community_Desktop.jpg" alt="Tedooo communities on desktop showing community discovery modal" />
+  <img src="/portfolio/images/Tedooo-community-desktop.jpg" alt="Tedooo communities on desktop showing community discovery modal" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo_01_comunity_Mobile.jpg" alt="Tedooo communities on mobile showing feed, group chats and leaderboard" />
+  <img src="/portfolio/images/Tedooo-community-mobile.jpg" alt="Tedooo communities on mobile showing feed, group chats and leaderboard" />
 </div>
 
 ## Shopping

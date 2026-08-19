@@ -7,7 +7,7 @@ order: 3
 bgColor: "#E2EDF5"
 accentColor: "#FE5E00"
 darkTheme: false
-coverImage: "Bookaway_Banner.jpg"
+coverImage: "Bookaway-banner.jpg"
 coverBorder: true
 teaserImage: "Bookaway-cover.jpg"
 images: []
@@ -78,7 +78,7 @@ When the design team needed to grow, I led the hiring on the design side. I revi
 The home assignment itself was written by the VP Product; I reviewed and refined it, suggesting changes that were incorporated before it went out. Across the search, roughly half a dozen candidates were interviewed for the role.
 
 <div class="body-image-inline" style="max-width: 720px;">
-  <img src="/portfolio/images/Hiring-funnel.jpg" alt="Bookaway hiring funnel — stages from portfolio review to HR interview" />
+  <img src="/portfolio/images/Bookaway-hiring-funnel.jpg" alt="Bookaway hiring funnel — stages from portfolio review to HR interview" />
 </div>
 
 ## The Design Guild
@@ -88,7 +88,7 @@ The guild was an initiative of the VP Product (now CPO), who wanted a way to bri
 It brought together the ten designers and UX researchers across Travelier's brands, meeting monthly for over a year. Each session was a chance to showcase work, exchange approaches, and occasionally bring in guest lecturers from outside the company. For a design team spread across multiple brands and products, the guild became the connective tissue — a regular place for a group that would otherwise rarely be in the same room to actually function as one design community.
 
 <div class="body-image-full" style="max-width: 960px;">
-  <img src="/portfolio/images/bookaway_guild_schedule.jpg" alt="Product Design Guild meeting schedule 2025–2026" />
+  <img src="/portfolio/images/Bookaway-guild-schedule.jpg" alt="Product Design Guild meeting schedule 2025–2026" />
 </div>
 
 ## Rethinking the Workflow with AI

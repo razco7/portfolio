@@ -69,7 +69,7 @@ The component has a fixed anatomy: a brand photo at the top with the partner log
 This was a step toward scalability: a gift moment that felt genuinely on-brand for each partner without requiring a custom design from scratch every time.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Falcon_Underoutfit.jpg" alt="Underoutfit popover — three colour variants" />
+  <img src="/portfolio/images/Falcon-Underoutfit.jpg" alt="Underoutfit popover — three colour variants" />
 </div>
 
 ## Outcome
