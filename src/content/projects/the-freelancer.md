@@ -37,10 +37,6 @@ The concept was to decouple the seller's profile from the gig creation process. 
 
 If a piece of work takes ten hours and the seller charges sixty dollars an hour, the buyer sees a six hundred dollar starting price — without either side having to negotiate that from scratch. For more complex or unusual briefs, the custom offer flow (already familiar to both sides) handles the edge cases.
 
-<div class="body-image-full">
-  <img src="/portfolio/images/Freelancer-service-offering.jpg" alt="The Freelancer — service offering layout concept" />
-</div>
-
 ## The Setup Flow
 
 The seller onboarding is designed to be quick and progressive — you start broad and add detail over time.
@@ -86,3 +82,7 @@ The buyer side stays entirely familiar: they still browse services, see starting
 ## Outcome
 
 This was a concept — it never went into production. But it identified a genuine tension in how Fiverr's gig model works for sellers at scale: the more capable and versatile a freelancer is, the worse the current model represents them. The Freelancer explored what it might look like to fix that — making it easy for sellers to show everything they can do, while keeping the buyer experience clean, transactional, and familiar.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Freelancer-service-offering.jpg" alt="The Freelancer — resulting seller profile and service offering" style="border: 1px solid #f0f0f0;" />
+</div>
