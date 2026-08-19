@@ -1,7 +1,7 @@
 ---
 title: "The Freelancer"
 tagline: "Alternative way for freelancers to offer services on Fiverr."
-type: "Conceptual"
+type: "Freelance Marketplace"
 role: "Concept & Design"
 company: "Fiverr"
 year: "2023"
