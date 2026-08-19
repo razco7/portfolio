@@ -20,7 +20,7 @@ description: "Surf Face is a Garmin Connect IQ watch face for surfers — live w
 
 ## Overview & Context
 
-Surfers check conditions obsessively before a session — wave height, tide, wind direction — usually by pulling out a phone and opening two or three different apps. A watch face is the right form factor for this: always visible, no unlocking, no app-switching. The catch is that a watch face isn't really a normal software product — it's an embedded one, running on a 176×176 monochrome display with a hard battery budget, no persistent connection, and background execution the OS can silently kill at any time.
+Surfers check conditions obsessively before a session — wave height, tide, wind direction — usually by pulling out a phone and opening two or three different apps. A watch face is the right form factor for this: always visible, no unlocking, no app-switching. The catch is that a watch face isn't really a normal software product — it's an embedded one, running on a small MIP (Memory-In-Pixel) display with no persistent connection, and background execution the OS can silently kill at any time. The Garmin Instinct 3 is a solar-charged watch with up to two weeks of battery life, so power consumption itself wasn't the bottleneck — but the execution environment is still far more constrained than a mobile app.
 
 ## My Role & Constraints
 
