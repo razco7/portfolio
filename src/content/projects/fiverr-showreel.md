@@ -1,8 +1,10 @@
 ---
 title: "Fiverr Showreel"
 tagline: "Different projects & initiatives."
-type: "Showreel"
-role: "Art Direction"
+type: "Freelance Marketplace"
+role: "Director of Product Design"
+company: "Fiverr"
+year: "2021"
 order: 8
 bgColor: "#0f5533"
 accentColor: "#fff"
@@ -11,6 +13,7 @@ images: []
 youtubeId: "riisNQ2wq6I"
 externalLink: "https://youtube.com/watch?v=riisNQ2wq6I"
 externalLinkLabel: "Watch on YouTube"
+externalOnly: true
 description: "At the end of 2021 we gathered all the work we'd done that year and created the first Fiverr product design showreel. Selected projects were picked for this video and it showcases the variety and talent of the Product Design team at Fiverr."
 ---
 
