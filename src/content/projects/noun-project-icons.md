@@ -3,6 +3,7 @@ title: "Noun Project Icons"
 tagline: "Various icons."
 type: "Icons"
 role: "Design"
+client: "Self-initiated"
 order: 9
 bgColor: "#222"
 accentColor: "#fff"
