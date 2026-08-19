@@ -43,6 +43,24 @@ If a piece of work takes ten hours and the seller charges sixty dollars an hour,
   <img src="/portfolio/images/Freelancer-service-offering.jpg" alt="The Freelancer — service offering layout concept" />
 </div>
 
+## The Setup Flow
+
+The seller onboarding was designed to be quick and progressive — you start broad and add detail over time.
+
+**Step 1 — Introduce yourself.** Basic profile info: who you are, where you're from, a short bio about how you work. Work process matters here — buyers want to understand what it's like to work with someone, not just see their output.
+
+**Step 2 — Choose a talent area.** Fiverr's existing categories (Design, Music & Audio, Development, Marketing, etc.) structure the first choice. You pick one to start with. You can always add more later, but the idea is to anchor yourself somewhere first.
+
+**Step 3 — Select specific skills.** Within your chosen area, you pick the specific things you do — illustration, branding, photo editing, 3D modeling, whatever applies. These become the building blocks of your profile.
+
+**Step 4 — Upload work samples.** For each skill, you upload examples and tag them — "photo manipulation," "image editing," and so on. These aren't gig thumbnails; they're portfolio evidence, contextualised by the skill they demonstrate.
+
+**Step 5 — Set your pricing.** Here's where the model diverges most from the standard gig approach. Rather than pricing individual services, you set a rate per skill — how much you charge per hour for that type of work, and a minimum project price so you're never underselling a short engagement. Critically, you can price skills differently: Photoshop retouching might be $40/hour, while 3D modeling is $80/hour, reflecting the real difference in complexity or market rate.
+
+**Step 6 — Fiverr suggests services.** Based on your pricing and skill tags, Fiverr generates suggested service listings for you: "Basic retouch — 2 hours — starting at $80." You review and tweak them. As you adjust — extending the estimated time here, raising the minimum there — Fiverr learns how you price your work, and future suggestions get more accurate.
+
+The buyer side stays entirely familiar: they still browse services, see starting prices, and request custom offers when their needs are specific. The shift is entirely on the seller side, where setup goes from painstaking to fast.
+
 ## Outcome
 
 This was a concept — it never went into production. But it identified a genuine tension in how Fiverr's gig model works for sellers at scale: the more capable and versatile a freelancer is, the worse the current model represents them. The Freelancer explored what it might look like to fix that — making it easy for sellers to show everything they can do, while keeping the buyer experience clean, transactional, and familiar.
