@@ -1,7 +1,7 @@
 ---
 title: "Surf Face"
 tagline: "A Garmin watch face that puts live wave, tide, and wind conditions on your wrist."
-type: "Self-initiated"
+type: "Wearables"
 role: "Concept, Product Design, Development"
 order: 10
 bgColor: "#DCEEFF"
