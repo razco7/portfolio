@@ -37,10 +37,6 @@ The concept was to decouple the seller's profile from the gig creation process. 
 If a piece of work takes ten hours and the seller charges sixty dollars an hour, the buyer sees a six hundred dollar starting price — without either side having to negotiate that from scratch. For more complex or unusual briefs, the custom offer flow (already familiar to both sides) handles the edge cases.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Freelancer-seller-profile.jpg" alt="The Freelancer — seller profile page concept" />
-</div>
-
-<div class="body-image-full">
   <img src="/portfolio/images/Freelancer-service-offering.jpg" alt="The Freelancer — service offering layout concept" />
 </div>
 
