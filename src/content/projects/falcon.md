@@ -48,6 +48,20 @@ The other challenge was earlier in the flow: how do you tell someone they've jus
   <img src="/portfolio/images/Falcon-Lightricks-mobile.jpg" alt="Lightricks mobile — post-subscription perk moment approaches" />
 </div>
 
+## Underoutfit — Reusable Popover Component
+
+Working with Underoutfit, an apparel brand, moved the work toward something more systematic. Rather than designing a one-off integration, we started thinking about a reusable component — a popover structure that any partner brand could configure with their own colours and imagery.
+
+The component has a fixed anatomy: a brand photo at the top with the partner logo overlaid, then the offer logo (Paramount+ in this case), a two-line headline, and a CTA button. The colour of the button and the background tone of the image area are the configurable variables. Three colour directions were explored using Underoutfit's own product imagery — purple, yellow, and green — each pulling from a different mood while the structure stays identical underneath.
+
+This was a step toward scalability: a gift moment that felt genuinely on-brand for each partner without requiring a custom design from scratch every time.
+
+<div class="body-gallery">
+  <img src="/portfolio/images/Falcon-Underoutfit-01.jpg" alt="Underoutfit popover — purple variant" style="border: 1px solid #f0f0f0;" />
+  <img src="/portfolio/images/Falcon-Underoutfit-02.jpg" alt="Underoutfit popover — yellow variant" style="border: 1px solid #f0f0f0;" />
+  <img src="/portfolio/images/Falcon-Underoutfit-03.jpg" alt="Underoutfit popover — green variant" style="border: 1px solid #f0f0f0;" />
+</div>
+
 ## Zoog — Bundle Subscription Approaches
 
 Zoog is a children's streaming platform. The integration challenge here was different: rather than surfacing a third-party gift at checkout, the goal was to get subscribers to choose the annual plan (Zoog+ with Disney+ included) over the monthly one — and to use the bundled perk as the conversion lever.
