@@ -30,10 +30,6 @@ The idea was a native desktop app for businesses: always present on the desktop,
 
 The design direction was a hybrid: part Fiverr, part project management platform — somewhere between the marketplace and tools like Monday or Trello. The goal was to make managing freelance work feel like managing any other kind of work, with Fiverr's seller network as the resource layer underneath.
 
-<div class="body-image-full">
-  <img src="/portfolio/images/FiverBiz-dashboard.jpg" alt="Fiverr Business app — main dashboard" />
-</div>
-
 ## How It Worked
 
 The core unit was the **project**. You'd create a project, give it a name and a budget, and assign team members — both people from inside your company and Fiverr sellers you brought in for specific work.
@@ -50,6 +46,10 @@ The **freelancer discovery** experience was built into the project flow — so r
   <img src="/portfolio/images/FiverBiz-freelancer-discovery.jpg" alt="Fiverr Business app — freelancer discovery" />
 </div>
 
+<div class="body-image-full">
+  <img src="/portfolio/images/FiverBiz-gigs.jpg" alt="Fiverr Business app — favorite gigs and collections" />
+</div>
+
 **Team management** let you see the full picture in one place — internal team members and Fiverr sellers side by side, each with their role in the project.
 
 <div class="body-image-full">
@@ -57,6 +57,10 @@ The **freelancer discovery** experience was built into the project flow — so r
 </div>
 
 The app also included **budget and spend tracking**, a project chat so all communication stayed in context, and an order details view so you could see the status of every active engagement at a glance.
+
+<div class="body-image-full">
+  <img src="/portfolio/images/FiverBiz-chat.jpg" alt="Fiverr Business app — project view with chat panel" />
+</div>
 
 <div class="body-image-full">
   <img src="/portfolio/images/FiverBiz-order-details.jpg" alt="Fiverr Business app — order details" />
