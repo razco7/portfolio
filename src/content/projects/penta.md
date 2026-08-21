@@ -9,6 +9,8 @@ order: 11
 bgColor: "#EAEDF3"
 accentColor: "#1A2E5A"
 darkTheme: false
+coverImage: "Penta_Cover.jpg"
+teaserImage: "Penta_Cover.jpg"
 images: []
 imageAlts: []
 description: "How I identified the need, made the business case, and built the team that turned Fiverr's Photoshop toolkit into Penta — a team-owned design system with a dedicated designer, an engineering partnership, and full documentation."
