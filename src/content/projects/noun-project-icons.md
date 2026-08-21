@@ -14,6 +14,7 @@ imageAlts:
   - "Collection of custom icons published on Noun Project"
 externalLink: "https://thenounproject.com/razco7/"
 externalLinkLabel: "View on Noun Project"
+externalOnly: true
 description: "I've always loved creating illustrations and icons, so when I heard about the Noun Project, I just had to give it a try. Over the years I've created various icons — and I'm even making a bit of money from it!"
 ---
 
