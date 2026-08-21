@@ -22,6 +22,10 @@ When I joined Fiverr, "the design system" was a Photoshop UI toolkit — a share
 
 This is a leadership story more than a hands-on one. I identified the need, made the business case for the investment, created the design-system team, and set the direction. The hands-on build was led by a dedicated product designer working alongside a four-person engineering team — my role was to establish the function, secure the buy-in, and keep it aligned with where the product was going.
 
+<div class="body-image-full">
+  <img src="/portfolio/images/Penta_Old_UIKit.jpg" alt="Fiverr's original Photoshop UI toolkit — the starting point before Penta" />
+</div>
+
 ## The Problem
 
 A design system isn't a style guide — a style guide is one part of it. Fiverr had the style guide but not the system, and the gaps were starting to cost us.
