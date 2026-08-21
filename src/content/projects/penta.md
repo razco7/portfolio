@@ -6,9 +6,9 @@ role: "Director of Product Design"
 company: "Fiverr"
 year: "2018 – 2022"
 order: 7
-bgColor: "#E8FAF4"
-accentColor: "#1DBF73"
-darkTheme: false
+bgColor: "#0f5533"
+accentColor: "#fff"
+darkTheme: true
 coverImage: "Penta_Cover.jpg"
 teaserImage: "Penta_Cover.jpg"
 images: []
