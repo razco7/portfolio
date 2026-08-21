@@ -5,7 +5,7 @@ type: "Conceptual"
 role: "Concept & Design"
 company: "Fiverr"
 year: "2022"
-order: 7
+order: 8
 bgColor: "#e3d2e9"
 accentColor: "#190e81"
 darkTheme: false

@@ -5,7 +5,7 @@ type: "Freelance Marketplace"
 role: "Concept & Design"
 company: "Fiverr"
 year: "2023"
-order: 8
+order: 9
 bgColor: "#ffe1c3"
 accentColor: "#ff5d0c"
 darkTheme: false

@@ -4,7 +4,7 @@ tagline: "Various icons."
 type: "Icons"
 role: "Design"
 client: "Self-initiated"
-order: 10
+order: 11
 bgColor: "#222"
 accentColor: "#fff"
 darkTheme: true

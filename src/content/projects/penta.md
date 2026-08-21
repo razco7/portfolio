@@ -5,7 +5,7 @@ type: "Design System"
 role: "Director of Product Design"
 company: "Fiverr"
 year: "2018 – 2022"
-order: 11
+order: 7
 bgColor: "#EAEDF3"
 accentColor: "#1A2E5A"
 darkTheme: false
