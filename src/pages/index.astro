@@ -83,7 +83,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
             <div class="project-meta">
               {company && <p class={metaClass}>Company: {company}</p>}
               {client && <p class={metaClass}>Client: {client}</p>}
-              <p class={metaClass}>Industry: {type}</p>
+              {type && <p class={metaClass}>Industry: {type}</p>}
               <p class={metaClass}>Role: {role}</p>
               {externalLink && (
                 <p class={metaClass}>

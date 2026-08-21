@@ -54,10 +54,12 @@ const nextProject = currentIndex < allProjects.length - 1 ? allProjects[currentI
     <!-- Meta: type, role, client, year + link button below -->
     <div class="detail-meta">
       <div class="detail-meta-row">
-        <div class="detail-meta-item">
-          <p class="detail-meta-label">Project type</p>
-          <p class="detail-meta-value">{type}</p>
-        </div>
+        {type && (
+          <div class="detail-meta-item">
+            <p class="detail-meta-label">Project type</p>
+            <p class="detail-meta-value">{type}</p>
+          </div>
+        )}
         <div class="detail-meta-item">
           <p class="detail-meta-label">Role</p>
           <p class="detail-meta-value">{role}</p>
