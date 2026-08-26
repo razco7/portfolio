@@ -75,12 +75,12 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 }
 .hero-heading a:hover { text-decoration: underline; }
 
-.raz-link {
+.hero-heading .raz-link {
   color: #FF8B6A;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-.raz-link:hover { color: #FF8B6A; opacity: 0.8; }
+.hero-heading .raz-link:hover { opacity: 0.8; }
 .raz-hover {
   position: relative;
   cursor: default;
