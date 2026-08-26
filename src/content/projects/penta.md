@@ -60,7 +60,7 @@ With the investment secured, the build came down to five moves.
 
 **Build it together.** Penta was built as a partnership between design and engineering, with a contribution model that let people across both disciplines take part in improving it — so it became a shared asset the organization owned, not a library handed down from one team.
 
-**Document everything.** Everything lived in a single, accessible place — guidelines, examples, and onboarding material — so new designers and engineers could get started, catch up, and contribute without needing someone to explain the system to them.
+**Document everything.** Everything lived in Notion — guidelines, examples, and onboarding material — so new designers and engineers could get started, catch up, and contribute without needing someone to explain the system to them.
 
 <div class="body-image-inline" style="max-width: 796px;">
   <img src="/portfolio/images/Penta_Doc.jpg" alt="Penta design system documentation" />
