@@ -76,11 +76,11 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 .hero-heading a:hover { text-decoration: underline; }
 
 .hero-heading .raz-link {
-  color: #FF8B6A;
+  color: #353535;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-.hero-heading .raz-link:hover { opacity: 0.8; }
+.hero-heading .raz-link:hover { color: #FF8B6A; }
 .raz-hover {
   position: relative;
   cursor: default;
