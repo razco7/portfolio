@@ -13,7 +13,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
   <section class="hero">
     <div class="hero-inner">
       <h1 class="hero-heading">
-        Hi, <span class="raz-hover"><a href={`${base}about`} class="raz-link">I'm Raz</a><img class="raz-popover" src={`${base}images/Raz_in_a_circle.png`} alt="Raz Cohen" /></span>. Product design leader &amp; consultant to startups. Design lecturer at Shenkar. Previously director of product design at Fiverr.
+        <span class="hero-scramble">Hi, </span><span class="raz-hover"><a href={`${base}about`} class="raz-link">I'm Raz</a><img class="raz-popover" src={`${base}images/Raz_in_a_circle.png`} alt="Raz Cohen" /></span><span class="hero-scramble">. Product design leader &amp; consultant to startups. Design lecturer at Shenkar. Previously director of product design at Fiverr.</span>
       </h1>
     </div>
   </section>
@@ -130,30 +130,29 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
     });
   }
 
-  // ── Raz link character scramble ──
-  const razLink = document.querySelector<HTMLAnchorElement>('.raz-link');
-  if (razLink) {
-    const symbols = '!@#$%&?~±§€£©∞√∑∆µ∂≈÷×★◆♦♠♣✦✿❋';
-    const original = razLink.textContent || '';
-    razLink.innerHTML = original.split('').map((ch) =>
-      ch === ' ' || ch === "'" ? `<span class="raz-char raz-char--fixed">${ch}</span>` : `<span class="raz-char" data-orig="${ch}">${ch}</span>`
+  // ── Hero text character scramble ──
+  const symbols = '!@#$%&?~±§€£©∞√∑∆µ∂≈÷×★◆♦♠♣✦✿❋';
+  const randomSym = () => symbols[Math.floor(Math.random() * symbols.length)];
+  const randBetween = (a: number, b: number) => a + Math.random() * (b - a);
+
+  document.querySelectorAll<HTMLElement>('.hero-scramble').forEach((block) => {
+    const original = block.textContent || '';
+    block.innerHTML = original.split('').map((ch) =>
+      ch === ' ' ? ' ' : `<span class="raz-char" data-orig="${ch}">${ch}</span>`
     ).join('');
 
-    const charSpans = Array.from(razLink.querySelectorAll<HTMLElement>('.raz-char:not(.raz-char--fixed)'));
+    const charSpans = Array.from(block.querySelectorAll<HTMLElement>('.raz-char'));
     const timers: ReturnType<typeof setInterval>[] = [];
     let entered = false;
 
-    const randomSym = () => symbols[Math.floor(Math.random() * symbols.length)];
-    const randBetween = (a: number, b: number) => a + Math.random() * (b - a);
-
-    razLink.addEventListener('mouseenter', () => {
+    block.addEventListener('mouseenter', () => {
       entered = true;
       charSpans.forEach((span, i) => {
         setTimeout(() => {
           if (!entered) return;
           const drift = () => {
             span.textContent = randomSym();
-            span.style.color = '#FF69B4';
+            span.style.color = '#FF8B6A';
             const rot = randBetween(-25, 25);
             const sc = randBetween(1.1, 1.4);
             const ty = randBetween(-4, 4);
@@ -161,11 +160,11 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
           };
           drift();
           timers[i] = setInterval(drift, randBetween(180, 380));
-        }, i * 50);
+        }, i * 30);
       });
     });
 
-    razLink.addEventListener('mouseleave', () => {
+    block.addEventListener('mouseleave', () => {
       entered = false;
       timers.forEach(clearInterval);
       timers.length = 0;
@@ -174,10 +173,10 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
           span.textContent = span.dataset.orig || '';
           span.style.color = '';
           span.style.transform = '';
-        }, i * 35);
+        }, i * 25);
       });
     });
-  }
+  });
 
   document.querySelectorAll<HTMLElement>('[data-slider]').forEach((slider) => {
     const track = slider.querySelector<HTMLElement>('.slider-slides')!;
