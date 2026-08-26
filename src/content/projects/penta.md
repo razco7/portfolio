@@ -62,6 +62,10 @@ With the investment secured, the build came down to five moves.
 
 **Document everything.** Everything lived in a single, accessible place — guidelines, examples, and onboarding material — so new designers and engineers could get started, catch up, and contribute without needing someone to explain the system to them.
 
+<div class="body-image-full">
+  <img src="/portfolio/images/Penta_Doc.jpg" alt="Penta design system documentation" />
+</div>
+
 ## Outcome
 
 Over several years, Penta went from a Photoshop toolkit to a team-owned system with a dedicated designer, an engineering partnership, a shared design-to-code language, and full documentation — the foundation the product design organization scaled on.
