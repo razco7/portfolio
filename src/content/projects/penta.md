@@ -60,7 +60,7 @@ With the investment secured, the build came down to five moves.
 
 **Build it from the ground up.** Rather than patch the existing toolkit, the team rebuilt the system properly — components, patterns, and the structure to hold them — documenting as it went so the system was legible from day one.
 
-**Create a shared language.** The team closed the gap between how design named things and how engineering implemented them, so a component meant the same thing on both sides. This alignment is what makes a design system actually reduce work rather than add a translation layer — and it's what delivers on the velocity the whole case was built on.
+**Create a shared language.** The team closed the gap between how design named things and how engineering implemented them, so a component meant the same thing on both sides. On the design side, components lived in Figma. On the engineering side, the same components were built in React and documented in Storybook — so a designer and an engineer referencing "CardHeader" were looking at the same thing, just in their own tool. This alignment is what makes a design system actually reduce work rather than add a translation layer — and it's what delivers on the velocity the whole case was built on.
 
 **Build it together.** Penta was built as a partnership between design and engineering, with a contribution model that let people across both disciplines take part in improving it — so it became a shared asset the organization owned, not a library handed down from one team.
 
