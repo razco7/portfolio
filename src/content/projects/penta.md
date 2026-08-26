@@ -48,6 +48,10 @@ Consistency alone wasn't the argument that would land. The one that did was velo
 
 Making that case wasn't a solo effort. My manager, the Head of Design, helped build the argument — including bringing in an outside expert to speak to the value of a design system, giving leadership external validation alongside the internal push. Securing buy-in for an investment this size is its own kind of work, separate from the design itself — and it's what made everything that followed possible.
 
+<div class="body-image-inline" style="max-width: 796px;">
+  <img src="/portfolio/images/Penta_Doc.jpg" alt="Penta design system documentation" />
+</div>
+
 ## The Approach
 
 With the investment secured, the build came down to five moves.
@@ -61,10 +65,6 @@ With the investment secured, the build came down to five moves.
 **Build it together.** Penta was built as a partnership between design and engineering, with a contribution model that let people across both disciplines take part in improving it — so it became a shared asset the organization owned, not a library handed down from one team.
 
 **Document everything.** Everything lived in Notion — guidelines, examples, and onboarding material — so new designers and engineers could get started, catch up, and contribute without needing someone to explain the system to them.
-
-<div class="body-image-inline" style="max-width: 796px;">
-  <img src="/portfolio/images/Penta_Doc.jpg" alt="Penta design system documentation" />
-</div>
 
 ## Outcome
 
