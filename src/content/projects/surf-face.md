@@ -28,13 +28,13 @@ A few surf-condition watch faces already existed on the Connect IQ Store. The pr
 
 Sole designer and developer — concept, every product and UX decision, and the full build on Garmin's Connect IQ SDK (Monkey C). No team, no brief, no existing pattern library to lean on for a product category I hadn't designed for before. Every decision, down to the exact wording of a two-line error message, was made and then verified against real hardware — the simulator alone repeatedly turned out to hide real behavior.
 
-## The Problem
-
-Two problems, tangled together. The data problem: wave/tide data and weather data come from separate API calls, and the watch's background execution is unreliable enough that fetching both together routinely got killed mid-request. The trust problem followed from that — on a screen this small and this passive (glanced at, not tapped through), every state has to read instantly as "working as intended," not "broken." No data yet, partial data, stale data, and "I don't know where you are" all needed distinct, honest treatment, or the whole thing feels unreliable even when it isn't.
-
 <div class="body-image-inline" style="max-width: 1052px;">
   <img src="/portfolio/images/Surf-face-03.jpg" alt="Surf Face watch face detail" />
 </div>
+
+## The Problem
+
+Two problems, tangled together. The data problem: wave/tide data and weather data come from separate API calls, and the watch's background execution is unreliable enough that fetching both together routinely got killed mid-request. The trust problem followed from that — on a screen this small and this passive (glanced at, not tapped through), every state has to read instantly as "working as intended," not "broken." No data yet, partial data, stale data, and "I don't know where you are" all needed distinct, honest treatment, or the whole thing feels unreliable even when it isn't.
 
 ## Key Decisions
 
