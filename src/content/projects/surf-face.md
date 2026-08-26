@@ -32,6 +32,10 @@ Sole designer and developer — concept, every product and UX decision, and the 
 
 Two problems, tangled together. The data problem: wave/tide data and weather data come from separate API calls, and the watch's background execution is unreliable enough that fetching both together routinely got killed mid-request. The trust problem followed from that — on a screen this small and this passive (glanced at, not tapped through), every state has to read instantly as "working as intended," not "broken." No data yet, partial data, stale data, and "I don't know where you are" all needed distinct, honest treatment, or the whole thing feels unreliable even when it isn't.
 
+<div class="body-image-full">
+  <img src="/portfolio/images/Surf-face-03.jpg" alt="Surf Face watch face detail" />
+</div>
+
 ## Key Decisions
 
 **Zero setup for the user.** The first version I built required users to create an API token on a third-party surf data service, then copy it into the watch's settings — exactly the kind of friction that kills adoption for a niche utility app. I shipped it as a beta and felt how bad it was immediately. Later I found a data source that pulls live surf and tide data without any registration or token at all: the user installs the watch face and it just works. Removing that onboarding barrier was the single biggest improvement to the product.
