@@ -111,6 +111,24 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 </BaseLayout>
 
 <script>
+  const razHover = document.querySelector<HTMLElement>('.raz-hover');
+  const razPopover = document.querySelector<HTMLElement>('.raz-popover');
+  if (razHover && razPopover) {
+    razHover.addEventListener('mousemove', (e) => {
+      const rect = razHover.getBoundingClientRect();
+      const cx = rect.left + rect.width / 2;
+      const cy = rect.top + rect.height / 2;
+      const dx = (e.clientX - cx) / rect.width;
+      const dy = (e.clientY - cy) / rect.height;
+      razPopover.style.setProperty('--raz-x', `${dx * 10}px`);
+      razPopover.style.setProperty('--raz-y', `${dy * 6}px`);
+    });
+    razHover.addEventListener('mouseleave', () => {
+      razPopover.style.setProperty('--raz-x', '0px');
+      razPopover.style.setProperty('--raz-y', '0px');
+    });
+  }
+
   document.querySelectorAll<HTMLElement>('[data-slider]').forEach((slider) => {
     const track = slider.querySelector<HTMLElement>('.slider-slides')!;
     const dots = slider.querySelectorAll<HTMLElement>('.slider-dot');

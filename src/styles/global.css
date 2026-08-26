@@ -83,18 +83,19 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
   position: absolute;
   bottom: calc(100% + 12px);
   left: 50%;
-  transform: translateX(-50%) scale(0.85);
   width: 120px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18), 0 2px 8px rgba(0, 0, 0, 0.10);
+  transform: translateX(calc(-50% + var(--raz-x, 0px))) translateY(var(--raz-y, 0px)) scale(0.85);
+  transition: opacity 0.2s ease, transform 0.25s ease;
 }
 .raz-hover:hover .raz-popover {
   opacity: 1;
-  transform: translateX(-50%) scale(1);
+  transform: translateX(calc(-50% + var(--raz-x, 0px))) translateY(var(--raz-y, 0px)) scale(1);
 }
 
 /* ── Project Sections ── */
