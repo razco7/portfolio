@@ -111,6 +111,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 </BaseLayout>
 
 <script>
+  // ── Raz photo parallax ──
   const razHover = document.querySelector<HTMLElement>('.raz-hover');
   const razPopover = document.querySelector<HTMLElement>('.raz-popover');
   if (razHover && razPopover) {
@@ -126,6 +127,55 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
     razHover.addEventListener('mouseleave', () => {
       razPopover.style.setProperty('--raz-x', '0px');
       razPopover.style.setProperty('--raz-y', '0px');
+    });
+  }
+
+  // ── Raz link character scramble ──
+  const razLink = document.querySelector<HTMLAnchorElement>('.raz-link');
+  if (razLink) {
+    const symbols = '!@#$%&?~±§€£©∞√∑∆µ∂≈÷×★◆♦♠♣✦✿❋';
+    const original = razLink.textContent || '';
+    razLink.innerHTML = original.split('').map((ch) =>
+      ch === ' ' || ch === "'" ? `<span class="raz-char raz-char--fixed">${ch}</span>` : `<span class="raz-char" data-orig="${ch}">${ch}</span>`
+    ).join('');
+
+    const charSpans = Array.from(razLink.querySelectorAll<HTMLElement>('.raz-char:not(.raz-char--fixed)'));
+    const timers: ReturnType<typeof setInterval>[] = [];
+    let entered = false;
+
+    const randomSym = () => symbols[Math.floor(Math.random() * symbols.length)];
+    const randBetween = (a: number, b: number) => a + Math.random() * (b - a);
+
+    razLink.addEventListener('mouseenter', () => {
+      entered = true;
+      charSpans.forEach((span, i) => {
+        setTimeout(() => {
+          if (!entered) return;
+          const drift = () => {
+            span.textContent = randomSym();
+            span.style.color = '#FF69B4';
+            const rot = randBetween(-25, 25);
+            const sc = randBetween(1.1, 1.4);
+            const ty = randBetween(-4, 4);
+            span.style.transform = `rotate(${rot}deg) scale(${sc}) translateY(${ty}px)`;
+          };
+          drift();
+          timers[i] = setInterval(drift, randBetween(180, 380));
+        }, i * 50);
+      });
+    });
+
+    razLink.addEventListener('mouseleave', () => {
+      entered = false;
+      timers.forEach(clearInterval);
+      timers.length = 0;
+      charSpans.forEach((span, i) => {
+        setTimeout(() => {
+          span.textContent = span.dataset.orig || '';
+          span.style.color = '';
+          span.style.transform = '';
+        }, i * 35);
+      });
     });
   }
 
