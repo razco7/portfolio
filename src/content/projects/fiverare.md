@@ -37,15 +37,15 @@ This was a concept initiative. No AI tools existed at that scale yet — all the
 The design covered three core screens: the homepage, the browse/collection view, and the individual item detail page.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Fiverare-homepage.jpg" alt="Fiverare homepage — NFT marketplace concept" />
+  <img src="/images/Fiverare-homepage.jpg" alt="Fiverare homepage — NFT marketplace concept" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Fiverare-browse.jpg" alt="Fiverare browse page — NFT collections" />
+  <img src="/images/Fiverare-browse.jpg" alt="Fiverare browse page — NFT collections" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Fiverare-item-detail.jpg" alt="Fiverare NFT item detail page" />
+  <img src="/images/Fiverare-item-detail.jpg" alt="Fiverare NFT item detail page" />
 </div>
 
 ## Outcome

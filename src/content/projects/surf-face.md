@@ -29,7 +29,7 @@ A few surf-condition watch faces already existed on the Connect IQ Store. The pr
 Sole designer and developer — concept, every product and UX decision, and the full build on Garmin's Connect IQ SDK (Monkey C). No team, no brief, no existing pattern library to lean on for a product category I hadn't designed for before. Every decision, down to the exact wording of a two-line error message, was made and then verified against real hardware — the simulator alone repeatedly turned out to hide real behavior.
 
 <div class="body-image-inline" style="max-width: 1052px;">
-  <img src="/portfolio/images/Surf-face-03.jpg" alt="Surf Face watch face detail" />
+  <img src="/images/Surf-face-03.jpg" alt="Surf Face watch face detail" />
 </div>
 
 ## The Problem
@@ -53,7 +53,7 @@ Two problems, tangled together. The data problem: wave/tide data and weather dat
 Currently submitted to the Connect IQ Store for review. Every fix in the final release came from a self-run beta loop on my own device — real hardware surfaced bugs the simulator either couldn't reproduce or actively masked.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Surf-face-02.jpg" alt="Surf Face on Garmin Instinct 3 at sunset" />
+  <img src="/images/Surf-face-02.jpg" alt="Surf Face on Garmin Instinct 3 at sunset" />
 </div>
 
 ## What I'd Do Differently

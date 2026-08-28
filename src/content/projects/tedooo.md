@@ -39,11 +39,11 @@ The create post composer is where the hybrid nature of the platform shows up mos
 Supporting all these content types in one composer created real complexity. Each attachment type (photo, video, item, background) has its own mini-flow with its own decisions and states. The challenge was making all of that feel like one coherent thing rather than a branching maze of options.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-feed-desktop.jpg" alt="Tedooo feed on desktop with create post modal" />
+  <img src="/images/Tedooo-feed-desktop.jpg" alt="Tedooo feed on desktop with create post modal" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-feed-mobile.jpg" alt="Tedooo feed and create post flow on mobile" />
+  <img src="/images/Tedooo-feed-mobile.jpg" alt="Tedooo feed and create post flow on mobile" />
 </div>
 
 <p class="section-label">Communities</p>
@@ -51,11 +51,11 @@ Supporting all these content types in one composer created real complexity. Each
 Communities are the more focused side of the feed — groups organised around a specific craft or interest, like Knitting, Crochet, or Woodworking. Users can join communities that match their expertise, browse a feed scoped to that group, participate in group chats (both official community chats and related topic chats), and see a leaderboard of the most active contributors. It's closer to a forum or Facebook Group than a general feed — a place for more deliberate, expertise-driven interaction.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-community-desktop.jpg" alt="Tedooo communities on desktop showing community discovery modal" />
+  <img src="/images/Tedooo-community-desktop.jpg" alt="Tedooo communities on desktop showing community discovery modal" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-community-mobile.jpg" alt="Tedooo communities on mobile showing feed, group chats and leaderboard" />
+  <img src="/images/Tedooo-community-mobile.jpg" alt="Tedooo communities on mobile showing feed, group chats and leaderboard" />
 </div>
 
 ## Shopping
@@ -67,19 +67,19 @@ For guests, the page opens with a full-width hero and a prominent search bar wit
 For logged-in users, the page becomes personalised: recently viewed items, products waiting in the cart, saved items, and recommendations based on browsing history sit at the top before the broader curated content. The category nav also exposes subcategories on hover, so users can drill into exactly what they're looking for without a dedicated search.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-Search.jpg" alt="Tedooo shopping tab — guest homepage with search suggestions open" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Tedooo-Search.jpg" alt="Tedooo shopping tab — guest homepage with search suggestions open" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-Logged-in.jpg" alt="Tedooo shopping tab — logged in, personalised homepage with category dropdown" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Tedooo-Logged-in.jpg" alt="Tedooo shopping tab — logged in, personalised homepage with category dropdown" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-shopping.jpg" alt="Tedooo shopping on mobile — guest home, logged-in home, category page, filters and sort" />
+  <img src="/images/Tedooo-shopping.jpg" alt="Tedooo shopping on mobile — guest home, logged-in home, category page, filters and sort" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-Guest-HP-scroll.jpg" alt="Tedooo shopping tab — full guest homepage scroll" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Tedooo-Guest-HP-scroll.jpg" alt="Tedooo shopping tab — full guest homepage scroll" style="border: 1px solid #f0f0f0;" />
 </div>
 
 ## Product Page
@@ -93,7 +93,7 @@ The left side of the page unfolds progressively. Item details are shown in previ
 Below the fold, two horizontal sections close out the page: more items from this shop (keeping buyers in the seller's catalogue) and similar items from other shops (keeping them on Tedooo if the first item isn't quite right).
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Product-page.jpg" alt="Tedooo product page — sticky buy panel, item details, reviews, and related items" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Product-page.jpg" alt="Tedooo product page — sticky buy panel, item details, reviews, and related items" style="border: 1px solid #f0f0f0;" />
 </div>
 
 ## AI Vision
@@ -106,14 +106,14 @@ The second challenge was length. The flow covers a lot of ground — category se
 
 <div class="body-gallery" id="ai-vision-gallery">
   <div class="body-gallery-track">
-    <img src="/portfolio/images/02A-Tedooo-AI-vision.jpg" alt="AI Vision step 1 — choose a category" />
-    <img src="/portfolio/images/02B-Tedooo-AI-vision.jpg" alt="AI Vision step 2 — write an idea or upload image" />
-    <img src="/portfolio/images/02C-Tedooo-AI-vision.jpg" alt="AI Vision — add credits modal" />
-    <img src="/portfolio/images/02D-Tedooo-AI-vision.jpg" alt="AI Vision — generating your design" />
-    <img src="/portfolio/images/02E-Tedooo-AI-vision.jpg" alt="AI Vision step 3 — choose between two generated designs" />
-    <img src="/portfolio/images/02F-Tedooo-AI-vision.jpg" alt="AI Vision — customize your item" />
-    <img src="/portfolio/images/02G-Tedooo-AI-vision.jpg" alt="AI Vision — checkout" />
-    <img src="/portfolio/images/02H-Tedooo-AI-vision.jpg" alt="AI Vision hub — your creations and orders" />
+    <img src="/images/02A-Tedooo-AI-vision.jpg" alt="AI Vision step 1 — choose a category" />
+    <img src="/images/02B-Tedooo-AI-vision.jpg" alt="AI Vision step 2 — write an idea or upload image" />
+    <img src="/images/02C-Tedooo-AI-vision.jpg" alt="AI Vision — add credits modal" />
+    <img src="/images/02D-Tedooo-AI-vision.jpg" alt="AI Vision — generating your design" />
+    <img src="/images/02E-Tedooo-AI-vision.jpg" alt="AI Vision step 3 — choose between two generated designs" />
+    <img src="/images/02F-Tedooo-AI-vision.jpg" alt="AI Vision — customize your item" />
+    <img src="/images/02G-Tedooo-AI-vision.jpg" alt="AI Vision — checkout" />
+    <img src="/images/02H-Tedooo-AI-vision.jpg" alt="AI Vision hub — your creations and orders" />
   </div>
   <button class="body-gallery-btn body-gallery-prev" aria-label="Previous"><span class="material-symbols-outlined">arrow_back</span></button>
   <button class="body-gallery-btn body-gallery-next" aria-label="Next"><span class="material-symbols-outlined">arrow_forward</span></button>
@@ -140,19 +140,19 @@ The primary action we wanted to drive was uploading. Contributing to a shared li
 The bigger decision was at the card level. With this many patterns on screen at once, individual cards needed to carry only the essentials — the name, who shared it, and a thread opener to invite conversation. Anything beyond that risked turning a browsable grid into a wall of information. Less obvious actions (save, download, report) are tucked behind a three-dot menu. The result is a page that reads as content first: the craft photography on each card does the visual work, and the interface stays quiet enough to let it.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-Patterns-1.jpg" alt="Tedooo Patterns listing page with pro upsell" />
+  <img src="/images/Tedooo-Patterns-1.jpg" alt="Tedooo Patterns listing page with pro upsell" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-Patterns-2.jpg" alt="Tedooo Patterns filter panel" />
+  <img src="/images/Tedooo-Patterns-2.jpg" alt="Tedooo Patterns filter panel" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-Patterns-3.jpg" alt="Tedooo Patterns upload modal" />
+  <img src="/images/Tedooo-Patterns-3.jpg" alt="Tedooo Patterns upload modal" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Tedooo-Patterns-4.jpg" alt="Tedooo Patterns — pattern discussion thread and three-dot action menu" />
+  <img src="/images/Tedooo-Patterns-4.jpg" alt="Tedooo Patterns — pattern discussion thread and three-dot action menu" />
 </div>
 
 ## Shop Creation
@@ -166,19 +166,19 @@ Every step uses a split layout. The left side has the form — focused, minimal,
 The final step requires adding at least one item before the shop goes live. This was a deliberate product decision — a shop with no items is a dead end for any buyer who finds it, and getting that first listing done during setup means sellers launch in a real state. Import via CSV or add manually; either way, you're done when you have something to show.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Shop-creation-1.jpg" alt="Shop creation — goals selection screen" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Shop-creation-1.jpg" alt="Shop creation — goals selection screen" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Shop-creation-2.jpg" alt="Shop creation — location, currency and contact details with social proof" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Shop-creation-2.jpg" alt="Shop creation — location, currency and contact details with social proof" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Shop-creation-3.jpg" alt="Shop creation — add your first item, import CSV or add manually" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Shop-creation-3.jpg" alt="Shop creation — add your first item, import CSV or add manually" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Shop-creation-4.jpg" alt="Shop creation — item listing form with photos, pricing and variations" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Shop-creation-4.jpg" alt="Shop creation — item listing form with photos, pricing and variations" style="border: 1px solid #f0f0f0;" />
 </div>
 
 ## Seller Hub
@@ -190,23 +190,23 @@ The hub is built around a persistent left nav — Dashboard, Items, Inbox, Analy
 The longer-term vision was to go further — pulling in shop profile details and shipping configurations that had been living in separate corners of the platform, so that setting up and maintaining a shop would eventually be a single, coherent flow rather than a scavenger hunt.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Seller-hub-Panel-Open.jpg" alt="Seller Hub with sidebar expanded showing items grid view" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Seller-hub-Panel-Open.jpg" alt="Seller Hub with sidebar expanded showing items grid view" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Seller-hub-Panel-closed.jpg" alt="Seller Hub with sidebar collapsed to icons" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Seller-hub-Panel-closed.jpg" alt="Seller Hub with sidebar collapsed to icons" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Seller-hub-Items.jpg" alt="Seller Hub items in list view" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Seller-hub-Items.jpg" alt="Seller Hub items in list view" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Seller-hub-Shop-profile.jpg" alt="Seller Hub with move to section modal open" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Seller-hub-Shop-profile.jpg" alt="Seller Hub with move to section modal open" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Seller-hub-mobile.jpg" alt="Seller Hub on mobile — items, nav, bulk actions and section management" />
+  <img src="/images/Seller-hub-mobile.jpg" alt="Seller Hub on mobile — items, nav, bulk actions and section management" />
 </div>
 
 ## Outcome

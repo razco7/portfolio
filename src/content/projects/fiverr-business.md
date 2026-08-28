@@ -37,33 +37,33 @@ The core unit was the **project**. You'd create a project, give it a name and a 
 To make that easier, the app included **project templates** for common workflows: producing a video advertisement, building a website, launching a campaign. Each template came pre-loaded with the steps typically needed, along with guidance on which types of services to source from Fiverr. Because Fiverr's model is granular — a video production project might require a scriptwriter, a motion graphics designer, a sound designer, and a video editor, each a separate seller — the templates helped users understand what they'd need before they started sourcing.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/FiverBiz-project-overview.jpg" alt="Fiverr Business app — project overview" />
+  <img src="/images/FiverBiz-project-overview.jpg" alt="Fiverr Business app — project overview" />
 </div>
 
 The **freelancer discovery** experience was built into the project flow — so rather than jumping out to Fiverr search and copying links back, you could browse and add sellers directly within the project context.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/FiverBiz-freelancer-discovery.jpg" alt="Fiverr Business app — freelancer discovery" />
+  <img src="/images/FiverBiz-freelancer-discovery.jpg" alt="Fiverr Business app — freelancer discovery" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/FiverBiz-gigs.jpg" alt="Fiverr Business app — favorite gigs and collections" />
+  <img src="/images/FiverBiz-gigs.jpg" alt="Fiverr Business app — favorite gigs and collections" />
 </div>
 
 **Team management** let you see the full picture in one place — internal team members and Fiverr sellers side by side, each with their role in the project.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/FiverBiz-team-management.jpg" alt="Fiverr Business app — team management view" />
+  <img src="/images/FiverBiz-team-management.jpg" alt="Fiverr Business app — team management view" />
 </div>
 
 The app also included **budget and spend tracking**, a project chat so all communication stayed in context, and an order details view so you could see the status of every active engagement at a glance.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/FiverBiz-chat.jpg" alt="Fiverr Business app — project view with chat panel" />
+  <img src="/images/FiverBiz-chat.jpg" alt="Fiverr Business app — project view with chat panel" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/FiverBiz-order-details.jpg" alt="Fiverr Business app — order details" />
+  <img src="/images/FiverBiz-order-details.jpg" alt="Fiverr Business app — order details" />
 </div>
 
 ## Outcome

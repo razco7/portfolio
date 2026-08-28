@@ -39,13 +39,13 @@ We explored a range of approaches — different visual treatments, different mom
 One of the more complete integrations was with Lightricks, the company behind Facetune. Lightricks subscribers get access to a dedicated perks area — a hub where members can browse and claim exclusive offers from partner brands including Disney+, Paramount+, Amazon Prime Video, Adobe Creative Cloud, Netflix, and Nord VPN. The desktop design for this hub had to make a catalogue of disparate offers feel cohesive and worth exploring, not like an affiliate page.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Falcon-Lightricks-perks.jpg" alt="Lightricks Member Perks hub — desktop" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Falcon-Lightricks-perks.jpg" alt="Lightricks Member Perks hub — desktop" style="border: 1px solid #f0f0f0;" />
 </div>
 
 The other challenge was earlier in the flow: how do you tell someone they've just unlocked perks the moment they subscribe, and get them to actually engage? We explored several approaches — from a minimal prompt with a partner logo grid and a "Browse Perks" CTA, to a curated list of top trending offers, to a single highlighted perk (like a 21-day Paramount+ trial) with a direct claim button. Each variant was a different bet on what would drive more users from the subscription confirmation into the perks hub. The screens below show these approaches demonstrated on mobile.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Falcon-Lightricks-mobile.jpg" alt="Lightricks mobile — post-subscription perk moment approaches" />
+  <img src="/images/Falcon-Lightricks-mobile.jpg" alt="Lightricks mobile — post-subscription perk moment approaches" />
 </div>
 
 ## Zoog — Bundle Subscription Approaches
@@ -57,7 +57,7 @@ The core strategy was the power of default: in every variant, the 12-month bundl
 A **tab switch** (Zoog+ vs Bundle) that leads straight into a preselected 12-month bundle with Disney+ shown as free. A **radio sub-selection** within the annual tier, letting users choose which free add-on they want — Disney+, Netflix, Paramount+, Amazon Prime, or no thanks — before committing. A **two-option radio** between 12-month and 1-month bundles, making the annual option visually dominant. And a **toggle** labelled "Show Disney+ bundle" — on by default — that reveals the bundle pricing beneath.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Falcon-Zoog.jpg" alt="Zoog — four approaches to bundle subscription with annual plan preselected" />
+  <img src="/images/Falcon-Zoog.jpg" alt="Zoog — four approaches to bundle subscription with annual plan preselected" />
 </div>
 
 ## Underoutfit — Reusable Popover Component
@@ -69,7 +69,7 @@ The component has a fixed anatomy: a brand photo at the top with the partner log
 This was a step toward scalability: a gift moment that felt genuinely on-brand for each partner without requiring a custom design from scratch every time.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Falcon-Underoutfit.jpg" alt="Underoutfit popover — three colour variants" />
+  <img src="/images/Falcon-Underoutfit.jpg" alt="Underoutfit popover — three colour variants" />
 </div>
 
 ## Outcome

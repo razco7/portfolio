@@ -34,7 +34,7 @@ A few of the projects:
 **Search landing pages.** Much of Bookaway's traffic arrives from Google — someone searching "how to get from X to Y" lands directly on a route page. I redesigned these pages to make the decision easier at a glance: the available transportation types, what each costs, and how long each takes, presented so a traveler can weigh their options without hunting for the information.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Bookaway-RLP.jpg" alt="Bookaway route landing page redesign" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Bookaway-RLP.jpg" alt="Bookaway route landing page redesign" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <br><br>
@@ -42,11 +42,11 @@ A few of the projects:
 **Where to Next.** A post-booking feature: after payment, instead of a dead-end confirmation, travelers see a "thank you" that surfaces other destinations people have traveled to from there — turning the end of one booking into the start of the next.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Bookaway-thank-you.jpg" alt="Bookaway Where to Next — thank you page" style="border: 1px solid #f0f0f0;" />
+  <img src="/images/Bookaway-thank-you.jpg" alt="Bookaway Where to Next — thank you page" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Bookaway-thank-you-pop.jpg" alt="Bookaway Where to Next — destination detail pop-up" />
+  <img src="/images/Bookaway-thank-you-pop.jpg" alt="Bookaway Where to Next — destination detail pop-up" />
 </div>
 
 <br><br>
@@ -58,11 +58,11 @@ Bookaway's search is where the hardest product thinking lives, because a travele
 I created a vision for how the search results should work — a direction for surfacing those variables as simply as possible — which was then handed to a designer on the team to develop into a full-scope redesign. Setting the direction and handing it off for execution was itself part of the role: not designing every screen, but establishing the thinking the team builds on.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Bookaway-search-vision-A.jpg" alt="Bookaway search vision — option A" />
+  <img src="/images/Bookaway-search-vision-A.jpg" alt="Bookaway search vision — option A" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Bookaway-search-vision-B.jpg" alt="Bookaway search vision — option B" />
+  <img src="/images/Bookaway-search-vision-B.jpg" alt="Bookaway search vision — option B" />
 </div>
 
 ## Mentoring
@@ -78,7 +78,7 @@ When the design team needed to grow, I led the hiring on the design side. I revi
 The home assignment itself was written by the VP Product; I reviewed and refined it, suggesting changes that were incorporated before it went out. Across the search, roughly half a dozen candidates were interviewed for the role.
 
 <div class="body-image-inline" style="max-width: 720px;">
-  <img src="/portfolio/images/Bookaway-hiring-funnel.jpg" alt="Bookaway hiring funnel — stages from portfolio review to HR interview" />
+  <img src="/images/Bookaway-hiring-funnel.jpg" alt="Bookaway hiring funnel — stages from portfolio review to HR interview" />
 </div>
 
 ## The Design Guild
@@ -88,7 +88,7 @@ The guild was an initiative of the VP Product (now CPO), who wanted a way to bri
 It brought together the ten designers and UX researchers across Travelier's brands, meeting monthly for over a year. Each session was a chance to showcase work, exchange approaches, and occasionally bring in guest lecturers from outside the company. For a design team spread across multiple brands and products, the guild became the connective tissue — a regular place for a group that would otherwise rarely be in the same room to actually function as one design community.
 
 <div class="body-image-full" style="max-width: 960px;">
-  <img src="/portfolio/images/Bookaway-guild-schedule.jpg" alt="Product Design Guild meeting schedule 2025–2026" />
+  <img src="/images/Bookaway-guild-schedule.jpg" alt="Product Design Guild meeting schedule 2025–2026" />
 </div>
 
 ## Rethinking the Workflow with AI

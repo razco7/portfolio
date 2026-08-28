@@ -23,7 +23,7 @@ When I joined Fiverr, "the design system" was a Photoshop UI toolkit — a share
 This is a leadership story more than a hands-on one. I identified the need, made the business case for the investment, created the design-system team, and set the direction. The hands-on build was led by a dedicated product designer working alongside a four-person engineering team — my role was to establish the function, secure the buy-in, and keep it aligned with where the product was going.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Penta_Old_UIKit.jpg" alt="Fiverr's original Photoshop UI toolkit — the starting point before Penta" />
+  <img src="/images/Penta_Old_UIKit.jpg" alt="Fiverr's original Photoshop UI toolkit — the starting point before Penta" />
 </div>
 
 ## The Problem
@@ -41,7 +41,7 @@ A design system isn't a style guide — a style guide is one part of it. Fiverr 
 Underneath all of it: it was becoming hard to maintain the quality of experience we wanted, and the design organization was scaling faster than the system holding it together.
 
 <div class="body-image-inline" style="max-width: 796px;">
-  <img src="/portfolio/images/Penta_Doc.jpg" alt="Penta design system documentation" />
+  <img src="/images/Penta_Doc.jpg" alt="Penta design system documentation" />
 </div>
 
 ## Making the Case
@@ -53,7 +53,7 @@ Consistency alone wasn't the argument that would land. The ones that did were ve
 Making that case wasn't a solo effort. My manager, the Head of Design, helped build the argument — including bringing in an outside expert to speak to the value of a design system, giving leadership external validation alongside the internal push. Securing buy-in for an investment this size is its own kind of work, separate from the design itself — and it's what made everything that followed possible.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Penta-system-overview.jpg" alt="Penta design system — four-layer architecture: Foundation, Core components, Complex components, Patterns" />
+  <img src="/images/Penta-system-overview.jpg" alt="Penta design system — four-layer architecture: Foundation, Core components, Complex components, Patterns" />
 </div>
 
 ## The Approach
@@ -71,27 +71,27 @@ With the investment secured, the build came down to five moves.
 **Document everything.** Everything lived in Notion — guidelines, examples, and onboarding material — so new designers and engineers could get started, catch up, and contribute without needing someone to explain the system to them.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Penta-step-foundation.jpg" alt="Penta — Foundation layer: color palette, typography, grid, spacing, and shadow tokens" />
+  <img src="/images/Penta-step-foundation.jpg" alt="Penta — Foundation layer: color palette, typography, grid, spacing, and shadow tokens" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Penta-step-core-buttons.jpg" alt="Penta — Core components: button states and variants" />
+  <img src="/images/Penta-step-core-buttons.jpg" alt="Penta — Core components: button states and variants" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Penta-step-core-selects.jpg" alt="Penta — Core components: select and dropdown variants" />
+  <img src="/images/Penta-step-core-selects.jpg" alt="Penta — Core components: select and dropdown variants" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Penta-step-complex-modals.jpg" alt="Penta — Complex components: modals and forms in real product context" />
+  <img src="/images/Penta-step-complex-modals.jpg" alt="Penta — Complex components: modals and forms in real product context" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Penta-step-complex-tables.jpg" alt="Penta — Complex components: table and data grid variants" />
+  <img src="/images/Penta-step-complex-tables.jpg" alt="Penta — Complex components: table and data grid variants" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Penta-step-patterns.jpg" alt="Penta — Patterns layer: form design guidelines in Notion" />
+  <img src="/images/Penta-step-patterns.jpg" alt="Penta — Patterns layer: form design guidelines in Notion" />
 </div>
 
 ## Outcome
