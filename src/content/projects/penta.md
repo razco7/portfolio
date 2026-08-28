@@ -40,6 +40,10 @@ A design system isn't a style guide — a style guide is one part of it. Fiverr 
 
 Underneath all of it: it was becoming hard to maintain the quality of experience we wanted, and the design organization was scaling faster than the system holding it together.
 
+<div class="body-image-inline" style="max-width: 796px;">
+  <img src="/portfolio/images/Penta_Doc.jpg" alt="Penta design system documentation" />
+</div>
+
 ## Making the Case
 
 Building a design system is expensive. It needs a dedicated designer, a team of engineers, and a lot of ongoing effort — so before any of it could happen, the investment had to be justified to management.
@@ -48,8 +52,8 @@ Consistency alone wasn't the argument that would land. The ones that did were ve
 
 Making that case wasn't a solo effort. My manager, the Head of Design, helped build the argument — including bringing in an outside expert to speak to the value of a design system, giving leadership external validation alongside the internal push. Securing buy-in for an investment this size is its own kind of work, separate from the design itself — and it's what made everything that followed possible.
 
-<div class="body-image-inline" style="max-width: 796px;">
-  <img src="/portfolio/images/Penta_Doc.jpg" alt="Penta design system documentation" />
+<div class="body-image-full">
+  <img src="/portfolio/images/Penta-system-overview.jpg" alt="Penta design system — four-layer architecture: Foundation, Core components, Complex components, Patterns" />
 </div>
 
 ## The Approach
@@ -67,11 +71,27 @@ With the investment secured, the build came down to five moves.
 **Document everything.** Everything lived in Notion — guidelines, examples, and onboarding material — so new designers and engineers could get started, catch up, and contribute without needing someone to explain the system to them.
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Penta_Colors.jpg" alt="Penta design system — color tokens and palette" />
+  <img src="/portfolio/images/Penta-step-foundation.jpg" alt="Penta — Foundation layer: color palette, typography, grid, spacing, and shadow tokens" />
 </div>
 
 <div class="body-image-full">
-  <img src="/portfolio/images/Penta_Grid_Sizes.jpg" alt="Penta design system — grid breakpoints" />
+  <img src="/portfolio/images/Penta-step-core-buttons.jpg" alt="Penta — Core components: button states and variants" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Penta-step-core-selects.jpg" alt="Penta — Core components: select and dropdown variants" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Penta-step-complex-modals.jpg" alt="Penta — Complex components: modals and forms in real product context" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Penta-step-complex-tables.jpg" alt="Penta — Complex components: table and data grid variants" />
+</div>
+
+<div class="body-image-full">
+  <img src="/portfolio/images/Penta-step-patterns.jpg" alt="Penta — Patterns layer: form design guidelines in Notion" />
 </div>
 
 ## Outcome

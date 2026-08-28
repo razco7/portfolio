@@ -1,0 +1,213 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+
+const mixConfigs = [
+  { feed: '/razcohen/basement-01/', localArtwork: `${base}images/Mixtape-Basement-01.jpg` },
+  { feed: '/razcohen/basment-02/', localArtwork: `${base}images/Mixtape-Basement-02.jpg` },
+];
+
+const mixes = await Promise.all(
+  mixConfigs.map(async ({ feed, localArtwork }) => {
+    const url = `https://app.mixcloud.com/oembed/?url=https://www.mixcloud.com${feed}&format=json`;
+    const res = await fetch(url);
+    const data = await res.json();
+    return {
+      feed,
+      title: data.title as string,
+      artwork: localArtwork ?? data.image as string,
+      widgetSrc: `https://www.mixcloud.com/widget/iframe/?feed=${encodeURIComponent(`https://www.mixcloud.com${feed}`)}&hide_cover=1`,
+    };
+  })
+);
+---
+
+<BaseLayout title="Mixtapes — Raz Cohen" description="Curated mixes by Raz Cohen." activePage="mixtapes">
+  <section class="mixtapes-hero">
+    <div class="mixtapes-hero-inner">
+      <h1 class="mixtapes-heading">Curated Mixtapes</h1>
+    </div>
+  </section>
+
+  <section class="mixtapes-section">
+    <div class="mixtapes-list">
+    {mixes.map((mix) => (
+      <div class="mixtape-card" data-widget={mix.widgetSrc}>
+        <div class="mixtape-cover">
+          <img src={mix.artwork} alt={mix.title} />
+          <button class="mixtape-play-btn" aria-label={`Play ${mix.title}`}>
+            <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+              <path d="M8 5v14l11-7z"/>
+            </svg>
+          </button>
+        </div>
+        <div class="mixtape-info">
+          <p class="mixtape-title">{mix.title}</p>
+          <a
+            href={`https://www.mixcloud.com${mix.feed}`}
+            target="_blank"
+            rel="noopener"
+            class="mixtape-link"
+          >
+            Listen on Mixcloud <span class="material-symbols-outlined">arrow_outward</span>
+          </a>
+        </div>
+        <div class="mixtape-player" hidden></div>
+      </div>
+    ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.mixtape-card').forEach((card) => {
+    const btn = card.querySelector<HTMLButtonElement>('.mixtape-play-btn');
+    const playerSlot = card.querySelector<HTMLElement>('.mixtape-player');
+    const cover = card.querySelector<HTMLElement>('.mixtape-cover');
+    const widgetSrc = card.dataset.widget!;
+
+    btn?.addEventListener('click', () => {
+      if (!playerSlot || !cover) return;
+      const iframe = document.createElement('iframe');
+      iframe.src = widgetSrc + '&autoplay=1';
+      iframe.width = '100%';
+      iframe.height = '60';
+      iframe.setAttribute('frameborder', '0');
+      iframe.setAttribute('allow', 'autoplay');
+      playerSlot.appendChild(iframe);
+      playerSlot.hidden = false;
+      cover.classList.add('playing');
+    });
+  });
+</script>
+
+<style>
+  .mixtapes-hero {
+    padding: 80px 40px 48px;
+  }
+
+  .mixtapes-hero-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .mixtapes-heading {
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 82px;
+    margin: 0 0 12px;
+    color: #353535;
+  }
+
+  .mixtapes-subheading {
+    font-size: 18px;
+    color: #888;
+    margin: 0;
+  }
+
+  .mixtapes-section {
+    padding: 0 40px 80px;
+  }
+
+  .mixtapes-list {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .mixtape-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .mixtape-cover {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+    max-height: 80vh;
+    overflow: hidden;
+    background: #111;
+    cursor: pointer;
+  }
+
+  .mixtape-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: opacity 0.3s ease;
+  }
+
+  .mixtape-cover:hover img,
+  .mixtape-cover.playing img {
+    opacity: 0.5;
+  }
+
+  .mixtape-play-btn {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  .mixtape-cover:hover .mixtape-play-btn,
+  .mixtape-cover.playing .mixtape-play-btn {
+    opacity: 1;
+  }
+
+  .mixtape-play-btn svg {
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
+  }
+
+  .mixtape-info {
+    padding: 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .mixtape-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    color: #222;
+  }
+
+  .mixtape-link {
+    font-size: 14px;
+    color: #888;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .mixtape-link .material-symbols-outlined {
+    font-size: 16px;
+  }
+
+  .mixtape-link:hover {
+    color: #FF8B6A;
+  }
+
+  .mixtape-player {
+    margin-top: 12px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .mixtape-player iframe {
+    display: block;
+  }
+</style>
