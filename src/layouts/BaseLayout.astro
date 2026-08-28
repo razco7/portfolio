@@ -16,7 +16,7 @@ const {
 } = Astro.props;
 
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
-const siteUrl = 'https://razco7.github.io';
+const siteUrl = 'https://razcohen.com';
 const canonicalUrl = new URL(Astro.url.pathname, siteUrl).href;
 const defaultOgImage = `${siteUrl}${base}images/Raz_in_a_circle.png`;
 const ogImageUrl = ogImage ? `${siteUrl}${base}${ogImage}` : defaultOgImage;

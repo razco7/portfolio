@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://razco7.github.io/portfolio/sitemap-index.xml
+Sitemap: https://razcohen.com/sitemap-index.xml
