@@ -389,6 +389,14 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 }
 .back-link:hover { opacity: 1; }
 .back-link.dark { color: #fff; }
+.detail-industry {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #888;
+  margin: 0 0 16px;
+}
 .detail-title {
   font-size: 64px;
   font-weight: 700;

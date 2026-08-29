@@ -32,6 +32,7 @@ const nextProject = currentIndex < allProjects.length - 1 ? allProjects[currentI
   <section class="detail-hero">
     <div class="detail-hero-inner">
       <a href={base} class="back-link"><span class="material-symbols-outlined">arrow_back</span> All projects</a>
+      {type && <p class="detail-industry">{type}</p>}
       <h1 class="detail-title">
         {title}
       </h1>
@@ -54,9 +55,21 @@ const nextProject = currentIndex < allProjects.length - 1 ? allProjects[currentI
     <!-- Meta: type, role, client, year + link button below -->
     <div class="detail-meta">
       <div class="detail-meta-row">
+        {client && (
+          <div class="detail-meta-item">
+            <p class="detail-meta-label">Client</p>
+            <p class="detail-meta-value">{client}</p>
+          </div>
+        )}
+        {company && (
+          <div class="detail-meta-item">
+            <p class="detail-meta-label">Company</p>
+            <p class="detail-meta-value">{company}</p>
+          </div>
+        )}
         {type && (
           <div class="detail-meta-item">
-            <p class="detail-meta-label">Project type</p>
+            <p class="detail-meta-label">Industry</p>
             <p class="detail-meta-value">{type}</p>
           </div>
         )}
@@ -64,18 +77,6 @@ const nextProject = currentIndex < allProjects.length - 1 ? allProjects[currentI
           <p class="detail-meta-label">Role</p>
           <p class="detail-meta-value">{role}</p>
         </div>
-        {company && (
-          <div class="detail-meta-item">
-            <p class="detail-meta-label">Company</p>
-            <p class="detail-meta-value">{company}</p>
-          </div>
-        )}
-        {client && (
-          <div class="detail-meta-item">
-            <p class="detail-meta-label">Client</p>
-            <p class="detail-meta-value">{client}</p>
-          </div>
-        )}
         {year && (
           <div class="detail-meta-item">
             <p class="detail-meta-label">Year</p>
