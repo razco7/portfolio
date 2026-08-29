@@ -5,6 +5,9 @@ import { getCollection } from 'astro:content';
 const projects = await getCollection('projects');
 projects.sort((a, b) => a.data.order - b.data.order);
 
+const featuredProjects = projects.filter(p => p.data.order <= 5);
+const moreProjects = projects.filter(p => p.data.order > 5);
+
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
 
@@ -18,8 +21,8 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
     </div>
   </section>
 
-  <!-- Projects -->
-  {projects.map((project) => {
+  <!-- Featured Projects -->
+  {featuredProjects.map((project) => {
     const { title, tagline, type, role, client, company, bgColor, accentColor, darkTheme, coverImage, teaserImage, images, imageAlts, youtubeId, externalLink, externalLinkLabel, externalOnly, description } = project.data;
     const metaClass = darkTheme ? 'dark' : '';
     return (
@@ -108,6 +111,45 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
       </section>
     );
   })}
+
+  <!-- More Projects -->
+  <section class="more-projects-section">
+    <div class="more-projects-inner">
+      <h2 class="more-projects-heading">More projects</h2>
+      <div class="more-projects-grid">
+        {moreProjects.map((project) => {
+          const { title, tagline, bgColor, accentColor, darkTheme, coverImage, teaserImage, youtubeId, externalOnly, externalLink, externalLinkLabel } = project.data;
+          const img = teaserImage ?? coverImage;
+          const thumbSrc = img ? `${base}images/${img}` : youtubeId ? `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg` : null;
+          const caseStudyHref = !externalOnly ? `${base}projects/${project.slug}` : null;
+          return (
+            <div class={`more-card${darkTheme ? ' dark' : ''}`} style={`background-color: ${bgColor}`}>
+              {thumbSrc && (
+                <a href={caseStudyHref ?? externalLink ?? '#'} target={externalOnly ? '_blank' : undefined} rel={externalOnly ? 'noopener' : undefined} class="more-card-image-link">
+                  <img src={thumbSrc} alt={title} class="more-card-image" loading="lazy" />
+                </a>
+              )}
+              <div class="more-card-info">
+                <span class="more-card-title" style={`color: ${accentColor}`}>{title}</span>
+                <span class={`more-card-tagline${darkTheme ? ' dark' : ''}`}>{tagline}</span>
+                <div class="more-card-links">
+                  {caseStudyHref ? (
+                    <a href={caseStudyHref} class={`more-card-action${darkTheme ? ' dark' : ''}`}>
+                      Read case study <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                  ) : externalLink ? (
+                    <a href={externalLink} target="_blank" rel="noopener" class={`more-card-action${darkTheme ? ' dark' : ''}`}>
+                      {externalLinkLabel ?? 'View'} <span class="material-symbols-outlined">arrow_outward</span>
+                    </a>
+                  ) : null}
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </section>
 </BaseLayout>
 
 <script>

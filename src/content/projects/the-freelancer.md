@@ -1,6 +1,6 @@
 ---
 title: "The Freelancer"
-tagline: "Alternative way for freelancers to offer services on Fiverr."
+tagline: "An alternative way for freelancers to offer services."
 type: "Freelance Marketplace"
 role: "Concept & Design"
 company: "Fiverr"

@@ -1,6 +1,6 @@
 ---
 title: "Falcon"
-tagline: "From logo to product — turning the post-purchase confirmation page into a branded gift moment."
+tagline: "Branding and product design for an AdTech company."
 type: "AdTech"
 role: "Logo Design, Product Design"
 order: 6

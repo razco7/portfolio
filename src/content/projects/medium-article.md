@@ -1,12 +1,13 @@
 ---
 title: "Medium Article"
-tagline: "How to create better alignment between product managers & product designers."
+tagline: "Better alignment between PMs & designers."
 type: "Article"
 role: "Research & Writing"
 order: 8
 bgColor: "#ffcc00"
 accentColor: "#222"
 darkTheme: false
+coverImage: "medium_article.png"
 images:
   - "medium_article.png"
 imageAlts:

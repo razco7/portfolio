@@ -7,6 +7,7 @@ order: 11
 bgColor: "#222"
 accentColor: "#fff"
 darkTheme: true
+coverImage: "icons.jpg"
 images:
   - "icons.jpg"
 imageAlts:
