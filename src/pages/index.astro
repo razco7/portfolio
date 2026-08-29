@@ -135,11 +135,11 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
                 <div class="more-card-links">
                   {caseStudyHref ? (
                     <a href={caseStudyHref} class={`more-card-action${darkTheme ? ' dark' : ''}`}>
-                      Read case study <span class="material-symbols-outlined">arrow_forward</span>
+                      <span class="more-card-action-text">Read case study</span> <span class="material-symbols-outlined">arrow_forward</span>
                     </a>
                   ) : externalLink ? (
                     <a href={externalLink} target="_blank" rel="noopener" class={`more-card-action${darkTheme ? ' dark' : ''}`}>
-                      {externalLinkLabel ?? 'View'} <span class="material-symbols-outlined">arrow_outward</span>
+                      <span class="more-card-action-text">{externalLinkLabel ?? 'View'}</span> <span class="material-symbols-outlined">arrow_outward</span>
                     </a>
                   ) : null}
                 </div>

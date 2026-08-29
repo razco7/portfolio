@@ -758,7 +758,7 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
   .slider-image-link:hover img { opacity: 0.9; transition: opacity 0.2s; }
   .body-gallery-btn:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.2); }
   .more-card:hover { opacity: 0.85; }
-  .more-card-action:hover { text-decoration: underline; }
+  .more-card-action:hover .more-card-action-text { text-decoration: underline; }
   .back-to-top:hover { opacity: 0.8; }
   .project-nav-link:hover .project-nav-title { text-decoration: underline; text-underline-offset: 3px; }
   .project-nav-all:hover { color: #222; }
