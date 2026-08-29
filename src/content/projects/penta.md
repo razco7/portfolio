@@ -1,7 +1,7 @@
 ---
 title: "Penta"
 tagline: "Design systems as a product function."
-type: "Design System"
+type: "Freelance Marketplace"
 role: "Director of Product Design"
 company: "Fiverr"
 year: "2018 – 2022"

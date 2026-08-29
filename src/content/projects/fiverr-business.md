@@ -1,7 +1,7 @@
 ---
 title: "Fiverr Business"
 tagline: "Fiverr desktop app for businesses."
-type: "Conceptual"
+type: "Freelance Marketplace"
 role: "Concept & Design"
 company: "Fiverr"
 year: "2022"
