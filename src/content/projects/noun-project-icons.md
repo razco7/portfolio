@@ -1,6 +1,6 @@
 ---
 title: "Noun Project Icons"
-tagline: "Various icons."
+tagline: "Icons I've designed and published."
 role: "Design"
 client: "Self-initiated"
 order: 11
