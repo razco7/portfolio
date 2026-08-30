@@ -8,7 +8,7 @@ bgColor: "#FFF0ED"
 accentColor: "#F55A38"
 darkTheme: false
 coverImage: "Falcon-cover.jpg"
-teaserImage: "Falcon-top.jpg"
+teaserImage: "Falcon-cover.jpg"
 images: []
 imageAlts: []
 client: "Falcon"
