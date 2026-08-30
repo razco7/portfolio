@@ -26,11 +26,7 @@ My work spanned two areas: designing Falcon's logo and identity, and the product
 
 ## Brand Builders
 
-The main project was what Falcon calls Brand Builders: the system that lets partner companies configure and deliver gift offers through their confirmation pages. The design challenge was deceptively specific — the placement is always the same (post-purchase), but the context varies enormously.
-
-A user subscribing to a streaming service has a different mindset than someone who just bought a pair of trainers. A free trial for Paramount+ might feel like a natural complement to one purchase and irrelevant to another. And the trigger mechanic differs depending on whether the perk requires a product purchase or a subscription — the definition of "earned it" isn't always the same.
-
-We explored a range of approaches — different visual treatments, different moment framings, different ways to brand the offer so it felt like a reward rather than an ad. We collaborated with partner companies including Lightricks, Underoutfit, and Zoog, testing integrations across their checkout and subscription flows.
+The core project was Brand Builders — the system that lets partners configure and deliver gift offers through their confirmation pages. The challenge was deceptively specific: the placement is always the same (post-purchase), but the context varies enormously. Someone subscribing to a streaming service is in a different mindset than someone who just bought trainers, and the "earned it" trigger differs depending on whether the perk follows a purchase or a subscription. The work was finding treatments and framings that made each offer feel like a reward rather than an ad, tested across partner checkout and subscription flows.
 
 ## Lightricks — Perks Hub & Mobile Moments
 
