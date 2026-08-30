@@ -20,11 +20,9 @@ description: "From logo to product — designing the gift moment that lives on t
 
 ## Overview & Context
 
-Falcon is an AdTech company with a specific focus: the thank-you page. After a user completes a purchase, instead of a dead-end order confirmation, Falcon surfaces a personalized, brand-aligned offer — typically a free trial or perk with a major partner brand. Falcon has agreements with Paramount+, Netflix, Disney+, and others, and the offer is matched to each customer using machine learning, so it feels relevant rather than generic.
+Falcon is an AdTech company with a specific focus: the thank-you page. After a purchase, instead of a dead-end confirmation, Falcon surfaces a personalized, brand-aligned offer — usually a free trial or perk with a major partner brand, matched to each customer with machine learning so it feels relevant rather than generic. For merchants, it's incremental revenue per transaction with no implementation cost and a Shopify integration that goes live in minutes. The gift is the hook; the confirmation page is the placement.
 
-The model works for e-commerce merchants too: they earn incremental revenue per transaction with no implementation cost and a Shopify integration that can go live in minutes. The gift is the hook; the confirmation page is the placement.
-
-My work covered two areas: designing the company's logo, and working on the product design for how these gift moments get integrated and presented across different partner contexts.
+My work spanned two areas: designing Falcon's logo and identity, and the product design for how these gift moments get integrated and presented across partner contexts.
 
 ## Brand Builders
 
