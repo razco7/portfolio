@@ -298,7 +298,7 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
   align-items: flex-start;
 }
 .about-photo {
-  width: 480px;
+  width: 200px;
   flex-shrink: 0;
   border-radius: 16px;
   object-fit: cover;
@@ -306,7 +306,6 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
 }
 .about-text {
   flex: 1;
-  max-width: 640px;
   padding: 0 0 16px;
 }
 .about-heading {
