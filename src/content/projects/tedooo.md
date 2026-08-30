@@ -220,6 +220,4 @@ The throughline across all of it was the same principle I started with: with thi
 
 ## What I'd Do Differently
 
-The design system was built alongside the product work rather than before it — the natural consequence of a project that grew incrementally from a specific brief into a full platform. In hindsight I'd have mapped the full scope first: the range here was unusually wide — a social platform, an ecommerce marketplace, and a seller dashboard under one roof, each with genuinely different component needs — and making system decisions with that breadth in mind from the start would have saved real retrofitting later.
-
-The lesson: even when you can't predict the full scope, treating the design system as a strategic foundation rather than something that accumulates behind the product work makes a meaningful difference over a long engagement.
+Toward the end, some mobile work was built by a developer with AI assistance and reviewed by me — a fast, effective loop, but one I set up reactively rather than by design. If I were starting again, I'd define that design-to-AI-to-review pipeline deliberately from the beginning: where AI accelerates, where the designer's review is non-negotiable, and how quality stays consistent when work moves that fast. It worked, but it worked by improvisation.
