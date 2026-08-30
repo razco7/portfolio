@@ -30,7 +30,7 @@ I also built the design system alongside the product work — translating patter
 
 <div class="section-group-header">The social side</div>
 
-<p class="section-label">Explore — The Feed</p>
+<p class="section-label">The Feed — Explore</p>
 
 The feed was the starting point — the core of the experience where the social and marketplace sides of Tedooo come together. The Explore tab surfaces content from across the platform: posts from people you follow, new work from the crafting community, items being sold.
 
@@ -46,7 +46,7 @@ Supporting all these content types in one composer created real complexity. Each
   <img src="/images/Tedooo-feed-mobile.jpg" alt="Tedooo feed and create post flow on mobile" />
 </div>
 
-<p class="section-label">Communities — The Feed</p>
+<p class="section-label">The Feed — Communities</p>
 
 Communities are the more focused side of the feed — groups organised around a specific craft or interest, like Knitting, Crochet, or Woodworking. Users can join communities that match their expertise, browse a feed scoped to that group, participate in group chats (both official community chats and related topic chats), and see a leaderboard of the most active contributors. It's closer to a forum or Facebook Group than a general feed — a place for more deliberate, expertise-driven interaction.
 
