@@ -1,6 +1,6 @@
 ---
 title: "Penta"
-tagline: "Design systems as a product function."
+tagline: "Establishing design system as a function — and making the business case that got it funded"
 type: "Freelance Marketplace"
 role: "Director of Product Design"
 company: "Fiverr"
