@@ -493,11 +493,9 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
 }
 .detail-body h2:first-child { margin-top: 0; padding-top: 0; border-top: none; }
 .detail-body .section-label {
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: #aaa;
+  color: #222;
   margin: 48px 0 12px;
 }
 .detail-body .section-group-header {
