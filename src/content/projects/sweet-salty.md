@@ -1,7 +1,7 @@
 ---
 title: "Sweet/Salty"
 tagline: "A recipe site built for the cook, not the search engine."
-type: "Food & Lifestyle"
+type: "Food & Cooking"
 role: "Concept, Design, Development"
 order: 4
 bgColor: "#ffd6c7"
