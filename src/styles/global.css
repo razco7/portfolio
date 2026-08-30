@@ -291,14 +291,14 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
   display: flex;
   flex-direction: row;
   gap: 40px;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 120px auto 80px;
   padding: 0 40px;
   justify-content: space-between;
   align-items: flex-start;
 }
 .about-photo {
-  width: 200px;
+  width: 480px;
   flex-shrink: 0;
   border-radius: 16px;
   object-fit: cover;
