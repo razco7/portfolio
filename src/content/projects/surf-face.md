@@ -50,7 +50,7 @@ Two problems, tangled together. The data problem: wave/tide data and weather dat
 
 ## Outcome
 
-Currently submitted to the Connect IQ Store for review. Every fix in the final release came from a self-run beta loop on my own device — real hardware surfaced bugs the simulator either couldn't reproduce or actively masked.
+Live on the Connect IQ Store, with 100+ downloads. Every fix in the final release came from a self-run beta loop on my own device — real hardware surfaced bugs the simulator either couldn't reproduce or actively masked.
 
 <div class="body-image-full">
   <img src="/images/Surf-face-02.jpg" alt="Surf Face on Garmin Instinct 3 at sunset" />
