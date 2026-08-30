@@ -14,8 +14,10 @@ const { project } = Astro.props;
 const { Content } = await project.render();
 const {
   title, tagline, type, role, client, company, year, bgColor, accentColor, darkTheme,
-  images, imageAlts, youtubeId, externalLink, externalLinkLabel,
+  images, imageAlts, youtubeId, externalLink, externalLinkLabel, teaserImage, coverImage,
 } = project.data;
+
+const ogImage = `images/${teaserImage ?? coverImage}`;
 
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const hasBody = project.body.trim().length > 0;
@@ -27,7 +29,7 @@ const prevProject = currentIndex > 0 ? allProjects[currentIndex - 1] : allProjec
 const nextProject = currentIndex < allProjects.length - 1 ? allProjects[currentIndex + 1] : allProjects[0];
 ---
 
-<BaseLayout title={`${title} — Raz Cohen`} description={tagline}>
+<BaseLayout title={`${title} — Raz Cohen`} description={tagline} ogImage={ogImage}>
   <!-- Hero -->
   <section class="detail-hero">
     <div class="detail-hero-inner">
