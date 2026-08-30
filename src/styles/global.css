@@ -512,6 +512,7 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
 .detail-body ul, .detail-body ol { padding-left: 24px; margin: 0 0 24px; }
 .detail-body li { margin-bottom: 8px; }
 .detail-body strong { font-weight: 600; }
+.detail-body p a { color: inherit; text-decoration: underline; }
 .single-image-link { display: block; }
 .slider-image-link { display: block; }
 .detail-gallery {
