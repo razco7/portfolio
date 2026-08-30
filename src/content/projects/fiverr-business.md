@@ -32,6 +32,8 @@ The design direction was a hybrid: part Fiverr, part project management platform
 
 ## How It Worked
 
+The core design challenge was that Fiverr's model is granular in a way business users don't naturally think in — a company wants "a video ad," but Fiverr delivers that as a scriptwriter, a motion designer, a sound designer, and an editor, each sourced separately. The app had to bridge that gap: let people think in projects while Fiverr's marketplace worked underneath.
+
 The core unit was the **project**. You'd create a project, give it a name and a budget, and assign team members — both people from inside your company and Fiverr sellers you brought in for specific work.
 
 To make that easier, the app included **project templates** for common workflows: producing a video advertisement, building a website, launching a campaign. Each template came pre-loaded with the steps typically needed, along with guidance on which types of services to source from Fiverr. Because Fiverr's model is granular — a video production project might require a scriptwriter, a motion graphics designer, a sound designer, and a video editor, each a separate seller — the templates helped users understand what they'd need before they started sourcing.
