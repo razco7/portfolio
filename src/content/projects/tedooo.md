@@ -189,23 +189,23 @@ The first challenge was comprehension. The mental leap from "describe something"
 The second challenge was length. The flow covers a lot of ground — category selection, idea input (text, image upload, or library browse), a loading state, a side-by-side comparison, customisation, and checkout. That's a lot of commitment for something that requires imagination before it delivers. The response was to keep each step as focused and visually light as possible, lean into the playfulness of the concept rather than fighting it, and never let the interface feel heavier than the idea it's trying to surface.
 
 <div class="body-image-full">
-  <img src="/images/02A-Tedooo-AI-vision.jpg" alt="AI Vision step 1 — choose a category" />
+  <img src="/images/02A-Tedooo-AI-vision.jpg" alt="AI Vision step 1 — choose a category" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/images/02B-Tedooo-AI-vision.jpg" alt="AI Vision step 2 — write an idea or upload image" />
+  <img src="/images/02B-Tedooo-AI-vision.jpg" alt="AI Vision step 2 — write an idea or upload image" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/images/02D-Tedooo-AI-vision.jpg" alt="AI Vision — generating your design" />
+  <img src="/images/02D-Tedooo-AI-vision.jpg" alt="AI Vision — generating your design" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/images/02F-Tedooo-AI-vision.jpg" alt="AI Vision — customize your item" />
+  <img src="/images/02F-Tedooo-AI-vision.jpg" alt="AI Vision — customize your item" style="border: 1px solid #f0f0f0;" />
 </div>
 
 <div class="body-image-full">
-  <img src="/images/02G-Tedooo-AI-vision.jpg" alt="AI Vision — checkout" />
+  <img src="/images/02G-Tedooo-AI-vision.jpg" alt="AI Vision — checkout" style="border: 1px solid #f0f0f0;" />
 </div>
 
 ## Outcome
