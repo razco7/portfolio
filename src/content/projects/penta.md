@@ -4,7 +4,7 @@ tagline: "Design systems as a product function."
 type: "Freelance Marketplace"
 role: "Director of Product Design"
 company: "Fiverr"
-year: "2018 – 2022"
+year: "2016 – 2022"
 order: 7
 bgColor: "#0f5533"
 accentColor: "#fff"
