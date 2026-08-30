@@ -14,14 +14,13 @@ const { project } = Astro.props;
 const { Content } = await project.render();
 const {
   title, tagline, type, role, client, company, year, bgColor, accentColor, darkTheme,
-  images, imageAlts, youtubeId, externalLink, externalLinkLabel, teaserImage, coverImage,
+  images, imageAlts, youtubeId, externalLink, externalLinkLabel, teaserImage, coverImage, coverBorder,
 } = project.data;
 
 const ogImage = `images/${teaserImage ?? coverImage}`;
 
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const hasBody = project.body.trim().length > 0;
-const { coverImage, coverBorder } = project.data;
 
 const allProjects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order);
 const currentIndex = allProjects.findIndex((p) => p.slug === project.slug);
