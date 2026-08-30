@@ -34,7 +34,7 @@ This was a concept initiative. No AI tools existed at that scale yet — all the
 
 ## The Design
 
-The design covered three core screens: the homepage, the browse/collection view, and the individual item detail page.
+The design covered three core screens: the homepage, the browse/collection view, and the individual item detail page. The harder part wasn't the screens themselves — it was that NFT marketplaces were a brand-new category with no established visual language to build on. The design had to feel premium and credible enough to sit alongside the art it was selling, while still reading as part of Fiverr. I leaned into a darker, gallery-like presentation that let the artwork dominate — generous space around each piece, restrained UI, the interface acting as a frame rather than competing with the work — and balanced a distinct Fiverare sub-brand identity against Fiverr's existing design language, so it felt like a new destination without feeling like a different company.
 
 <div class="body-image-full">
   <img src="/images/Fiverare-homepage.jpg" alt="Fiverare homepage — NFT marketplace concept" />
