@@ -72,4 +72,4 @@ The app also included **budget and spend tracking**, a project chat so all commu
 
 This was a vision project — a concept for where Fiverr's business product could go, not a shipped feature. It never made it to production. But it was a useful exercise in thinking about what a Fiverr experience built specifically for teams would look like if it started from how businesses actually work, rather than from the marketplace's existing model.
 
-It was one of a few explorations into where Fiverr's model could go next — alongside The Freelancer, which took a similar rethink to the seller experience.
+It was one of a few explorations into where Fiverr's model could go next — alongside [The Freelancer](/projects/the-freelancer), which took a similar rethink to the seller experience.
