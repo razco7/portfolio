@@ -197,15 +197,7 @@ The second challenge was length. The flow covers a lot of ground — category se
 </div>
 
 <div class="body-image-full">
-  <img src="/images/02C-Tedooo-AI-vision.jpg" alt="AI Vision — add credits modal" />
-</div>
-
-<div class="body-image-full">
   <img src="/images/02D-Tedooo-AI-vision.jpg" alt="AI Vision — generating your design" />
-</div>
-
-<div class="body-image-full">
-  <img src="/images/02E-Tedooo-AI-vision.jpg" alt="AI Vision step 3 — choose between two generated designs" />
 </div>
 
 <div class="body-image-full">
@@ -214,10 +206,6 @@ The second challenge was length. The flow covers a lot of ground — category se
 
 <div class="body-image-full">
   <img src="/images/02G-Tedooo-AI-vision.jpg" alt="AI Vision — checkout" />
-</div>
-
-<div class="body-image-full">
-  <img src="/images/02H-Tedooo-AI-vision.jpg" alt="AI Vision hub — your creations and orders" />
 </div>
 
 ## Outcome
