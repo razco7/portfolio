@@ -309,9 +309,9 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
   padding: 0 0 16px;
 }
 .about-heading {
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 600;
-  line-height: 48px;
+  line-height: 44px;
   color: #202020;
   margin: 0 0 20px;
 }
