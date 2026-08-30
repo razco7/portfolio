@@ -106,6 +106,8 @@ The homepage is built to pull returning users back into an incomplete flow. A pe
 
 The designs were completed and handed off within the project scope. The recommendation interface went from a complex, information-heavy spec to something legible enough to walk through without explanation — which was the brief.
 
+FINQ was still at an early, proof-of-concept stage during this work, so success was measured by whether the structure was right for launch, not by post-launch metrics. What I can point to is the shift itself: a dense, advisor-dependent set of decisions turned into an interface a first-time user could read and act on alone.
+
 <div class="body-image-full">
   <img src="/images/FINQ-desktop-improve.jpg" alt="FINQ recommendation page showing current vs. improved portfolio on desktop" />
 </div>
