@@ -32,11 +32,11 @@ The core project was Brand Builders — the system that lets partners configure 
 
 One of the more complete integrations was with Lightricks, the company behind Facetune. Subscribers get a dedicated perks hub — a place to browse and claim offers from partners like Disney+, Paramount+, Amazon Prime Video, Adobe, and Nord VPN. The desktop challenge was making a catalogue of disparate offers feel cohesive and worth exploring, not like an affiliate page.
 
-The harder problem was earlier: how to tell someone they've just unlocked perks the moment they subscribe, and get them to engage. I explored several approaches — a minimal prompt with a partner-logo grid, a curated list of trending offers, a single highlighted perk with a direct claim button — each a different bet on driving users from the subscription confirmation into the hub, shown here on mobile.
-
 <div class="body-image-full">
   <img src="/images/Falcon-Lightricks-perks.jpg" alt="Lightricks Member Perks hub — desktop" style="border: 1px solid #f0f0f0;" />
 </div>
+
+The harder problem was earlier: how to tell someone they've just unlocked perks the moment they subscribe, and get them to engage. I explored several approaches — a minimal prompt with a partner-logo grid, a curated list of trending offers, a single highlighted perk with a direct claim button — each a different bet on driving users from the subscription confirmation into the hub, shown here on mobile.
 
 <div class="body-image-full">
   <img src="/images/Falcon-Lightricks-mobile.jpg" alt="Lightricks mobile — post-subscription perk moment approaches" />
