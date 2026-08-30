@@ -109,4 +109,4 @@ What began as a single mentoring relationship in 2024 grew into something spanni
 
 ## What I'd Do Differently
 
-The work across Bookaway grew organically — mentoring first, then hands-on design, then hiring, the guild, and eventually AI strategy — each added as the need arose. In hindsight, the piece I'd have pushed on earlier is the design system. So much of what came later — consistent product work, the AI workflow, even onboarding new designers — depends on a strong, well-maintained system underneath. Treating that as the foundation from the start, rather than something addressed once its absence became the bottleneck, would have made everything built on top of it faster and more consistent.
+The guild worked, but it stayed a monthly gathering — a place to share work, not a system for it. In hindsight I'd have pushed to capture what came out of those sessions somewhere durable: a shared space for the patterns, critiques, and decisions that surfaced, so the knowledge outlived the meeting. A design community needs a memory, not just a meeting — and building that from the start would have compounded the value of every session.
