@@ -23,7 +23,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const hasBody = project.body.trim().length > 0;
 
 const allProjects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order);
-const caseStudyProjects = allProjects.filter(p => p.body.trim().length > 0);
+const caseStudyProjects = allProjects.filter(p => p.body.trim().length > 0 && !p.data.externalOnly);
 const currentIndex = caseStudyProjects.findIndex((p) => p.slug === project.slug);
 const prevProject = currentIndex > 0 ? caseStudyProjects[currentIndex - 1] : null;
 const nextProject = currentIndex < caseStudyProjects.length - 1 ? caseStudyProjects[currentIndex + 1] : null;
