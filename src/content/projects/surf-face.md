@@ -20,9 +20,11 @@ description: "Surf Face is a Garmin Connect IQ watch face for surfers — live w
 
 ## Overview & Context
 
-Surfers check conditions obsessively before a session — wave height, tide, wind direction — usually by pulling out a phone and opening two or three different apps. A watch face is the right form factor for this: always visible, no unlocking, no app-switching. The catch is that a watch face isn't really a normal software product — it's an embedded one, running on a small MIP (Memory-In-Pixel) display with no persistent connection, and background execution the OS can silently kill at any time. The Garmin Instinct 3 is a solar-charged watch with up to two weeks of battery life, so power consumption itself wasn't the bottleneck — but the execution environment is still far more constrained than a mobile app.
+Surfers check conditions obsessively before a session — wave height, tide, wind direction — usually by pulling out a phone and opening two or three different apps. A watch face is the right form factor: always visible, no unlocking, no app-switching.
 
-A few surf-condition watch faces already existed on the Connect IQ Store. The problem was the design: every one of them showed as much data as possible with no apparent hierarchy or editorial judgment — tide tables, swell period, wind speed, moon phase, water temperature all crammed onto a screen the size of a coin. Technically impressive in some cases, but close to unreadable at a glance. They also required real technical setup: users had to generate an API key from a third-party service, then manually enter it into the watch settings. That's a non-starter for most surfers, who just want to know if it's worth paddling out.
+A few surf-condition watch faces already existed on the Connect IQ Store, but every one had the same problem: they crammed tide tables, swell period, wind speed, moon phase, and water temperature onto a screen the size of a coin, with no hierarchy or editorial judgment — technically impressive, close to unreadable at a glance. Most also required real technical setup: generate an API key from a third-party service, then manually enter it into the watch settings. A non-starter for someone who just wants to know if it's worth paddling out.
+
+The other catch is that a watch face isn't a normal software product — it's an embedded one, running on a small always-on display with no persistent connection and background execution the OS can silently kill at any time. A far more constrained environment than a mobile app, and the source of most of the hard problems below.
 
 ## My Role & Constraints
 
