@@ -36,7 +36,7 @@ The core design challenge was that Fiverr's model is granular in a way business 
 
 The core unit was the **project**. You'd create a project, give it a name and a budget, and assign team members — both people from inside your company and Fiverr sellers you brought in for specific work.
 
-To make that easier, the app included **project templates** for common workflows: producing a video advertisement, building a website, launching a campaign. Each template came pre-loaded with the steps typically needed, along with guidance on which types of services to source from Fiverr. Because Fiverr's model is granular — a video production project might require a scriptwriter, a motion graphics designer, a sound designer, and a video editor, each a separate seller — the templates helped users understand what they'd need before they started sourcing.
+To make that easier, the app included **project templates** for common workflows: producing a video advertisement, building a website, launching a campaign. Each template came pre-loaded with the steps typically needed, along with guidance on which services to source from Fiverr — so users understood what a project would require before they started sourcing.
 
 <div class="body-image-full">
   <img src="/images/FiverBiz-project-overview.jpg" alt="Fiverr Business app — project overview" />
