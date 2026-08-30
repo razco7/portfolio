@@ -291,7 +291,7 @@ img { max-width: 100%; vertical-align: middle; display: inline-block; }
   display: flex;
   flex-direction: row;
   gap: 40px;
-  max-width: 1280px;
+  max-width: 1360px;
   margin: 120px auto 80px;
   padding: 0 40px;
   justify-content: space-between;
