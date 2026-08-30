@@ -23,11 +23,10 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const hasBody = project.body.trim().length > 0;
 
 const allProjects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order);
-const isMain = project.data.order <= 5;
-const tierProjects = allProjects.filter(p => (p.data.order <= 5) === isMain);
-const currentIndex = tierProjects.findIndex((p) => p.slug === project.slug);
-const prevProject = currentIndex > 0 ? tierProjects[currentIndex - 1] : tierProjects[tierProjects.length - 1];
-const nextProject = currentIndex < tierProjects.length - 1 ? tierProjects[currentIndex + 1] : tierProjects[0];
+const caseStudyProjects = allProjects.filter(p => p.body.trim().length > 0);
+const currentIndex = caseStudyProjects.findIndex((p) => p.slug === project.slug);
+const prevProject = currentIndex > 0 ? caseStudyProjects[currentIndex - 1] : null;
+const nextProject = currentIndex < caseStudyProjects.length - 1 ? caseStudyProjects[currentIndex + 1] : null;
 ---
 
 <BaseLayout title={`${title} — Raz Cohen`} description={tagline} ogImage={ogImage}>
