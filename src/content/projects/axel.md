@@ -9,10 +9,8 @@ accentColor: "#2C36ED"
 darkTheme: false
 coverImage: "Axel-landing-page.jpg"
 teaserImage: "Axel-cover.jpg"
-images:
-  - "Axel-05-listing-details.jpg"
-imageAlts:
-  - "Axel listing flow — additional details step"
+images: []
+imageAlts: []
 client: "Axel"
 year: "2026"
 externalLink: "https://withaxel.com/sell/b/intro"
@@ -104,6 +102,10 @@ The final screen isn't just a confirmation — it's a "What's next?" handoff tha
 
 <div class="body-image-full">
   <img src="/images/Axel-06-listing-signup.jpg" alt="Axel sign-up and confirmation screens" />
+</div>
+
+<div class="body-image-full">
+  <img src="/images/Axel-05-listing-details.jpg" alt="Axel listing flow — additional details step" />
 </div>
 
 ## Outcome
