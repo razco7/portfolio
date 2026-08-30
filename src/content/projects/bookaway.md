@@ -16,14 +16,14 @@ client: "Bookaway"
 year: "2024 – present"
 externalLink: "https://www.bookaway.com/"
 externalLinkLabel: "Visit website"
-description: "Mentoring, hiring, and building design culture across a multi-brand travel group. What began as a single mentoring relationship in 2024 grew into a fractional leadership role — spanning hands-on product design, running the company's design guild, leading design hiring, and shaping how the team adopts AI."
+description: "Mentoring, hiring, and building design culture across a multi-brand travel group. What began as a single mentoring relationship in 2024 grew into a fractional leadership role — spanning hands-on product design, running the company's design guild, leading design hiring, and helping shape how the team adopts AI."
 ---
 
 ## Overview & Context
 
 Bookaway is a transportation booking platform — buses, ferries, trains, transfers, and flights across destinations where getting from A to B is often the hardest part of a trip. It sits inside Travelier, a larger travel group with several brands under one roof, including 12Go, Platforma10, and Deonibus.
 
-My engagement here was different from a typical project. It started in 2024 as a mentoring relationship with the designer already on the team, and grew from there — into hands-on product work, running the company's design guild, leading hiring for the design team, and shaping how the team adopts AI. Over time it became something closer to fractional design leadership: working across the full spectrum, from individual-contributor design through team-lead and director-level responsibilities.
+My engagement here was different from a typical project. It started in 2024 as a mentoring relationship with the designer already on the team, and grew from there — into hands-on product work, running the company's design guild, leading hiring for the design team, and helping shape how the team adopts AI. Over time it became something closer to fractional design leadership: working across the full spectrum, from individual-contributor design through team-lead and director-level responsibilities.
 
 ## Hands-on Design
 
