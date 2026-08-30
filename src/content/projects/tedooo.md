@@ -28,6 +28,8 @@ One of the first decisions I made was to pull back on the UI's visual intensity.
 
 I also built the design system alongside the product work — translating patterns from the app to web, adapting them for larger screens, and making decisions about what to keep, what to change, and what to create from scratch.
 
+<div class="section-group-header">The social side</div>
+
 ## The Feed
 
 <p class="section-label">Explore</p>
@@ -57,6 +59,8 @@ Communities are the more focused side of the feed — groups organised around a 
 <div class="body-image-full">
   <img src="/images/Tedooo-community-mobile.jpg" alt="Tedooo communities on mobile showing feed, group chats and leaderboard" />
 </div>
+
+<div class="section-group-header">The marketplace</div>
 
 ## Shopping
 
@@ -95,6 +99,64 @@ Below the fold, two horizontal sections close out the page: more items from this
 <div class="body-image-full">
   <img src="/images/Product-page.jpg" alt="Tedooo product page — sticky buy panel, item details, reviews, and related items" style="border: 1px solid #f0f0f0;" />
 </div>
+
+<div class="section-group-header">Seller tools</div>
+
+## Shop Creation
+
+Getting a new seller set up on Tedooo meant asking for a lot: account type, location, currency, contact details, and at least one item listed before they could start selling. That's a lot of commitment upfront. The challenge was making it feel manageable and even enjoyable — not like a form to get through, but like a setup that's actually worth completing.
+
+The flow is structured as a step-by-step onboarding with a persistent progress bar at the top. Each step has one job: the goals screen asks what you're here for (shop, buy, browse patterns, socialize) so the experience can be personalised from the start; the details steps gather location, currency, and contact info needed for shipping and payments.
+
+Every step uses a split layout. The left side has the form — focused, minimal, one thing at a time. The right side carries social proof and benefits: seller testimonials, live stats ("Connect with 1,572,344 customers worldwide"), animated illustrations. The effect is that filling in the form never feels like filling in a form. There's always something worth looking at on the right, and always a reason to keep going.
+
+The final step requires adding at least one item before the shop goes live. This was a deliberate product decision — a shop with no items is a dead end for any buyer who finds it, and getting that first listing done during setup means sellers launch in a real state. Import via CSV or add manually; either way, you're done when you have something to show.
+
+<div class="body-image-full">
+  <img src="/images/Shop-creation-1.jpg" alt="Shop creation — goals selection screen" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/images/Shop-creation-2.jpg" alt="Shop creation — location, currency and contact details with social proof" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/images/Shop-creation-3.jpg" alt="Shop creation — add your first item, import CSV or add manually" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/images/Shop-creation-4.jpg" alt="Shop creation — item listing form with photos, pricing and variations" style="border: 1px solid #f0f0f0;" />
+</div>
+
+## Seller Hub
+
+Before this work, seller tools were scattered across the platform — no single place where a seller could manage their listings, check their orders, run a promotion, and update their shop details in one sitting. The Seller Hub was the answer to that: a dedicated area that brings everything together under one roof.
+
+The hub is built around a persistent left nav — Dashboard, Items, Inbox, Analytics, Orders, Coupons & Sales, Image Enhancement, Your Shop, Settings — with a collapsible sidebar so sellers can reclaim screen space when they need it. The Items section is where most of the day-to-day work happens: sellers can switch between list and grid view, bulk-select items to edit prices, move them to sections, merge duplicates, and manage the section structure of their shop. Actions that used to require navigating multiple separate pages are available directly from the item management view.
+
+The longer-term vision was to go further — pulling in shop profile details and shipping configurations that had been living in separate corners of the platform, so that setting up and maintaining a shop would eventually be a single, coherent flow rather than a scavenger hunt.
+
+<div class="body-image-full">
+  <img src="/images/Seller-hub-Panel-Open.jpg" alt="Seller Hub with sidebar expanded showing items grid view" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/images/Seller-hub-Panel-closed.jpg" alt="Seller Hub with sidebar collapsed to icons" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/images/Seller-hub-Items.jpg" alt="Seller Hub items in list view" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/images/Seller-hub-Shop-profile.jpg" alt="Seller Hub with move to section modal open" style="border: 1px solid #f0f0f0;" />
+</div>
+
+<div class="body-image-full">
+  <img src="/images/Seller-hub-mobile.jpg" alt="Seller Hub on mobile — items, nav, bulk actions and section management" />
+</div>
+
+<div class="section-group-header">The new bet</div>
 
 ## AI Vision
 
@@ -153,60 +215,6 @@ The bigger decision was at the card level. With this many patterns on screen at 
 
 <div class="body-image-full">
   <img src="/images/Tedooo-Patterns-4.jpg" alt="Tedooo Patterns — pattern discussion thread and three-dot action menu" />
-</div>
-
-## Shop Creation
-
-Getting a new seller set up on Tedooo meant asking for a lot: account type, location, currency, contact details, and at least one item listed before they could start selling. That's a lot of commitment upfront. The challenge was making it feel manageable and even enjoyable — not like a form to get through, but like a setup that's actually worth completing.
-
-The flow is structured as a step-by-step onboarding with a persistent progress bar at the top. Each step has one job: the goals screen asks what you're here for (shop, buy, browse patterns, socialize) so the experience can be personalised from the start; the details steps gather location, currency, and contact info needed for shipping and payments.
-
-Every step uses a split layout. The left side has the form — focused, minimal, one thing at a time. The right side carries social proof and benefits: seller testimonials, live stats ("Connect with 1,572,344 customers worldwide"), animated illustrations. The effect is that filling in the form never feels like filling in a form. There's always something worth looking at on the right, and always a reason to keep going.
-
-The final step requires adding at least one item before the shop goes live. This was a deliberate product decision — a shop with no items is a dead end for any buyer who finds it, and getting that first listing done during setup means sellers launch in a real state. Import via CSV or add manually; either way, you're done when you have something to show.
-
-<div class="body-image-full">
-  <img src="/images/Shop-creation-1.jpg" alt="Shop creation — goals selection screen" style="border: 1px solid #f0f0f0;" />
-</div>
-
-<div class="body-image-full">
-  <img src="/images/Shop-creation-2.jpg" alt="Shop creation — location, currency and contact details with social proof" style="border: 1px solid #f0f0f0;" />
-</div>
-
-<div class="body-image-full">
-  <img src="/images/Shop-creation-3.jpg" alt="Shop creation — add your first item, import CSV or add manually" style="border: 1px solid #f0f0f0;" />
-</div>
-
-<div class="body-image-full">
-  <img src="/images/Shop-creation-4.jpg" alt="Shop creation — item listing form with photos, pricing and variations" style="border: 1px solid #f0f0f0;" />
-</div>
-
-## Seller Hub
-
-Before this work, seller tools were scattered across the platform — no single place where a seller could manage their listings, check their orders, run a promotion, and update their shop details in one sitting. The Seller Hub was the answer to that: a dedicated area that brings everything together under one roof.
-
-The hub is built around a persistent left nav — Dashboard, Items, Inbox, Analytics, Orders, Coupons & Sales, Image Enhancement, Your Shop, Settings — with a collapsible sidebar so sellers can reclaim screen space when they need it. The Items section is where most of the day-to-day work happens: sellers can switch between list and grid view, bulk-select items to edit prices, move them to sections, merge duplicates, and manage the section structure of their shop. Actions that used to require navigating multiple separate pages are available directly from the item management view.
-
-The longer-term vision was to go further — pulling in shop profile details and shipping configurations that had been living in separate corners of the platform, so that setting up and maintaining a shop would eventually be a single, coherent flow rather than a scavenger hunt.
-
-<div class="body-image-full">
-  <img src="/images/Seller-hub-Panel-Open.jpg" alt="Seller Hub with sidebar expanded showing items grid view" style="border: 1px solid #f0f0f0;" />
-</div>
-
-<div class="body-image-full">
-  <img src="/images/Seller-hub-Panel-closed.jpg" alt="Seller Hub with sidebar collapsed to icons" style="border: 1px solid #f0f0f0;" />
-</div>
-
-<div class="body-image-full">
-  <img src="/images/Seller-hub-Items.jpg" alt="Seller Hub items in list view" style="border: 1px solid #f0f0f0;" />
-</div>
-
-<div class="body-image-full">
-  <img src="/images/Seller-hub-Shop-profile.jpg" alt="Seller Hub with move to section modal open" style="border: 1px solid #f0f0f0;" />
-</div>
-
-<div class="body-image-full">
-  <img src="/images/Seller-hub-mobile.jpg" alt="Seller Hub on mobile — items, nav, bulk actions and section management" />
 </div>
 
 ## Outcome

@@ -500,6 +500,16 @@ a.detail-external-link .material-symbols-outlined { font-size: 16px; line-height
   color: #aaa;
   margin: 48px 0 12px;
 }
+.detail-body .section-group-header {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #aaa;
+  margin: 80px 0 0;
+  padding: 24px 0 0;
+  border-top: 1px solid #e8e8e8;
+}
 .detail-body h3 { font-size: 22px; font-weight: 600; line-height: 32px; margin: 32px 0 12px; }
 .detail-body ul, .detail-body ol { padding-left: 24px; margin: 0 0 24px; }
 .detail-body li { margin-bottom: 8px; }
