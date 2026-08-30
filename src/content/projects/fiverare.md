@@ -20,9 +20,7 @@ description: "During 2021–2022 when NFT was at its peak, one of the best trend
 
 ## Overview & Context
 
-In 2021–2022, NFT was at the height of its cultural moment. For a brief but intense period, digital art and collectibles were a genuine phenomenon — and one of the most-searched terms on Fiverr was NFT. People were coming to Fiverr specifically to commission illustrations, art series, and other digital work to mint as NFTs.
-
-Fiverr was already home to thousands of talented creators producing exactly what the NFT market wanted. The question was whether Fiverr could do more than just host those services in the standard search results — whether it could build a dedicated space that matched the moment.
+Fiverr was already home to thousands of talented creators producing exactly what the NFT market wanted. The question was whether Fiverr could do more than just host those services in the standard search results — whether it could build a dedicated space that matched the moment, in a category that didn't yet have an established way of presenting itself.
 
 ## The Idea
 
