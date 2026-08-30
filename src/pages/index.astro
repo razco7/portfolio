@@ -118,7 +118,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
       <h2 class="more-projects-heading">More projects</h2>
       <div class="more-projects-grid">
         {moreProjects.map((project) => {
-          const { title, tagline, bgColor, accentColor, darkTheme, coverImage, teaserImage, youtubeId, externalOnly, externalLink, externalLinkLabel } = project.data;
+          const { title, tagline, bgColor, accentColor, darkTheme, coverImage, teaserImage, youtubeId, externalOnly, externalLink, externalLinkLabel, imagePosition } = project.data;
           const img = teaserImage ?? coverImage;
           const thumbSrc = img ? `${base}images/${img}` : youtubeId ? `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg` : null;
           const caseStudyHref = !externalOnly ? `${base}projects/${project.slug}` : null;
@@ -126,7 +126,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
             <div class={`more-card${darkTheme ? ' dark' : ''}`} style={`background-color: ${bgColor}`}>
               {thumbSrc && (
                 <a href={caseStudyHref ?? externalLink ?? '#'} target={externalOnly ? '_blank' : undefined} rel={externalOnly ? 'noopener' : undefined} class="more-card-image-link">
-                  <img src={thumbSrc} alt={title} class="more-card-image" loading="lazy" />
+                  <img src={thumbSrc} alt={title} class="more-card-image" loading="lazy" style={imagePosition ? `object-position: ${imagePosition}` : undefined} />
                 </a>
               )}
               <div class="more-card-info">
