@@ -83,6 +83,8 @@ The buyer side stays entirely familiar: they still browse services, see starting
 
 This was a concept — it never went into production. But it identified a genuine tension in how Fiverr's gig model works for sellers at scale: the more capable and versatile a freelancer is, the worse the current model represents them. The Freelancer explored what it might look like to fix that — making it easy for sellers to show everything they can do, while keeping the buyer experience clean, transactional, and familiar.
 
+It was one of a few concepts I explored around evolving Fiverr beyond its original gig model — a companion piece to Fiverr Business, which took a similar rethink to the buyer's side.
+
 <div class="body-image-full">
   <img src="/images/Freelancer-service-offering.jpg" alt="The Freelancer — resulting seller profile and service offering" style="border: 1px solid #f0f0f0;" />
 </div>
