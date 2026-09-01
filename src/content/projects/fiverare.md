@@ -6,8 +6,8 @@ role: "Concept & Design"
 company: "Fiverr"
 year: "2021 – 2022"
 order: 8
-bgColor: "#d1d7e9"
-accentColor: "#0038ff"
+bgColor: "#f0e6ff"
+accentColor: "#7b2fff"
 darkTheme: false
 coverImage: "Fiverare-homepage.jpg"
 teaserImage: "Fiverare-homepage.jpg"

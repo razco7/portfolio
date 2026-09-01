@@ -1,5 +1,5 @@
 ---
-title: "Medium Article"
+title: "PM & Designer Alignment"
 tagline: "Better alignment between PMs & designers."
 type: "Article"
 role: "Research & Writing"
