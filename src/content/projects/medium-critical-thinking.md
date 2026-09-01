@@ -3,7 +3,7 @@ title: "Critical Thinking in the Age of AI"
 tagline: "Notes from a design classroom."
 type: "Article"
 role: "Research & Writing"
-order: 12
+order: 7.5
 bgColor: "#e8f0fe"
 accentColor: "#1a56db"
 darkTheme: false
