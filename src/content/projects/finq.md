@@ -9,16 +9,8 @@ accentColor: "#410DA0"
 darkTheme: false
 coverImage: "FINQ-homepage-open.jpg"
 teaserImage: "FINQ-homepage-close.jpg"
-images:
-  - "FINQ-onboarding-desktop-1.jpg"
-  - "FINQ-onboarding-desktop-2.jpg"
-  - "FINQ-homepage-sketch.jpg"
-  - "FINQ-desktop-improve-table.jpg"
-imageAlts:
-  - "FINQ onboarding flow on desktop, step 1"
-  - "FINQ onboarding flow on desktop, step 2"
-  - "FINQ homepage sketch"
-  - "FINQ desktop recommendation table view"
+images: []
+imageAlts: []
 client: "FINQ"
 year: "2024 – 2025"
 externalLink: "https://finqai.co.il/"
