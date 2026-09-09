@@ -9,18 +9,8 @@ accentColor: "#ff5d0c"
 darkTheme: false
 coverImage: "SweetSalty-cover.jpg"
 teaserImage: "SweetSalty-teaser.jpg"
-images:
-  - "SweetSalty-browse.jpg"
-  - "SweetSalty-recipe-detail.jpg"
-  - "SweetSalty-card-layout.jpg"
-  - "SweetSalty-mobile-view.jpg"
-  - "SweetSalty-category.jpg"
-imageAlts:
-  - "Sweet/Salty all recipes browse page"
-  - "Sweet/Salty recipe detail page"
-  - "Sweet/Salty recipe card layout"
-  - "Sweet/Salty mobile recipe view"
-  - "Sweet/Salty category and filter page"
+images: []
+imageAlts: []
 client: "Self-initiated"
 year: "2024 – Present"
 externalLink: "https://www.sweetsalty.info/"
