@@ -82,6 +82,10 @@ Photos are one of the biggest drop-off points in any listing flow. Axel requires
   <img src="/images/Axel-04-listing-photos.jpg" alt="Axel photo guidance screens" />
 </div>
 
+<div class="body-image-full">
+  <img src="/images/Axel-05-listing-details.jpg" alt="Axel listing flow — additional details step" />
+</div>
+
 **Inline tips along the way.**
 
 Rather than front-loading instructions, contextual tips appear at the relevant step. A tip about pricing lands next to the pricing input; a tip about photo quality appears during the photo step. This keeps the flow from feeling like a lecture while still giving sellers what they need to succeed.
@@ -102,10 +106,6 @@ The final screen isn't just a confirmation — it's a "What's next?" handoff tha
 
 <div class="body-image-full">
   <img src="/images/Axel-06-listing-signup.jpg" alt="Axel sign-up and confirmation screens" />
-</div>
-
-<div class="body-image-full">
-  <img src="/images/Axel-05-listing-details.jpg" alt="Axel listing flow — additional details step" />
 </div>
 
 ## Outcome
